@@ -1,4 +1,4 @@
-# DM50
+# DM50 calculator
 The main features of the calculator are the following:
 
  - The calculator firmware supports Reverse Polish Notation (RPN), and Computer Algebra System (CAS).

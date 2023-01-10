@@ -16,8 +16,10 @@ For the development of the hardware, the KiCad tool has been used.
 Below is the list of electronic components used to manufacture the board.
 | Component | Ref | Buy it | Description |
 | - | - | - | - |
-| SoC Processor | STM32L476 VGT6 | - |  |
-| Buzzer | SiP32431 | - | Buzzer |
+| SoC Processor | STM32L552VET6Q | [Arrow](https://www.arrow.com/en/products/stm32l552vet6/) | |
+| Voltage booster | TPS61222 | [Arrow](https://www.arrow.com/en/products/tps61222dckr) | |
+| Flash | AT25SF641-SUB-T | - | |
+| USB Protection | USBLC6-2SC6 | - | |
  
 The board can be ordered from pcbway, jlcpcb, etc.
  

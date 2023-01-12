@@ -51,6 +51,7 @@ General comparison, taking the maximum specifications between all the SOCs of ea
 | STM32L4+ | 8 nA | 28 μA/MHz | 320KB | 512KB - 2MB |
 | STM32L5 | 17 nA | 62 µA/MHz | 256KB | 256KB - 512KB |
 | STM32U5 | 110 nA | 19 µA/MHz | 768KB | 1MB - 2MB |
+
 (*) Power Off with backup registers without real-time clock.
 
 # Reference hardware and software

@@ -8,7 +8,7 @@ The main features of the calculator are the following:
  - Ultra low power ARM Cortex-M4.
  - 128-bit floating point precision implementation (IEEE 754-2008).
  - USBC port, connects as USB mass storage device.
- - 6MB of internal flash storage formatted, accesible por USB.
+ - 4MB flash storage, accesible por USB.
  - Graphic LCD Display.
 
 # Hardware

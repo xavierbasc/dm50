@@ -1,6 +1,6 @@
 # DM50 calculator
 
-![New PCB](IMG/PCB_3D.png "New PCB")
+![New PCB](docs/img/PCB_3D.png "New PCB")
 
 The main features of the calculator are the following:
 
@@ -39,7 +39,7 @@ General comparison, taking the maximum specifications between all the SOCs of ea
 
 (*) Power Off with backup registers without real-time clock.
 
-![New Sch](IMG/SCH.png "New Schema")
+![New Sch](docs/img/SCH.png "New Schema")
 
 # Reference
 ## Hardware

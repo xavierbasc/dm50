@@ -1,4 +1,7 @@
 # DM50 calculator
+
+![New PCB](IMG/PCB_3D.png "New PCB")
+
 The main features of the calculator are the following:
 
  - The calculator firmware supports Reverse Polish Notation (RPN).

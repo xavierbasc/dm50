@@ -29,3 +29,4 @@ fp-info-cache
 *.csv
 Hardware/\#auto_saved_files\#
 .DS_Store
+*.lck

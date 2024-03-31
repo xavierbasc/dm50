@@ -40,6 +40,8 @@ General comparison, taking the maximum specifications between all the SOCs of ea
 | STM32U5 | 110 nA | 19 µA/MHz | 768KB | 1MB - 2MB |
 (*) Power Off with backup registers without real-time clock.
 
+![New Sch](IMG/SCH.png "New Schema")
+
 # Reference hardware and software
 Comparison of the hardware used in the different reference calculators:
  

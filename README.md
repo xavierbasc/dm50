@@ -54,11 +54,11 @@ Comparison of the hardware used in the different reference calculators:
 | [HP Prime G2](https://en.wikipedia.org/wiki/HP_Prime) | 2019 | i. MX 6ULL | 528MHz | 12 | 256MB | 512MB | 320×240 | EB-L1G6LLU | 46 days
  
 Software adapted to be executed (as firmware) on the DM50 calculator:
-| Software | Code |  Version | License | Detail | Download for DM50 | Version |
-| - | - | - | - | - | - | - |
-| [WP43](https://gitlab.com/rpncalculators/wp43) | [Gitlab](https://gitlab.com/rpncalculators/wp43) | [![version](https://gitlab.com/wpcalculators/wp43/-/badges/release.svg)](https://gitlab.com/wpcalculators/wp43/-/releases) | GPLv3 | Firmware for the WP43 pocket calculator (old WP43S project) | - | - |
-| [C43](https://www.classic43.com) | [Gitlab](https://gitlab.com/rpncalculators/c43) |  [![version](https://gitlab.com/rpncalculators/c43/-/badges/release.svg)](https://gitlab.com/wpcalculators/wp43/-/releases) |  GPLv3 | C43 is a RPN Scientific Calculator (old WP43C project) | - | - |
-| [Free42](https://github.com/thomasokken/free42) | [GitHub](https://github.com/thomasokken/free42) | v3.0.17 |  GPLv2 | Free42 is a software clone of the Hewlett-Packard 42S calculator | - | - |
+| Software | License | Detail |
+| - | - | - |
+| [WP43](https://gitlab.com/rpncalculators/wp43) | GPLv3 | Firmware for the WP43 pocket calculator (old WP43S project) |
+| [C43](https://www.classic43.com) | GPLv3 | C43 is a RPN Scientific Calculator (old WP43C project) |
+| [Free42](https://github.com/thomasokken/free42) | GPLv2 | Free42 is a software clone of the Hewlett-Packard 42S calculator |
 
 # To Do
 Main pending tasks:

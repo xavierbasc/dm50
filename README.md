@@ -6,42 +6,25 @@ The main features of the calculator are the following:
  - WP43, C43 and Free42 software adapted, available to be executed on the calculator.
  - Ultra low power ARM Cortex-M4.
  - 128-bit floating point precision implementation (IEEE 754-2008).
- - Battery type CR2032 (life up to 5 years).
  - USBC port, connects as USB mass storage device.
  - 6MB of internal flash storage formatted, accesible por USB.
- - Graphic LCD Display FSTN (transflective memory LCD is high cost).
+ - Graphic LCD Display.
 
 # Hardware
 Below is the list of electronic components used to manufacture the board.
-| Component | Ref | Buy it | Description |
-| - | - | - | - |
-| SoC Processor | STM32L476VGT6 | [Arrow](https://www.arrow.com/en/products/stm32l476vgt6/stmicroelectronics) | SoC Processor (V = 100/104 pins, G = 1Mbyte Flash, T = LQFP 100-pin, 6 = -40°C to 85°C)|
-| Display | NHD-C12864B2Z-RN-FBW | [Arrow](https://www.digikey.es/es/products/detail/newhaven-display-intl/NHD-C12864B2Z-RN-FBW/1885690) | Graphic LCD Display Module Reflective Black (Gray - Inverted) FSTN - Film Super-Twisted Nematic Parallel 128x64 |
-| Flash 8MB | 25R6435F | - | Serial NOR FLASH ROM, 64Mbit (8M x 8), 80MHZ, 8-SOP package |
-| Power display | TPS61222DCK | [Arrow](https://www.arrow.com/en/products/tps61222dckr) | 5V Output, Low Input Voltage Boost Converter With 5.5μA Quiescent Current |
-| Power by USB (5V) | LD3985 | - | Micropower Low-Dropout Voltage Regulator |
-| Transistor | MMBT3904L | - | 200 mA, 40 V NPN Bipolar Junction Transistor |
-| USB Protection | USBLC6-2SC6 | - | Electrostatic discharges (ESD) protection of USB. |
-| IC Power | SiP32431  | - | battery > micro VDD |
+| Component | Ref | Description |
+| - | - | - |
+| SoC Processor | STM32U535CBT6 | ARM Cortex-M33 ultra low power with FPU |
+| Display | EA_DOGL128X-6 | STN reflective display 128x64 |
+| Flash 4MB | W25Q32JVSS | 4MB Flash |
+| Voltage Regulator | ADP2108AUJ-3.3 | Vin 2.3 - 5.5, Vout 3.3 |
+| Power by USB (5V) | LD3985 | Micropower Low-Dropout Voltage Regulator |
+| Transistor | MMBT3904L | 200 mA, 40 V NPN Bipolar Junction Transistor |
 
 For the development of the hardware, the KiCad tool has been used.
 The board can be ordered from PCBWay, JLCPCB, etc.
 In addition, 3D designs for the calculator case and keyboard are included.
 [pending development]
-
-# Interfaces
-
-### Development/debug interface
-The processor SoC provides a Serial Wire JTAG Debugging (SWJ-DP) port.
-This is a standard ARM CoreSight debug port that combines a JTAG-DP (5-pin) interface and a SW-DP (2-pin) interface.
-
-### LPUART
-It is the universal low-power asynchronous transceiver interface provided by the SoC processor.
-Connector terminals:
-* VDD: Power Supply
-* RX: Receiver Data line
-* TX:Transmitter Data line
-* GND: Ground
 
 # SoCs Comparative
 General comparison, taking the maximum specifications between all the SOCs of each family.
@@ -53,10 +36,6 @@ General comparison, taking the maximum specifications between all the SOCs of ea
 | STM32L5 | 17 nA | 62 µA/MHz | 256KB | 256KB - 512KB |
 | STM32U5 | 110 nA | 19 µA/MHz | 768KB | 1MB - 2MB |
 (*) Power Off with backup registers without real-time clock.
-
-The most appropriate SoC, from the STM32L4 family, has been chosen in order to lower the cost, and STM32U5 and STM32L5 series have a higher consumption than STM32L4.
-
-The series STM32L4 are available in different lines: STM32L4x1 (Access line), STM32L4x2 (USB Device), STM32L4x3 (USB Device, LCD), STM32L4x5 (USB OTG) and STM32L4x6 (USB OTG, LCD).
 
 # Reference hardware and software
 Comparison of the hardware used in the different reference calculators:

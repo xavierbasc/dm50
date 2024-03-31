@@ -28,3 +28,4 @@ fp-info-cache
 *.xml
 *.csv
 Hardware/\#auto_saved_files\#
+.DS_Store

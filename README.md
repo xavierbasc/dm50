@@ -41,7 +41,8 @@ General comparison, taking the maximum specifications between all the SOCs of ea
 
 ![New Sch](IMG/SCH.png "New Schema")
 
-# Reference hardware and software
+# Reference
+##Hardware
 Comparison of the hardware used in the different reference calculators:
  
 | Model | Year | Processor | Speed | Precision | RAM | Flash | Display | Battery | Standby
@@ -52,7 +53,7 @@ Comparison of the hardware used in the different reference calculators:
 | [TI-Nspire CX II CAS](https://en.wikipedia.org/wiki/TI-Nspire_series#TI-Nspire_CX_II_and_TI-Nspire_CX_II_CAS) | 2013 | ARM9-26EJ-S | 396MHz | 14 | 64MB | 128MB | 320x240 | 3.7L1230SP | ? |
 | [HP Prime G2](https://en.wikipedia.org/wiki/HP_Prime) | 2019 | i. MX 6ULL | 528MHz | 12 | 256MB | 512MB | 320×240 | EB-L1G6LLU | 46 days
  
-Software reference (GPL):
+##Software (GPL):
 | Software | Detail |
 | - | - |
 | [WP43](https://gitlab.com/rpncalculators/wp43) | Firmware for the WP43 pocket calculator (old WP43S project) |

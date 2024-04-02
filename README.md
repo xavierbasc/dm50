@@ -52,11 +52,18 @@ The USB port can receive electrostatic discharges. Those very high voltage surge
 
 [USBLC6-2SC6 datasheet](docs/pdf/USBLC6-2SC6.pdf)
 
+## Display
+
+### EA_DOGL128L-6
+
+The EA DOGL128L-6 is a 128x64-pixel graphics display. The L model does not have LED backlighting
+
+[EA_DOGL128X-6 datasheet](docs/pdf/EA_DOGL128X-6.pdf)
+
 ## EDA Software
 For the development of the hardware, the KiCad tool has been used.
 
 [KiCad URL](https://www.kicad.org/)
-
 
 ## PCB Making
 

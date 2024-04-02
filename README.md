@@ -15,9 +15,9 @@ The main features of the calculator are the following:
 Below is the list of electronic components used to manufacture the board.
 | Component | Ref | Description |
 | - | - | - |
-| SoC Processor | STM32U535CBT6 | ARM Cortex-M33 ultra low power with FPU |
+| SoC Processor | STM32U535CB | ARM Cortex-M33 ultra low power with FPU |
 | Display | EA_DOGL128X-6 | STN reflective display 128x64 |
-| Flash 4MB | W25Q32JVSS | 4MB Flash |
+| Flash 6MB | AT25SF641 | 6MB Flash |
 | Voltage Regulator | ADP2108AUJ-3.3 | Vin 2.3 - 5.5, Vout 3.3 |
 | Power by USB (5V) | LD3985 | Micropower Low-Dropout Voltage Regulator |
 | Transistor | MMBT3904L | 200 mA, 40 V NPN Bipolar Junction Transistor |

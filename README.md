@@ -85,12 +85,3 @@ Comparison of the hardware used in the different reference calculators:
 | [WP43](https://gitlab.com/rpncalculators/wp43) | Firmware for the WP43 pocket calculator (old WP43S project) |
 | [C43](https://www.classic43.com) | C43 is a RPN Scientific Calculator (old WP43C project) |
 | [Free42](https://github.com/thomasokken/free42) | Free42 is a software clone of the Hewlett-Packard 42S calculator |
-
-# To Do
-Main pending tasks:
-1. ~~Reference hardware and software~~.
-2. Hardware design. SCH & PCB. Use components supported by PCBWay and JLCPCB.
-3. Memory map publication.
-4. Bootloader with ability to load new firmware from FAT-USB drive.
-5. 3D designs (if required).
-9. New features.

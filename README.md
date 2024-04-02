@@ -16,7 +16,7 @@ Below is the list of electronic components used to manufacture the board.
 | Component | Ref | Description |
 | - | - | - |
 | SoC Processor | STM32U535CB | ARM Cortex-M33 ultra low power with FPU |
-| Display | EA_DOGL128X-6 | STN reflective display 128x64 |
+| Display | EA_DOGL128L-6 | STN reflective display 128x64 |
 | Flash 6MB | AT25SF641 | 6MB Flash |
 | Voltage Regulator | ADP2108AUJ-3.3 | Vin 2.3 - 5.5, Vout 3.3 |
 | Power by USB (5V) | LD3985 | Micropower Low-Dropout Voltage Regulator |
@@ -95,7 +95,7 @@ Comparison of the hardware used in the different reference calculators:
 | 2017 | [DM42](https://www.swissmicros.com/product/dm42) | STM32L476RG | 80MHz | 34 | 128KB | 6MB | 400×240 | 
 | 2019 | [HP Prime G2](https://en.wikipedia.org/wiki/HP_Prime) | i. MX 6ULL | 528MHz | 12 | 256MB | 512MB | 320×240 | 
 | 2021 | [OpenRPNCalc](https://github.com/apoluekt/OpenRPNCalc) | STM32L476 | 8MHz | 10 | 128KB | 1MB | 400x240 |
-| 2024 | [DM50](https://github.com/xavierbasc/dm50-calculator) | STM32U535CB | 160MHz | 34 | 274KB | 6MB | 128×60 | 
+| 2024 | [DM50](https://github.com/xavierbasc/dm50-calculator) | STM32U535CB | 160MHz | 34 | 274KB | 6MB | 128×64 | 
 
 ## Software (GPL):
 | Software | Detail |

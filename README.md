@@ -26,6 +26,7 @@ Below is the list of electronic components used to manufacture the board.
 ## MCU
 ### STM32U535CBT6
 This is the brain of our calculator. Ultra-low-power Arm Cortex-M33 MCU+FPU, 240 DMIPS, core clocked at 160 MHz and 274 KB of Static RAM.
+
 ![STM32U535CB](docs/img/MCU.png "New PCB")
 
 ## Flash memory

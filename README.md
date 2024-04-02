@@ -71,7 +71,7 @@ General comparison, taking the maximum specifications between all the SOCs of ea
 Comparison of the hardware used in the different reference calculators:
  
 | Model | Year | Processor | Speed | Precision | RAM | Flash | Display |
-| - | :-: | - | -: | :-: | -: | -: |
+| - | :-: | - | -: | :-: | -: | -: | - |
 | [OpenRPNCalc](https://github.com/apoluekt/OpenRPNCalc) | 2021 | STM32L476 | 8MHz | 10 | 128KB | 1MB | 400x240 |
 | [NumWorks](https://www.numworks.com/resources/engineering/hardware/) | 2016 | STM32F730V8T6 | 216MHz | ? | 256KB | 6MB | 320x240 |
 | [DM42](https://www.swissmicros.com/product/dm42) | 2017 | STM32L476RG | 80MHz | 34 | 128KB | 6MB | 400×240 | 

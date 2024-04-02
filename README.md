@@ -5,10 +5,10 @@
 The main features of the calculator are the following:
 
  - Electronic schematics and designs of the boards are open source.
- - Ultra low power ARM Cortex-M4.
+ - Ultra low power ARM Cortex-M33 MCU+FPU.
  - 128-bit floating point precision implementation (IEEE 754-2008).
  - USBC port, connects as USB mass storage device.
- - 4MB flash storage, accesible por USB.
+ - 6MB flash storage, accesible por USB.
  - Graphic LCD Display.
 
 # Hardware
@@ -22,10 +22,35 @@ Below is the list of electronic components used to manufacture the board.
 | Power by USB (5V) | LD3985 | Micropower Low-Dropout Voltage Regulator |
 | Transistor | MMBT3904L | 200 mA, 40 V NPN Bipolar Junction Transistor |
 
+
+## MCU
+### STM32U535CBT6
+This is the brain of our calculator. Ultra-low-power Arm Cortex-M33 MCU+FPU, 240 DMIPS, core clocked at 160 MHz and 274 KB of Static RAM.
+
+## Flash memory
+### AT25SF641
+
+This is the persistant memory of our calculator. This chip stores 64 Mbit of data, and serves it over a 104 MHz Quad-SPI bus.
+
+## Logic power supply
+### ADP2108AUJ-3.3
+
+The ADP2108 is a high efficiency, low quiescent current stepdown dc-to-dc converter.
+This part regulates the voltage from the USBC input.
+
+## ESD USB protection
+
+### USBLC6-2SC6
+
+The USB port can receive electrostatic discharges. Those very high voltage surge can permanently damage electronic components. This part evacuates the surge entering from the USB port and protects the whole circuit.
+
+## EDA Software
 For the development of the hardware, the KiCad tool has been used.
+
+## PCB Making
+
 The board can be ordered from PCBWay, JLCPCB, etc.
 In addition, 3D designs for the calculator case and keyboard are included.
-[pending development]
 
 # SoCs Comparative
 General comparison, taking the maximum specifications between all the SOCs of each family.

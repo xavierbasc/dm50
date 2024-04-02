@@ -55,7 +55,7 @@ The USB port can receive electrostatic discharges. Those very high voltage surge
 ## EDA Software
 For the development of the hardware, the KiCad tool has been used.
 
-[Kicak URL](https://www.kicad.org/)
+[KiCad URL](https://www.kicad.org/)
 
 
 ## PCB Making

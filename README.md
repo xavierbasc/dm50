@@ -13,14 +13,14 @@ The main features of the calculator are the following:
 
 # Hardware
 Below is the list of electronic components used to manufacture the board.
-| Component | Ref | Description |
-| - | - | - |
-| SoC Processor | STM32U535CBT6 | ARM Cortex-M33 ultra low power with FPU |
-| Display | EA_DOGL128X-6 | STN reflective display 128x64 |
-| Flash 4MB | W25Q32JVSS | 4MB Flash |
-| Voltage Regulator | ADP2108AUJ-3.3 | Vin 2.3 - 5.5, Vout 3.3 |
-| Power by USB (5V) | LD3985 | Micropower Low-Dropout Voltage Regulator |
-| Transistor | MMBT3904L | 200 mA, 40 V NPN Bipolar Junction Transistor |
+| Component | Ref |
+| - | - |
+| SoC | STM32U535CBT6 |
+| Display | EA_DOGL128X-6 |
+| Flash 4MB | W25Q32JVSS |
+| Voltage Regulator | ADP2108AUJ-3.3 |
+| Voltage Regulator | LD3985 |
+| Transistor | MMBT3904L |
 
 
 ## MCU
@@ -55,12 +55,12 @@ In addition, 3D designs for the calculator case and keyboard are included.
 # SoCs Comparative
 General comparison, taking the maximum specifications between all the SOCs of each family.
 
-| Serie | OFF * | ON | RAM | Flash |
-| - | :-: | :-: | :-: | :-: |
-| STM32L4 | 8 nA | 28 μA/MHz | 320KB | 64KB - 1MB |
-| STM32L4+ | 8 nA | 28 μA/MHz | 320KB | 512KB - 2MB |
-| STM32L5 | 17 nA | 62 µA/MHz | 256KB | 256KB - 512KB |
-| STM32U5 | 110 nA | 19 µA/MHz | 768KB | 1MB - 2MB |
+| Serie | OFF * | ON |
+| - | :-: | :-: |
+| STM32L4 | 8 nA | 28 μA/MHz |
+| STM32L4+ | 8 nA | 28 μA/MHz |
+| STM32L5 | 17 nA | 62 µA/MHz |
+| STM32U5 | 110 nA | 19 µA/MHz |
 
 (*) Power Off with backup registers without real-time clock.
 

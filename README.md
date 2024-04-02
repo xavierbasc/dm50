@@ -27,12 +27,14 @@ Below is the list of electronic components used to manufacture the board.
 ### STM32U535CBT6
 This is the brain of our calculator. Ultra-low-power Arm Cortex-M33 MCU+FPU, 240 DMIPS, core clocked at 160 MHz and 274 KB of Static RAM.
 
-![STM32U535CB](docs/img/MCU.png "New PCB")
+[STM32U535CBT6 datasheet](../docs/pdf/stm32u535cb.pdf)
 
 ## Flash memory
 ### AT25SF641
 
 This is the persistant memory of our calculator. This chip stores 64 Mbit of data, and serves it over a 104 MHz Quad-SPI bus.
+
+[AT25SF641 datasheet](../docs/pdf/AT25SF641.pdf)
 
 ## Logic power supply
 ### ADP2108AUJ-3.3
@@ -40,14 +42,21 @@ This is the persistant memory of our calculator. This chip stores 64 Mbit of dat
 The ADP2108 is a high efficiency, low quiescent current stepdown dc-to-dc converter.
 This part regulates the voltage from the USBC input.
 
+[ADP2108AUJ-3.3 datasheet](../docs/pdf/ADP2108AUJ-3.3.pdf)
+
 ## ESD USB protection
 
 ### USBLC6-2SC6
 
 The USB port can receive electrostatic discharges. Those very high voltage surge can permanently damage electronic components. This part evacuates the surge entering from the USB port and protects the whole circuit.
 
+[USBLC6-2SC6 datasheet](../docs/pdf/USBLC6-2SC6.pdf)
+
 ## EDA Software
 For the development of the hardware, the KiCad tool has been used.
+
+[Kicak URL](https://www.kicad.org/)
+
 
 ## PCB Making
 

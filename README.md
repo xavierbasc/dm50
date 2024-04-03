@@ -66,7 +66,7 @@ In addition, 3D designs for the calculator case and keyboard are included.
 General comparison, taking the maximum specifications between all the SOCs of each family.
 
 | Serie | OFF * | ON | RAM | Flash |
-| - | :-: | :-: | :-: | :-: |
+| --- | :---: | :---: | :---: | :---: |
 | STM32L4 | 8 nA | 28 μA/MHz | 320KB | 64KB - 1MB |
 | STM32L4+ | 8 nA | 28 μA/MHz | 320KB | 512KB - 2MB |
 | STM32L5 | 17 nA | 62 µA/MHz | 256KB | 256KB - 512KB |

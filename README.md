@@ -93,10 +93,10 @@ Limit: maximum precision of the coprocessor is 20 bits in the best case.
 
 Comparative performance CORDIC versus software (math.h functions), in CPU cycles:
 
-| Method   | sin,cos | atan | exp |  ln | sqrt |
+| Method | sin,cos | atan | exp | ln | sqrt |
 | :- | -: | -: | -: | -: | -: | -: | -: |
-| CORDIC   |      29 |   33 |  39 |  27 |   23 |
-| Software |     416 |  332 | 319 | 260 |   58 |
+| CORDIC | 29 | 33 | 39 | 27 | 23 |
+| Software | 416 | 332 | 319 | 260 | 58 |
 
 ![New Sch](docs/img/SCH.png "New Schema")
 

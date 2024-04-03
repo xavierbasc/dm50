@@ -101,6 +101,9 @@ Comparative performance CORDIC versus software (math.h functions), in CPU cycles
 # Schematic circuit design
 ![New Sch](docs/img/SCH.png "New Schema")
 
+# PCB circuit design
+![New PCB](docs/img/PCB.png "New PCB")
+
 # Reference
 ## Hardware
 Comparison of the hardware used in the different reference calculators:

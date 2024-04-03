@@ -22,7 +22,6 @@ Below is the list of electronic components used to manufacture the board.
 | Power by USB (5V) | LD3985 | Micropower Low-Dropout Voltage Regulator |
 | Transistor | MMBT3904L | 200 mA, 40 V NPN Bipolar Junction Transistor |
 
-
 ## MCU
 ### STM32U535CBT6
 This is the brain of our calculator. Ultra-low-power Arm Cortex-M33 MCU+FPU, 240 DMIPS, core clocked at 160 MHz and 274 KB of Static RAM.
@@ -31,31 +30,25 @@ This is the brain of our calculator. Ultra-low-power Arm Cortex-M33 MCU+FPU, 240
 
 ## Flash memory
 ### AT25SF641
-
 This is the persistant memory of our calculator. This chip stores 64 Mbit of data, and serves it over a 104 MHz Quad-SPI bus.
 
 [AT25SF641 datasheet](docs/pdf/AT25SF641.pdf)
 
 ## Logic power supply
 ### ADP2108AUJ-3.3
-
 The ADP2108 is a high efficiency, low quiescent current stepdown dc-to-dc converter.
 This part regulates the voltage from the USBC input.
 
 [ADP2108AUJ-3.3 datasheet](docs/pdf/ADP2108AUJ-3.3.pdf)
 
 ## ESD USB protection
-
 ### USBLC6-2SC6
-
 The USB port can receive electrostatic discharges. Those very high voltage surge can permanently damage electronic components. This part evacuates the surge entering from the USB port and protects the whole circuit.
 
 [USBLC6-2SC6 datasheet](docs/pdf/USBLC6-2SC6.pdf)
 
 ## Display
-
 ### EA_DOGL128L-6
-
 The EA DOGL128L-6 is a 128x64-pixel graphics display. The L model does not have LED backlighting
 
 [EA_DOGL128X-6 datasheet](docs/pdf/EA_DOGL128X-6.pdf)
@@ -66,7 +59,6 @@ For the development of the hardware, the KiCad tool has been used.
 [KiCad URL](https://www.kicad.org/)
 
 ## PCB Making
-
 The board can be ordered from PCBWay, JLCPCB, etc.
 In addition, 3D designs for the calculator case and keyboard are included.
 
@@ -81,6 +73,30 @@ General comparison, taking the maximum specifications between all the SOCs of ea
 | STM32U5 | 110 nA | 19 µA/MHz | 768KB | 1MB - 2MB |
 
 (*) Power Off with backup registers without real-time clock.
+
+## Mathematical co-processor STM32U535
+The CORDIC co-processor provides hardware acceleration of certain mathematical functions, notably trigonometric, commonly used in motor control, metering, signal processing and many other applications. It speeds up the calculation of these functions compared to a software implementation, allowing a lower operating frequency, or freeing up processor cycles in order to perform other tasks.
+
+The CORDIC main features are:
+
+* 24-bit CORDIC rotation engine
+* Circular and hyperbolic modes
+* Rotation and vectoring modes
+* Functions: sine, cosine, sinh, cosh, atan, atan2, atanh, modulus, square root, natural logarithm
+* Programmable precision
+* Low-latency AHB slave interface
+* Results can be read as soon as ready without polling or interrupt
+* DMA read and write channels
+* Multiple register read/write by DMA
+
+Limit: maximum precision of the coprocessor is 20 bits in the best case.
+
+Comparative performance CORDIC versus software (math.h functions), in CPU cycles:
+
+| Method   | sin,cos | atan | exp |  ln | sqrt |
+| :- | -: | -: | -: | -: | -: | -: | -: |
+| CORDIC   |      29 |   33 |  39 |  27 |   23 |
+| Software |     416 |  332 | 319 | 260 |   58 |
 
 ![New Sch](docs/img/SCH.png "New Schema")
 

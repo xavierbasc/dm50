@@ -74,7 +74,7 @@ General comparison, taking the maximum specifications between all the SOCs of ea
 
 (*) Power Off with backup registers without real-time clock.
 
-## Mathematical co-processor STM32U535
+## Mathematical coprocessor
 The CORDIC co-processor provides hardware acceleration of certain mathematical functions, notably trigonometric, commonly used in motor control, metering, signal processing and many other applications. It speeds up the calculation of these functions compared to a software implementation, allowing a lower operating frequency, or freeing up processor cycles in order to perform other tasks.
 
 The CORDIC main features are:

@@ -13872,7 +13872,7 @@
 	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 		(layer "F.Cu")
 		(uuid "c9209a45-8bf8-45cd-af0e-dc6eb3750b83")
-		(at 116.5 48.5 90)
+		(at 116.105 50.5 90)
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "J2"
@@ -22043,8 +22043,38 @@
 		(uuid "cbd39a55-1efb-4e82-8355-d34fe740c05e")
 	)
 	(gr_line
-		(start 45.5 174)
-		(end 45.5 30)
+		(start 47.5 171.5)
+		(end 47.5 31.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "329b4081-8948-47c5-94f4-e9fdbd0f38c9")
+	)
+	(gr_line
+		(start 120.5 171.5)
+		(end 47.5 171.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "4020dc59-c10d-4653-a418-cfaca5029ffd")
+	)
+	(gr_line
+		(start 47.5 31.5)
+		(end 120.5 31.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "5b03987e-f932-47f5-9f75-40ee7fe470a5")
+	)
+	(gr_line
+		(start 45.5 173.5)
+		(end 45.5 29.5)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -22053,8 +22083,8 @@
 		(uuid "82f744c1-6e65-4818-8cd9-4fe69bfc139e")
 	)
 	(gr_line
-		(start 122.5 174)
-		(end 45.5 174)
+		(start 122.5 173.5)
+		(end 45.5 173.5)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -22063,8 +22093,8 @@
 		(uuid "ad8b3aba-5da2-46f4-aab4-88dbabb1ff18")
 	)
 	(gr_line
-		(start 45.5 30)
-		(end 122.5 30)
+		(start 45.5 29.5)
+		(end 122.5 29.5)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -22073,14 +22103,24 @@
 		(uuid "cc9a04d7-38a6-470b-82cc-27c1d0785a00")
 	)
 	(gr_line
-		(start 122.5 30)
-		(end 122.5 174)
+		(start 122.5 29.5)
+		(end 122.5 173.5)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(layer "User.2")
 		(uuid "cf652033-cf16-4e9a-a603-0fbb127a3d4c")
+	)
+	(gr_line
+		(start 120.5 31.5)
+		(end 120.5 171.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "d5ad6c08-38ea-40c7-86a7-067d1ef400a4")
 	)
 	(dimension
 		(type aligned)
@@ -22089,9 +22129,9 @@
 		(pts
 			(xy 84.5 165) (xy 98.5 165)
 		)
-		(height 13.5)
+		(height 15.5)
 		(gr_text "14 mm"
-			(at 91.5 177.35 0)
+			(at 91.5 179.35 0)
 			(layer "User.1")
 			(uuid "02f0ceb7-9818-485c-af5d-40a7064fbc04")
 			(effects
@@ -22121,9 +22161,9 @@
 		(pts
 			(xy 55.5 170.5) (xy 49 170.5)
 		)
-		(height -8)
+		(height -10)
 		(gr_text "6.5 mm"
-			(at 52.5 176.5 0)
+			(at 52 178.5 0)
 			(layer "User.1")
 			(uuid "070ab176-e730-4271-a36a-618ac7fa8398")
 			(effects
@@ -22153,9 +22193,9 @@
 		(pts
 			(xy 70.5 165) (xy 84.5 165)
 		)
-		(height 13.5)
+		(height 15.5)
 		(gr_text "14 mm"
-			(at 77.5 177.35 0)
+			(at 77.5 179.35 0)
 			(layer "User.1")
 			(uuid "0dfe472b-98fe-4f4d-a830-eaa760276541")
 			(effects
@@ -22185,9 +22225,9 @@
 		(pts
 			(xy 49 88) (xy 49 78)
 		)
-		(height -5.5)
+		(height -7.5)
 		(gr_text "10 mm"
-			(at 42.35 83 90)
+			(at 40.35 83 90)
 			(layer "User.1")
 			(uuid "24e62728-7044-4ed3-9f09-8d75e618557d")
 			(effects
@@ -22217,9 +22257,9 @@
 		(pts
 			(xy 55.5 165) (xy 70.5 165)
 		)
-		(height 13.5)
+		(height 15.5)
 		(gr_text "15 mm"
-			(at 63 177.35 0)
+			(at 63 179.35 0)
 			(layer "User.1")
 			(uuid "2a754a77-d762-4d14-abe0-e82422d26443")
 			(effects
@@ -22249,9 +22289,9 @@
 		(pts
 			(xy 49 32.5) (xy 120 32.5)
 		)
-		(height -9)
+		(height -11.5)
 		(gr_text "71 mm"
-			(at 84.5 22.35 0)
+			(at 84.5 19.85 0)
 			(layer "User.1")
 			(uuid "30a3c300-5b74-49e1-9985-f87cd56f8a59")
 			(effects
@@ -22282,9 +22322,9 @@
 		(pts
 			(xy 55.5 132) (xy 55.5 121)
 		)
-		(height -12)
+		(height -14)
 		(gr_text "11 mm"
-			(at 42.35 126.5 90)
+			(at 40.35 126.5 90)
 			(layer "User.1")
 			(uuid "3d34a7be-0492-4494-8a28-baa532c865d0")
 			(effects
@@ -22315,9 +22355,9 @@
 		(pts
 			(xy 55.5 121) (xy 55.5 110)
 		)
-		(height -12)
+		(height -14)
 		(gr_text "11 mm"
-			(at 42.35 115.5 90)
+			(at 40.35 115.5 90)
 			(layer "User.1")
 			(uuid "4230390e-6e01-4715-9607-23d25799e5d6")
 			(effects
@@ -22348,9 +22388,9 @@
 		(pts
 			(xy 49 32.5) (xy 52.5 32.5)
 		)
-		(height -4)
+		(height -8.5)
 		(gr_text "3.5 mm"
-			(at 53.5 26 0)
+			(at 54 22.5 0)
 			(layer "User.1")
 			(uuid "42cdd03a-bf43-4608-b0c5-8dec0788a4d2")
 			(effects
@@ -22380,9 +22420,9 @@
 		(pts
 			(xy 55.5 110) (xy 55.5 99)
 		)
-		(height -12)
+		(height -14)
 		(gr_text "11 mm"
-			(at 42.35 104.5 90)
+			(at 40.35 104.5 90)
 			(layer "User.1")
 			(uuid "44409488-935c-4a55-8a6a-f76a1f090b5a")
 			(effects
@@ -22445,9 +22485,9 @@
 		(pts
 			(xy 112.5 165) (xy 119 165)
 		)
-		(height 13.5)
+		(height 15.5)
 		(gr_text "6.5 mm"
-			(at 116.5 176 0)
+			(at 116 178.5 0)
 			(layer "User.1")
 			(uuid "4dd0c087-8b79-43a7-bf80-0b97c3e5961b")
 			(effects
@@ -22509,9 +22549,9 @@
 		(pts
 			(xy 49 78) (xy 49 42.5)
 		)
-		(height -5.5)
+		(height -7.5)
 		(gr_text "35.5 mm"
-			(at 42.35 60.25 90)
+			(at 40.35 60.25 90)
 			(layer "User.1")
 			(uuid "63dc2148-2d0a-4059-b041-fe7ca57bd01b")
 			(effects
@@ -22541,9 +22581,9 @@
 		(pts
 			(xy 55.5 154) (xy 55.5 143)
 		)
-		(height -12)
+		(height -14)
 		(gr_text "11 mm"
-			(at 42.35 148.5 90)
+			(at 40.35 148.5 90)
 			(layer "User.1")
 			(uuid "67e446f1-cb2f-4f22-9b2c-365ecfd30f34")
 			(effects
@@ -22606,9 +22646,9 @@
 		(pts
 			(xy 55.5 165) (xy 55.5 170.5)
 		)
-		(height 12)
+		(height 14)
 		(gr_text "5.5 mm"
-			(at 41.5 167.75 90)
+			(at 40 167.75 90)
 			(layer "User.1")
 			(uuid "80c12701-fdde-498b-a7a8-e76c716552dc")
 			(effects
@@ -22671,9 +22711,9 @@
 		(pts
 			(xy 98.5 165) (xy 112.5 165)
 		)
-		(height 13.5)
+		(height 15.5)
 		(gr_text "14 mm"
-			(at 105.5 177.35 0)
+			(at 105.5 179.35 0)
 			(layer "User.1")
 			(uuid "8bcc2fd9-8ce7-4529-8929-5cc899b51d54")
 			(effects
@@ -22703,9 +22743,9 @@
 		(pts
 			(xy 120 32.5) (xy 116.5 32.5)
 		)
-		(height 4)
+		(height 8.5)
 		(gr_text "3.5 mm"
-			(at 115.5 26 0)
+			(at 115 22.5 0)
 			(layer "User.1")
 			(uuid "8c14dc98-4119-43da-9bc0-113f58723526")
 			(effects
@@ -22735,9 +22775,9 @@
 		(pts
 			(xy 55.5 143) (xy 55.5 132)
 		)
-		(height -12)
+		(height -14)
 		(gr_text "11 mm"
-			(at 42.35 137.5 90)
+			(at 40.35 137.5 90)
 			(layer "User.1")
 			(uuid "9b964547-22b4-425a-8d44-f27753cfd5c7")
 			(effects
@@ -22768,9 +22808,9 @@
 		(pts
 			(xy 52.5 32.5) (xy 116.5 32.5)
 		)
-		(height -4)
+		(height -8.5)
 		(gr_text "64 mm"
-			(at 84.5 27.35 0)
+			(at 84.5 22.85 0)
 			(layer "User.1")
 			(uuid "accde348-1098-417b-a274-5bf0826cf035")
 			(effects
@@ -22800,9 +22840,9 @@
 		(pts
 			(xy 55.5 165) (xy 55.5 154)
 		)
-		(height -12)
+		(height -14)
 		(gr_text "11 mm"
-			(at 42.35 159.5 90)
+			(at 40.35 159.5 90)
 			(layer "User.1")
 			(uuid "d496fd84-77ec-434d-bde5-cfc8105da1d6")
 			(effects
@@ -22833,9 +22873,9 @@
 		(pts
 			(xy 49 42.5) (xy 49 32.5)
 		)
-		(height -5.5)
+		(height -7.5)
 		(gr_text "10 mm"
-			(at 42.35 37.5 90)
+			(at 40.35 37.5 90)
 			(layer "User.1")
 			(uuid "e0b13b50-c8a3-465a-8325-a0f83bccb053")
 			(effects
@@ -22865,9 +22905,9 @@
 		(pts
 			(xy 120 32.5) (xy 120 170.5)
 		)
-		(height -9.5)
+		(height -12)
 		(gr_text "138 mm"
-			(at 128.35 101.5 90)
+			(at 130.85 101.5 90)
 			(layer "User.1")
 			(uuid "e758df20-0582-481d-b93d-50c873ee8c60")
 			(effects
@@ -22898,9 +22938,9 @@
 		(pts
 			(xy 55.5 99) (xy 55.5 88)
 		)
-		(height -12)
+		(height -14)
 		(gr_text "11 mm"
-			(at 42.35 93.5 90)
+			(at 40.35 93.5 90)
 			(layer "User.1")
 			(uuid "ebb97413-e2b2-4c2c-97de-4f49565b2435")
 			(effects

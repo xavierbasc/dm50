@@ -3,12 +3,17 @@
 */
 
 $fn=30;
+// AAA batery
+aaa_h = 44.5;
+aaa_d = 10.5;
+
 // PCB -----------------------
 pcb_height = 138;
 pcb_thickness = 2;
 pcb_width = 71;
 // CASE -----------------------
 // thickness
+r = 2; // case chamfers
 t = 2;
 // width
 w = 77; 
@@ -17,7 +22,7 @@ h = 144;
 // depth
 d = 12;
 // height bottom
-bottom_height = 10;
+bottom_height = t+11; // d aaa = 10.5mm
 bottom_sup_height = 3;
 bottom_sup_ymin = t;
 bottom_sup_ymax = 85;
@@ -30,21 +35,39 @@ bottom_xsupports = 5;
 screw_h = 95;
 screw_r = 6;
 
-
 // pcb supports
 pcb_hight = 5;
 sup_hight = 4;
 keypad_radio_sup = 1;
 
-// base
-cube(size = [w,h,t]);
-// walls
-cube(size = [t, h, bottom_height]);
-translate([w-t, 0, 0])
-cube(size = [t, h, bottom_height]);
-cube(size = [w, t, bottom_height]);
-translate([0, h-t, 0])
-cube(size = [w, t, bottom_height]);
+// AAA
+color( "gray", 1.0 )
+translate([18,120,aaa_d/2+t])
+rotate([0,90,0])
+union(){
+cylinder(d=aaa_d,h=aaa_h);
+translate([0,aaa_d,0])
+cylinder(d=aaa_d,h=aaa_h);
+}
+
+//cube(size = [w, t, bottom_height]);
+
+difference()
+{
+    translate([r, r, 0])
+    minkowski()
+    {
+      cube([w-r*2,h-r*2,bottom_height]);
+      cylinder(r=2,h=1);
+    }
+    
+    translate([r*2, r*2, t])
+    minkowski()
+    {
+      cube([w-r*4,h-r*4,bottom_height+10]);
+      cylinder(r=2,h=1);
+    }    
+}
 
 // support
 for ( i = [0 : bottom_ysupports-1] ){

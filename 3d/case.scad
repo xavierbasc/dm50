@@ -3,9 +3,11 @@
 */
 
 $fn=30;
-// AAA batery
-aaa_h = 44.5;
-aaa_d = 10.5;
+// Battery
+// AAA : 44.5x10.5
+// AAAA: 42.5x8.3
+bat_h = 42.5;
+bat_d = 8.3;
 
 // PCB -----------------------
 pcb_height = 138;
@@ -16,14 +18,14 @@ pcb_width = 71;
 r = 2; // case chamfers
 t = 2;
 // width
-w = 77; 
+w = 77;
 // height
 h = 144;
 // depth
 d = 12;
 // height bottom
-bottom_height = t+11; // d aaa = 10.5mm
-bottom_sup_height = 3;
+bottom_height = 8.3+0.5+t; // d aaa = 10.5mm (12 max)
+bottom_sup_height = 4;
 bottom_sup_ymin = t;
 bottom_sup_ymax = 85;
 bottom_sup_xmin = t;
@@ -42,31 +44,38 @@ keypad_radio_sup = 1;
 
 // AAA
 color( "gray", 1.0 )
-translate([18,120,aaa_d/2+t])
+translate([18,120,bat_d/2+t])
 rotate([0,90,0])
 union(){
-cylinder(d=aaa_d,h=aaa_h);
-translate([0,aaa_d,0])
-cylinder(d=aaa_d,h=aaa_h);
+cylinder(d=bat_d,h=bat_h);
+translate([0,bat_d,0])
+cylinder(d=bat_d,h=bat_h);
 }
 
 //cube(size = [w, t, bottom_height]);
 
 difference()
 {
-    translate([r, r, 0])
-    minkowski()
+    difference()
     {
-      cube([w-r*2,h-r*2,bottom_height]);
-      cylinder(r=2,h=1);
+        translate([r, r, r])
+        minkowski()
+        {
+          cube([w-r*2,h-r*2,bottom_height]);
+          //cylinder(r=2,h=1);
+          sphere(r=r);
+        }
+        
+        translate([r*2, r*2, r+t])
+        minkowski()
+        {
+          cube([w-r*4,h-r*4,bottom_height+10]);
+          sphere(r=r);
+          //cylinder(r=2,h=1);
+        }    
     }
-    
-    translate([r*2, r*2, t])
-    minkowski()
-    {
-      cube([w-r*4,h-r*4,bottom_height+10]);
-      cylinder(r=2,h=1);
-    }    
+    translate([-r, -r, bottom_height])
+    cube(size = [w+r*2, h+r*2, bottom_height]);
 }
 
 // support
@@ -81,10 +90,10 @@ for ( i = [0 : bottom_xsupports-1] ){
 }
 
 // screws
-translate([6, screw_h, 0])
-cylinder(h=bottom_sup_height+t, r=screw_r, center=false);
-translate([w-6, screw_h, 0])
-cylinder(h=bottom_sup_height+t, r=screw_r, center=false);
+translate([6, screw_h-t, t])
+cylinder(h=bottom_sup_height, r=screw_r, center=false);
+translate([w-6, screw_h-t, t])
+cylinder(h=bottom_sup_height, r=screw_r, center=false);
 
 //color( "DarkGreen", 1.0 )
 //translate([0,0,pcb_hight+t])

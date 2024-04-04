@@ -98,10 +98,10 @@ Comparative performance CORDIC versus software (math.h functions), in CPU cycles
 | CORDIC | 29 | 33 | 39 | 27 | 23 |
 | Software | 416 | 332 | 319 | 260 | 58 |
 
-# Schematic circuit design
+# Schematic
 ![New Sch](docs/img/SCH.png "New Schema")
 
-# PCB circuit design
+# PCB
 ![New PCB](docs/img/PCB.png "New PCB")
 
 # Reference

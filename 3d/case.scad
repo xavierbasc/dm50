@@ -4,6 +4,7 @@
 
 $fn=30;
 // Battery
+// AA  : 50 x 14.2
 // AAA : 44.5x10.5
 // AAAA: 42.5x8.3
 bat_h = 42.5;

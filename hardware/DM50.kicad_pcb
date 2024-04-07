@@ -18038,6 +18038,7 @@
 			(at -2.54 7.62 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "e5fca801-15d3-4109-b7fd-e301dbd560dd")
 			(effects
 				(font

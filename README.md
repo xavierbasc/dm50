@@ -1,6 +1,6 @@
 # DM50 calculator
 
-![New PCB](docs/img/PCB_3D.png "New PCB")
+![PCB front](docs/img/PCB_3D.png "PCB front")
 
 The main features of the calculator are the following:
 
@@ -61,6 +61,8 @@ For the development of the hardware, the KiCad tool has been used.
 ## PCB Making
 The board can be ordered from PCBWay, JLCPCB, etc.
 In addition, 3D designs for the calculator case and keyboard are included.
+
+![PCB Back](docs/img/PCB_3D_back.png "PCB back")
 
 # SoCs Comparative
 General comparison, taking the maximum specifications between all the SOCs of each family.

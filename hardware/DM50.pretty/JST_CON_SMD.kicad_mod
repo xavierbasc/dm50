@@ -1,0 +1,112 @@
+(footprint "JST_CON_SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.54 -7.62 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "42e4ff7c-4778-4a4e-b9f6-29801c5c430a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "JST_CON_SMD"
+		(at 0 -2.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5080d8f4-98f7-4303-9dfb-c7bcfcc70465")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b909c9e9-a014-4a6f-a97e-3add6218a117")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f432d06-7850-4c9d-aee9-361dd17da4ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1b586ff-6065-464c-9c91-81b9d48b1d38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 -5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "45ce7cc4-4ac9-43f2-ace3-d3b72fb154d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 2.032 2.032)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "aa5f393f-d6c8-4d7b-a3fa-a8341331508d")
+	)
+	(pad "2" smd circle
+		(at 2.54 0)
+		(size 2.032 2.032)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "82df8aa2-19e5-4b3f-83f6-678cfa7f056a")
+	)
+	(pad "3" smd circle
+		(at 5.08 0)
+		(size 2.032 2.032)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9c64f741-2600-4484-a54e-2cda40858fe4")
+	)
+	(pad "4" smd circle
+		(at 7.62 0)
+		(size 2.032 2.032)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eea5dba4-c4ee-4266-872d-38048b61997e")
+	)
+	(pad "5" smd circle
+		(at 10.16 0)
+		(size 2.032 2.032)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d1978cef-6a2f-4441-b94f-dcf04bcbdf53")
+	)
+)

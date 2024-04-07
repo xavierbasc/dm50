@@ -10812,7 +10812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Display:EA_DOGL128-6"
+		(property "Footprint" "DM50:EA_DOGL128-6"
 			(at 245.11 41.91 0)
 			(effects
 				(font
@@ -11623,7 +11623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:JWT_A3963_1x02_P3.96mm_Vertical"
+		(property "Footprint" "DM50:Buzzer"
 			(at 269.875 142.24 90)
 			(effects
 				(font
@@ -18825,7 +18825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical"
+		(property "Footprint" "DM50:JST_CON_SMD"
 			(at 186.69 92.71 0)
 			(effects
 				(font

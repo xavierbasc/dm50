@@ -23,7 +23,7 @@ Below is the list of electronic components used to manufacture the board.
 | Transistor | MMBT3904L | 200 mA, 40 V NPN Bipolar Junction Transistor |
 
 ## MCU
-### STM32U535CBT6
+### STM32U535CB
 This is the brain of our calculator. Ultra-low-power Arm Cortex-M33 MCU+FPU, 240 DMIPS, core clocked at 160 MHz and 274 KB of Static RAM.
 
 [STM32U535CBT6 datasheet](docs/pdf/stm32u535cb.pdf)

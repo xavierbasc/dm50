@@ -62,6 +62,9 @@ Supports the following batteries:
 | AAA Alkaline | 900 - 1155 |
 | AAA Ni-MH | 800 - 1000 |
 
+### Battery holder
+The support for AAA batteries on the PCB is XXXXXXX
+
 # EDA Software
 For the development of the hardware, the KiCad tool has been used.
 

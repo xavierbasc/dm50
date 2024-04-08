@@ -57,10 +57,10 @@ The EA DOGL128L-6 is a 128x64-pixel graphics display. The L model does not have 
 ### AAA x 2
 Supports the following batteries:
 
-| Batteries | capacity (mha) |
+| Batteries | Capacity (mha) |
 | --- | :---: |
-| Alkaline | 900 - 1155 |
-| Ni-MH | 800 - 1000 |
+| AAA Alkaline | 900 - 1155 |
+| AAA Ni-MH | 800 - 1000 |
 
 # EDA Software
 For the development of the hardware, the KiCad tool has been used.

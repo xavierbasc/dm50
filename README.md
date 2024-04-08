@@ -8,7 +8,7 @@ The main features of the calculator are the following:
  - Ultra low power ARM Cortex-M33 MCU+FPU.
  - 128-bit floating point precision implementation (IEEE 754-2008).
  - USBC port, connects as USB mass storage device.
- - 6MB flash storage, accesible por USB.
+ - 6MB flash storage, accessible via USB.
  - Graphic LCD Display.
 
 # Hardware
@@ -53,12 +53,21 @@ The EA DOGL128L-6 is a 128x64-pixel graphics display. The L model does not have 
 
 [EA_DOGL128X-6 datasheet](docs/pdf/EA_DOGL128X-6.pdf)
 
-## EDA Software
+## Batteries
+### AAA x 2
+Supports the following batteries:
+
+| Batteries | capacity (mha) |
+| --- | :---: |
+| Alkaline | 900 - 1155 |
+| Ni-MH | 800 - 1000 |
+
+# EDA Software
 For the development of the hardware, the KiCad tool has been used.
 
 [KiCad URL](https://www.kicad.org/)
 
-## PCB Making
+# PCB Making
 The board can be ordered from PCBWay, JLCPCB, etc.
 In addition, 3D designs for the calculator case and keyboard are included.
 

@@ -17409,7 +17409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DM50:dm50-batAA"
+		(property "Footprint" "DM50:dm50-batAAA"
 			(at 82.55 181.356 90)
 			(effects
 				(font
@@ -17815,7 +17815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DM50:dm50-batAA"
+		(property "Footprint" "DM50:dm50-batAAA"
 			(at 82.55 188.976 90)
 			(effects
 				(font

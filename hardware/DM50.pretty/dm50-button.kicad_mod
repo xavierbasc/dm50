@@ -4,10 +4,10 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -3 -6 0)
+		(at 0 -8.334 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "7e5a57d8-c718-43e7-b8ca-e3f202397028")
+		(uuid "27a897bc-dbc6-42e5-b578-c562a2a97e9c")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 		)
 	)
 	(property "Value" "dm50-button"
-		(at 0 -5.08 0)
+		(at 0 -6.834 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d0346a60-6fb3-42f5-8588-a85448a3f882")
+		(uuid "d00a2cfc-c8ec-410c-820a-ff54bdfcd21b")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "861abb31-4c66-458c-97a4-1d0a6b0a6c81")
+		(uuid "519d7b4a-e76b-464d-8387-22f030a0efc0")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f33caa55-02b4-4519-91ca-b6b0cada3500")
+		(uuid "fa6f46e8-3b6a-4d71-ba99-190cbf7d5028")
 		(effects
 			(font
 				(size 1 1)
@@ -58,7 +58,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0eeb41d2-5032-4bd9-aac9-108a5d8032c0")
+		(uuid "989a685c-f471-44c1-8700-f12ab44da1a0")
 		(effects
 			(font
 				(size 1 1)
@@ -66,34 +66,12 @@
 			)
 		)
 	)
-	(attr smd)
-	(fp_circle
-		(center 0 0)
-		(end 3 0)
-		(stroke
-			(width 2.5)
-			(type default)
-		)
-		(fill none)
-		(layer "F.Cu")
-		(uuid "714dc76d-6e87-4380-b3b4-e18174572664")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 3 0)
-		(stroke
-			(width 2.5)
-			(type default)
-		)
-		(fill none)
-		(layer "F.Mask")
-		(uuid "e7481e7c-7589-4db2-beac-2718141edc7e")
-	)
+	(attr through_hole)
 	(fp_text user "${REFERENCE}"
-		(at 0 -8 0)
+		(at 0 -5.334 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "425ad137-20c4-4985-8612-d523ad2721ee")
+		(uuid "a43a902e-ea33-4574-857a-ad40d747518c")
 		(effects
 			(font
 				(size 1 1)
@@ -101,16 +79,42 @@
 			)
 		)
 	)
-	(pad "1" smd circle
-		(at 0 0)
-		(size 3.048 3.048)
-		(layers "F.Cu" "F.Mask")
-		(uuid "9e3d1490-3bea-4a7c-9e84-ce762232a852")
+	(pad "1" thru_hole custom
+		(at 1.016 0)
+		(size 0.762 0.762)
+		(drill 0.381)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center -1.016 0)
+				(end 0.381 0)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "014ea451-fd83-448a-a112-aad3f2146344")
 	)
-	(pad "2" smd circle
-		(at 3 0)
-		(size 2.032 2.032)
+	(pad "2" smd custom
+		(at 3.81 0)
+		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
-		(uuid "78d58b51-2edd-4094-b171-287214c3bc3c")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center -3.81 0)
+				(end -0.8128 0)
+				(width 2.4892)
+				(fill no)
+			)
+		)
+		(uuid "97ebd738-7309-4516-b107-0dcf183c16d6")
 	)
 )

@@ -576,7 +576,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "autorouting/DM50.dsn",
       "step": "",
       "svg": "",
       "vrml": ""

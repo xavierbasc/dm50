@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -5.5 0)
+		(at 0 23.8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "019d56b2-4284-40ea-9d00-cb44e4d3b924")
@@ -147,8 +147,91 @@
 		(layer "Margin")
 		(uuid "a5452d88-d14b-4ecd-9a13-7ea2bf79d08e")
 	)
+	(fp_line
+		(start -5.3 1.7)
+		(end -5.3 43.9)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "60363096-dd4a-4f8e-bd09-c9f951aa3c6a")
+	)
+	(fp_line
+		(start -5.3 43.9)
+		(end 5.2 43.9)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9ab0805b-1566-461b-8dec-1f8b0d1563cc")
+	)
+	(fp_line
+		(start -2.9 0)
+		(end 2.9 0)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8e9632f4-8e41-49ca-b60f-76522839af3e")
+	)
+	(fp_line
+		(start -2.9 1.7)
+		(end -2.9 0)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "04f78994-c105-49dd-bbf6-c69909590459")
+	)
+	(fp_line
+		(start 2.9 0.05)
+		(end 2.9 1.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "797ccac1-2993-4218-8afb-ace5a0056aad")
+	)
+	(fp_line
+		(start 5.2 1.7)
+		(end -5.3 1.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bb4f23ec-727a-4956-954c-16498212e077")
+	)
+	(fp_line
+		(start 5.2 43.9)
+		(end 5.2 1.7)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "19b6c2ff-81b7-4a96-91ab-90e2b2f31433")
+	)
+	(fp_text user "AAA"
+		(at -1.4 15.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6564bcb6-93ee-4b30-987d-4f1528ab634a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -7.5 0)
+		(at 0 21.336 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "8088a576-9db5-4039-bb05-cd684bb52314")
@@ -157,6 +240,19 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+		)
+	)
+	(fp_text user "+"
+		(at -1.6 11.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cd1eaa4f-741f-4708-9d57-5af358b6076d")
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(pad "1" thru_hole rect

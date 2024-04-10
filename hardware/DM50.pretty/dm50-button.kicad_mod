@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -8.334 0)
+		(at 0.1 3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "27a897bc-dbc6-42e5-b578-c562a2a97e9c")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "dm50-button"
-		(at 0 -6.834 0)
+		(at 0 -3.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "d00a2cfc-c8ec-410c-820a-ff54bdfcd21b")
@@ -67,8 +67,19 @@
 		)
 	)
 	(attr through_hole)
+	(fp_rect
+		(start -4 -2.7)
+		(end 3.9 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "b1dd4462-8e15-483d-aee1-53fa4705e564")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -5.334 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a43a902e-ea33-4574-857a-ad40d747518c")
@@ -100,7 +111,7 @@
 		(uuid "014ea451-fd83-448a-a112-aad3f2146344")
 	)
 	(pad "2" smd custom
-		(at 3.81 0)
+		(at 0 3.8)
 		(size 0.762 0.762)
 		(layers "F.Cu" "F.Mask")
 		(options
@@ -109,8 +120,8 @@
 		)
 		(primitives
 			(gr_circle
-				(center -3.81 0)
-				(end -0.8128 0)
+				(center 0 -3.8)
+				(end 2.9972 -3.8)
 				(width 2.4892)
 				(fill no)
 			)

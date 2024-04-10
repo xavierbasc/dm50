@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "Buzzer"
-		(at 0 -6 0)
+		(at 0 -2.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "4e9ce502-6c1f-4dcf-855b-05a588d8c95e")
@@ -68,7 +68,7 @@
 	)
 	(attr smd)
 	(fp_text user "${REFERENCE}"
-		(at 0 -4.5 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "45b33d1e-adde-4616-8285-b7554a3a2b9a")

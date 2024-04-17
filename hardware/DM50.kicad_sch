@@ -8891,6 +8891,16 @@
 		)
 		(uuid "ef1be387-770d-4099-8903-86da12c2f4a5")
 	)
+	(text "BOOT"
+		(exclude_from_sim no)
+		(at 37.084 91.186 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+		)
+		(uuid "fcc15ded-269e-4cc9-baf0-5b9aff59f444")
+	)
 	(global_label "VCAP1"
 		(shape input)
 		(at 118.11 93.98 180)
@@ -13546,7 +13556,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100K"
 			(at 261.874 147.32 90)
 			(effects
 				(font
@@ -14564,7 +14574,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "10pF"
 			(at 53.848 141.986 90)
 			(effects
 				(font
@@ -16253,7 +16263,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "10pF"
 			(at 54.102 128.524 90)
 			(effects
 				(font
@@ -17603,8 +17613,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 251.968 151.638 90)
+		(property "Value" "10K"
+			(at 252.73 151.384 90)
 			(effects
 				(font
 					(size 1.27 1.27)

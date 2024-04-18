@@ -5975,6 +5975,12 @@
 		(uuid "841eb97b-0f00-445b-97f5-f002b7cb04a2")
 	)
 	(junction
+		(at 82.55 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "841ec098-5b89-4fc9-b304-c46faf138192")
+	)
+	(junction
 		(at 39.37 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6027,6 +6033,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d9610b3-8540-428e-821e-9fbf622afada")
+	)
+	(junction
+		(at 82.55 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9de14e64-a642-4013-a121-4591eea4f66e")
 	)
 	(junction
 		(at 243.84 20.32)
@@ -6159,12 +6171,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca53cb17-29fe-4b7a-a1f7-a254afa672ad")
-	)
-	(junction
-		(at 82.55 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca7dee45-e306-4e6e-9ee4-3e5018dedc58")
 	)
 	(junction
 		(at 35.56 82.55)
@@ -7612,16 +7618,6 @@
 		)
 		(uuid "907fd0c6-a9d4-458d-8472-e5e4a39f916b")
 	)
-	(wire
-		(pts
-			(xy 81.28 177.8) (xy 82.55 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90f75d02-753b-4e3b-ba4f-f51cc4bd8cc0")
-	)
 	(polyline
 		(pts
 			(xy 231.902 104.14) (xy 231.902 108.712)
@@ -8121,6 +8117,16 @@
 			(type default)
 		)
 		(uuid "bfcf010a-c749-4e9f-a596-34dc7b422443")
+	)
+	(wire
+		(pts
+			(xy 81.28 179.07) (xy 82.55 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f10e9d-6800-4e95-a13d-8b479c46e940")
 	)
 	(wire
 		(pts
@@ -14287,7 +14293,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 81.28 177.8 90)
+		(at 81.28 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14295,7 +14301,7 @@
 		(dnp no)
 		(uuid "52dbb1c6-76da-4505-af79-cd7bf2fe824a")
 		(property "Reference" "#PWR027"
-			(at 85.09 177.8 0)
+			(at 85.09 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14304,7 +14310,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 76.454 177.8 90)
+			(at 76.454 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14313,7 +14319,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 177.8 0)
+			(at 81.28 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14322,7 +14328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 177.8 0)
+			(at 81.28 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14331,7 +14337,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 177.8 0)
+			(at 81.28 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14780,7 +14786,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 193.04 0)
+		(at 82.55 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14789,7 +14795,7 @@
 		(fields_autoplaced yes)
 		(uuid "70209ec7-702e-4a02-a1a1-fe55751be6dc")
 		(property "Reference" "#PWR035"
-			(at 82.55 199.39 0)
+			(at 82.55 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14798,7 +14804,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 198.12 0)
+			(at 82.55 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14807,7 +14813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 193.04 0)
+			(at 82.55 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14816,7 +14822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 193.04 0)
+			(at 82.55 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14825,7 +14831,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 193.04 0)
+			(at 82.55 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17394,7 +17400,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 82.55 182.88 0)
+		(at 82.55 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17402,7 +17408,7 @@
 		(dnp no)
 		(uuid "c71db500-7695-4a73-b2c3-20c3ed96a355")
 		(property "Reference" "BT1"
-			(at 77.978 180.086 0)
+			(at 77.978 181.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17411,7 +17417,7 @@
 			)
 		)
 		(property "Value" "AA"
-			(at 77.978 182.88 0)
+			(at 77.978 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17420,7 +17426,7 @@
 			)
 		)
 		(property "Footprint" "DM50:dm50-batAAA"
-			(at 82.55 181.356 90)
+			(at 82.55 182.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17429,7 +17435,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 181.356 90)
+			(at 82.55 182.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17438,7 +17444,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 82.55 182.88 0)
+			(at 82.55 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17800,7 +17806,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 82.55 190.5 0)
+		(at 82.55 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17808,7 +17814,7 @@
 		(dnp no)
 		(uuid "d01f8901-b0a8-4c5f-915d-009a6c41949a")
 		(property "Reference" "BT2"
-			(at 78.486 187.452 0)
+			(at 78.486 188.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17817,7 +17823,7 @@
 			)
 		)
 		(property "Value" "AA"
-			(at 78.232 190.5 0)
+			(at 78.232 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17826,7 +17832,7 @@
 			)
 		)
 		(property "Footprint" "DM50:dm50-batAAA"
-			(at 82.55 188.976 90)
+			(at 82.55 190.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17835,7 +17841,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 188.976 90)
+			(at 82.55 190.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17844,7 +17850,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 82.55 190.5 0)
+			(at 82.55 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 13143)
+    (start_pass_no 14300)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -85,7 +85,7 @@
     )
   )
   (class "kicad_default"
-    VBAT GND "Net-(BZ1--)" 3.3V "Net-(U1-V0)" "Net-(U1-V1)" "Net-(U1-V2)" "Net-(U1-CAP1N)"
+    GND VBAT "Net-(BZ1--)" 3.3V "Net-(U1-V0)" "Net-(U1-V1)" "Net-(U1-V2)" "Net-(U1-CAP1N)"
     "Net-(U1-CAP1P)" "Net-(U1-V3)" "Net-(U1-V4)" "Net-(U1-CAP3P)" "Net-(U1-VOUT)" "Net-(U1-CAP2N)" "Net-(U1-CAP2P)" NRST
     OSCIN "VBAT_SNS" "Net-(D1-A)" OSCOUT "USB_DP (D+)" "Net-(J2-CC1)" "USB_DM (D-)" "Net-(J2-CC2)"
     VCAP1 "Net-(Q1-B)" BUZZER LED01 COL03 ROW03 "DISP_RST" "DISP_SCL"

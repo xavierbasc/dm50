@@ -1,5 +1,8 @@
 /*
     DM50 - Javier Báscones Velázquez - 2024
+    
+    https://www.montanacolors.com/en/productos/mtn-pro-plastic-bumper-paint/
+    
 */
 
 $fn=30;
@@ -7,8 +10,8 @@ $fn=30;
 // AA  : 50 x 14.2
 // AAA : 44.5x10.5
 // AAAA: 42.5x8.3
-bat_h = 42.5;
-bat_d = 8.3;
+bat_h = 44.5;
+bat_d = 10.5;
 
 // PCB -----------------------
 pcb_height = 138;
@@ -25,8 +28,8 @@ h = 144;
 // depth
 d = 12;
 // height bottom
-bottom_height = 8.3+0.5+t; // d aaa = 10.5mm (12 max)
-bottom_sup_height = 4;
+bottom_height = 6; // d aaa = 10.5mm (12 max)
+bottom_sup_height = 1;
 bottom_sup_ymin = t;
 bottom_sup_ymax = 85;
 bottom_sup_xmin = t;
@@ -39,13 +42,13 @@ screw_h = 95;
 screw_r = 6;
 
 // pcb supports
-pcb_hight = 5;
-sup_hight = 4;
+pcb_hight = 1;
+sup_hight = 1;
 keypad_radio_sup = 1;
 
 // AAA
 color( "gray", 1.0 )
-translate([18,120,bat_d/2+t])
+translate([18,120,11])
 rotate([0,90,0])
 union(){
 cylinder(d=bat_d,h=bat_h);
@@ -55,6 +58,7 @@ cylinder(d=bat_d,h=bat_h);
 
 //cube(size = [w, t, bottom_height]);
 
+color( [0.4,0.4,0.4,1.0] )
 difference()
 {
     difference()
@@ -96,8 +100,8 @@ cylinder(h=bottom_sup_height, r=screw_r, center=false);
 translate([w-6, screw_h-t, t])
 cylinder(h=bottom_sup_height, r=screw_r, center=false);
 
-//color( "DarkGreen", 1.0 )
-//translate([0,0,pcb_hight+t])
-//cube(size = [pcb_width,pcb_height,pcb_thickness]);
+color( "DarkGreen", 0.5 )
+translate([3,3,pcb_hight+t])
+cube(size = [pcb_width,pcb_height,pcb_thickness]);
 
 //cylinder(h=20, r=keypad_radio_sup, center=true);

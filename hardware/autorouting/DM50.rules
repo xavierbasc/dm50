@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 178)
+    (start_pass_no 13143)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -27,9 +27,13 @@
   )
   (rule
     (width 250.0)
-    (clear 200.0)
-    (clear 125.0 (type smd_to_turn_gap))
-    (clear 50.0 (type smd_smd))
+    (clearance 200.0)
+    (clearance 125.0 (type smd_to_turn_gap))
+    (clearance 200.0 (type smd))
+    (clearance 200.0 (type "kicad_default"))
+    (clearance 200.0 (type 0.3))
+    (clearance 200.0 (type 0.5))
+    (clearance 200.0 (type kicad))
   )
   (padstack "Via[0-1]_800:400_um"
     (shape
@@ -41,16 +45,34 @@
     (attach off)
   )
   (via 
+    "Via[0-1]_800:400_um-0.3" "Via[0-1]_800:400_um" 0.3
+  )
+  (via 
+    "Via[0-1]_800:400_um-0.5" "Via[0-1]_800:400_um" 0.5
+  )
+  (via 
     "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
   )
   (via 
     "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-3.3V" "Via[0-1]_800:400_um" default
+  )
+  (via_rule
+    0.3 "Via[0-1]_800:400_um-0.3"
+  )
+  (via_rule
+    0.5 "Via[0-1]_800:400_um-0.5"
   )
   (via_rule
     default "Via[0-1]_800:400_um"
   )
   (via_rule
     "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    3.3V "Via[0-1]_800:400_um-3.3V"
   )
   (class default
     (clearance_class default)
@@ -72,11 +94,40 @@
     ROW04 "SWD_SWCLK" COL05 ROW02 COL04 "SWD_SWDIO" ROW07 ROW01
     COL01 "SWD_SWO" "Net-(J2-D+-PadA6)" "Net-(J2-D--PadA7)" "Net-(U5-SW)" ROW08{slash}WAKEUP BOOT0 "Net-(U5-EN)"
     "QUADSPI_IO0" "QUADSPI_CLK" "QUADSPI_NCS" ROW06{slash}WAKEUP "QUADSPI_IO3" "QUADSPI_IO1" "QUADSPI_IO2" "Net-(BT1--)"
-    "unconnected-(D2-Pad1)"
     (clearance_class "kicad_default")
-    (via_rule kicad_default)
+    (via_rule "kicad_default")
     (rule
       (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 0.3
+    (clearance_class 0.3)
+    (via_rule 0.3)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 0.5
+    (clearance_class 0.5)
+    (via_rule 0.5)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 3.3V
+    (clearance_class default)
+    (via_rule 3.3V)
+    (rule
+      (width 500.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)

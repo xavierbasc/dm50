@@ -134,6 +134,7 @@ Comparison of the hardware used in the different reference calculators:
 ## Software (GPL):
 | Software | Detail |
 | - | - |
+| [DB48X](https://47calc.com/) | DB48X is a modern implementation of RPL |
+| [C47](https://47calc.com/) | C47 is a RPN Scientific Calculator (old WP43C project) |
 | [WP43](https://gitlab.com/rpncalculators/wp43) | Firmware for the WP43 pocket calculator (old WP43S project) |
-| [C43](https://www.classic43.com) | C43 is a RPN Scientific Calculator (old WP43C project) |
 | [Free42](https://github.com/thomasokken/free42) | Free42 is a software clone of the Hewlett-Packard 42S calculator |

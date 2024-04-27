@@ -91,7 +91,7 @@
 		)
 	)
 	(pad "1" thru_hole custom
-		(at 1.016 0)
+		(at 0 -1 90)
 		(size 0.762 0.762)
 		(drill 0.381)
 		(layers "*.Cu" "F.Mask")

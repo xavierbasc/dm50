@@ -13151,7 +13151,7 @@
 				)
 			)
 		)
-		(property "Value" "'"
+		(property "Value" "quote"
 			(at 25.654 48.514 0)
 			(effects
 				(font

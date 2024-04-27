@@ -1,0 +1,122 @@
+
+(rules PCB DM50
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1319)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.1)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.5)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clearance 200.0)
+    (clearance 125.0 (type smd_to_turn_gap))
+    (clearance 200.0 (type smd))
+    (clearance 200.0 (type "kicad_default"))
+    (clearance 200.0 (type 0.3))
+    (clearance 200.0 (type 0.5))
+    (clearance 200.0 (type kicad))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-0.3" "Via[0-1]_800:400_um" 0.3
+  )
+  (via 
+    "Via[0-1]_800:400_um-0.5" "Via[0-1]_800:400_um" 0.5
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    0.3 "Via[0-1]_800:400_um-0.3"
+  )
+  (via_rule
+    0.5 "Via[0-1]_800:400_um-0.5"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(BZ1--)" "Net-(U1-V0)" "Net-(U1-V1)" "Net-(U1-V2)" "Net-(U1-CAP1N)" "Net-(U1-CAP1P)" "Net-(U1-V3)" "Net-(U1-V4)"
+    "Net-(U1-CAP3P)" "Net-(U1-VOUT)" "Net-(U1-CAP2N)" "Net-(U1-CAP2P)" NRST OSCIN "VBAT_SNS" "Net-(D1-A)"
+    OSCOUT "USB_DP (D+)" "Net-(J2-CC1)" "USB_DM (D-)" "Net-(J2-CC2)" VCAP1 "Net-(Q1-B)" BUZZER
+    LED01 COL03 ROW03 "DISP_RST" "DISP_SCL" "unconnected-(U1-C2--Pad19)" "unconnected-(U1-C3--Pad20)" "unconnected-(U1-A1+-Pad1)"
+    "DISP_CS1B" "unconnected-(U1-A3+-Pad3)" "DISP_A0" "DISP_SI" "unconnected-(U1-A2+-Pad2)" "unconnected-(U1-C1--Pad18)" "Net-(U5-Vin)" COL06
+    COL02 ROW08 "Net-(U4-VBUS)" ROW04 "SWD_SWCLK" COL05 ROW02 COL04
+    "SWD_SWDIO" ROW01 COL01 "SWD_SWO" "Net-(J2-D+-PadA6)" "Net-(J2-D--PadA7)" "Net-(U5-SW)" BOOT0
+    "Net-(U5-EN)" "QUADSPI_IO0" "QUADSPI_CLK" "QUADSPI_NCS" ROW09{slash}WAKEUP "QUADSPI_IO3" "QUADSPI_IO1" "QUADSPI_IO2"
+    ROW06 ROW05
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 0.3
+    GND 3.3V "Net-(BT1--)"
+    (clearance_class 0.3)
+    (via_rule 0.3)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 0.5
+    VBAT
+    (clearance_class 0.5)
+    (via_rule 0.5)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

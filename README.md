@@ -135,7 +135,6 @@ Printing numbers on the keyboard is done using a sublimation transfer process, o
 ## Faceplate
 The front plate is printed on photographic paper and cut to size, with professional results. A photo-quality printer is recommended, such as the Epson Ecotank.
 
-![New PCB](docs/img/PCB.png "New PCB")
 
 # Reference
 ## Hardware

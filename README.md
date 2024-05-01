@@ -121,7 +121,7 @@ Comparative performance CORDIC versus software (math.h functions), in CPU cycles
 # 3D PARTS
 
 ## Keyboard
-The design has been designed for FDM printing, with inserts in each key and post-processed with acetone.
+The keyboard has been designed for FDM printing, with inserts in each key and post-processed with acetone.
 ![Keyboard](docs/img/keyboard.png "Keyboard front")
 ![Keyboard](docs/img/keyboard_b.png "Keyboard back")
 Includes a separating piece

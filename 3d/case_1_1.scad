@@ -181,11 +181,14 @@ module keypad( base = false )
             }
 
             //SCREEN
-            translate([1, 100, -5]) cube([68, 49, 20]);        
+            translate([1, 100, -5]) cube([68, 49, 20]);
             //SCREEN
             //translate([4.8, 105, -5]) cube([61, 33, 20]);
             
-            translate([58, 97, -2]) cylinder(5, 0.7, 0.7); // LED
+            if (base != true)
+                translate([58, 97, -2]) cylinder(5, 0.7, 0.7); // LED
+            else
+                translate([58, 97, -2]) cylinder(5, 2, 2); // LED
         }
 
 
@@ -222,9 +225,16 @@ module keypad( base = false )
                 translate([1, 100+1, -2]) cube([PCB_WIDTH-2, 50-2, border_height]);
 
                 translate([4.8, 105, -5]) cube([61, 33, 20]);
+
+                translate([2, 104, border_height-1]) 
+                minkowski()
+                {
+                  cube([PCB_WIDTH-4, 44.5, 2]);
+                  cylinder(2,2,2);
+                }                 
             }
             // FRAME
-            translate([-border_width,-border_width,0]) cube([PCB_WIDTH+border_width*2, border_width, border_height]);
+            translate([-border_width,-border_width,0]) cube([PCB_WIDTH+border_width*2, border_width, border_height-1]);
             translate([-border_width,PCB_HEIGHT,0]) cube([PCB_WIDTH+border_width*2, border_width, border_height]);
             translate([PCB_WIDTH,-border_width,0]) cube([border_width, PCB_HEIGHT+border_width*2, border_height]);
             translate([-border_width,-border_width,0]) cube([border_width, PCB_HEIGHT+border_width*2, border_height]);            
@@ -232,6 +242,7 @@ module keypad( base = false )
         
     }
 }
+
 
 
 

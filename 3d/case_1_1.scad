@@ -20,7 +20,7 @@ keys_vspace = 5;
 r = 0.5; // chamfers
 
 key_wall = 1;
-key_height = 2+2+2;
+key_height = 2+1;
 key1_l = 10;
 key1_w = 6;
 key1_xspace = 11.5;

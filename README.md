@@ -119,18 +119,20 @@ Comparative performance CORDIC versus software (math.h functions), in CPU cycles
 ![New PCB](docs/img/PCB.png "New PCB")
 
 # 3D PARTS
-##Keyboard
+
+## Keyboard
 The design has been designed for FDM printing, with inserts in each key and post-processed with acetone.
 ![Keyboard](docs/img/keyboard.png "Keyboard front")
 ![Keyboard](docs/img/keyboard_b.png "Keyboard back")
 Includes a separating piece
-##Case
+
+## Case
 The design has been designed for FDM printing, with inserts in each key and post-processed with acetone.
 
-##Serigraphy
+## Serigraphy
 Printing numbers on the keyboard is done using a sublimation transfer process, ordering the sheets from local companies and ironing them onto the keyboard.
 
-##Faceplate
+## Faceplate
 The front plate is printed on photographic paper and cut to size, with professional results. A photo-quality printer is recommended, such as the Epson Ecotank.
 
 ![New PCB](docs/img/PCB.png "New PCB")

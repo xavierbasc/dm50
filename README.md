@@ -118,6 +118,13 @@ Comparative performance CORDIC versus software (math.h functions), in CPU cycles
 # PCB
 ![New PCB](docs/img/PCB.png "New PCB")
 
+# Keyboard
+The design has been designed for FDM printing, with inserts in each key and post-processed with acetone.
+![Keyboard](docs/img/keyboard.png "Keyboard")
+
+
+![New PCB](docs/img/PCB.png "New PCB")
+
 # Reference
 ## Hardware
 Comparison of the hardware used in the different reference calculators:

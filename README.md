@@ -132,6 +132,7 @@ Printing numbers on the keyboard is done using a sublimation transfer process, o
 
 ## Case
 The design has been designed for FDM printing, with inserts in each key and post-processed with acetone.
+![Case 3D](docs/img/case.png "Case")
 
 ## Faceplate
 The front plate is printed on photographic paper and cut to size, with professional results. A photo-quality printer is recommended, such as the Epson Ecotank.

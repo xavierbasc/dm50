@@ -11,7 +11,7 @@ key1_cols = 6; //6 (1 for modeling)
 key2_rows = 4; //4 (1 for modeling)
 key2_cols = 4; //4 (1 for modeling)
 
-tolerance = 0.2; // tolerance margin (mm) 
+tolerance = 0.4; // tolerance margin (mm) 
 keys_hspace = 4;
 keys_vspace = 5;
 r = 0.5; // chamfers
@@ -42,6 +42,12 @@ push_r_h = 1;
 
 border_width = 2;
 border_height = 4;
+
+holestop = 88.9;
+holesbottom = 11.6;
+holesmargin = 1.9;
+holesradio = 1.0;
+holesheight = 2.5;
 
 wall01 = junction_h;
 
@@ -142,6 +148,18 @@ module diff( length=8, width=6, height=4 )
         
     }
 }
+/*
+length=8; width=6; height=4;
+translate([-length/2, -width/2, -r])    
+translate([r-tolerance, r-tolerance - key_bottom_margin, -1])
+minkowski()
+{
+  cube([length+tolerance*2-r*2, width+tolerance*2-r*2+key_bottom_margin, height*2]);
+  sphere(r=r);
+}
+*/
+
+
 
 module keypad( base = false)
 {
@@ -171,7 +189,6 @@ module keypad( base = false)
                     for ( x = [0 : key2_cols-1] ){
                         translate([key2_xspace*x, key2_yspace*y, 0]) diff(length = 10, width = 6, height = 3); // HOLE
                         if (base == true) translate([key2_xspace*x, key2_yspace*y, -1]) cylinder(5, 4.5, 4.5); // DOME
-
                     }
                 }
                 
@@ -227,21 +244,27 @@ module keypad( base = false)
                     translate([0, 100, 0]) cube([PCB_WIDTH, 50, border_height]);
                     translate([1, 100+1, -2]) cube([PCB_WIDTH-2, 50-2, border_height]);
 
-                    translate([4.8, 105, -5]) cube([61, 33, 20]);
+                    //translate([4.8, 105, -5]) cube([61, 33, 20]);
+
+                    translate([5.8, 105+1, -5]) 
+                    minkowski()
+                    {
+                      cube([61-2, 33-2, 20]);
+                      cylinder(2,1,1);
+                    }
 
                     translate([2, 104, border_height-1]) 
                     minkowski()
                     {
-                      cube([PCB_WIDTH-4, 44.5, 2]);
+                      cube([PCB_WIDTH-4, 40, 2]);
                       cylinder(2,2,2);
                     }
                 }
                 // FRAME
-                translate([-border_width,-border_width,0]) cube([PCB_WIDTH+border_width*2, border_width, border_height-1]);
-                translate([-border_width,PCB_HEIGHT,0]) cube([PCB_WIDTH+border_width*2, border_width, border_height]);
-                translate([PCB_WIDTH,-border_width,0]) cube([border_width, PCB_HEIGHT+border_width*2, border_height]);
-                translate([-border_width,-border_width,0]) cube([border_width, PCB_HEIGHT+border_width*2, border_height]);            
-                
+                    translate([-border_width,-border_width,0]) cube([PCB_WIDTH+border_width*2, border_width, border_height-1]);
+                    translate([-border_width,PCB_HEIGHT,0]) cube([PCB_WIDTH+border_width*2, border_width, border_height]);
+                    translate([PCB_WIDTH,-border_width,0]) cube([border_width, PCB_HEIGHT+border_width*2, border_height]);
+                    translate([-border_width,-border_width,0]) cube([border_width, PCB_HEIGHT+border_width*2, border_height]);
             }
         }
 
@@ -274,6 +297,16 @@ module keypad( base = false)
         {
             translate([0, 0, -1]) cube([6, 6, 10]);
             translate([0, 0, -2]) cylinder(14, 2, 2);
+        }        
+        
+        // HOLES
+        if (base == true)
+        {        
+            translate([holesmargin, holestop, -1]) cylinder(1+holesheight, holesradio, holesradio);
+            translate([PCB_WIDTH-holesmargin, holestop, -1]) cylinder(1+holesheight, holesradio, holesradio);
+
+            translate([holesmargin, holesbottom, -1]) cylinder(1+holesheight, holesradio, holesradio);
+            translate([PCB_WIDTH-holesmargin, holesbottom, -1]) cylinder(1+holesheight, holesradio, holesradio);
         }        
     }
 }
@@ -315,11 +348,17 @@ module faceplate()
 // DRAW KEYBOARD
 // KEY1 = 8x6, KEY2 = 8.5x6
 
-space = 20;
+space = 0;
 
-translate([0, 0, 3+space*2]) color([0.7,0.7,0.7]) faceplate();
+color([0.9,0.9,0.9, 0.08])
+translate([0, 0, 3+space*2]) faceplate();
 
-translate([0, 0, 0.5+2+space]) color([0.3,0.3,0.3]) keypad( base = false); // KEYPAD
+color([0.4,0.4,0.4])
+translate([0, 0, 0.5+2+space]) keypad( base = false); // KEYPAD
 
-color([0.2,0.2,0.2]) keypad( base = true); // BASE
+color([0.4,0.4,0.4])
+//color([0.9,0.9,0.9, 0.08])
+keypad( base = true); // BASE
 
+color([0.37,0.40,0.18])
+translate([2, 105, 0]) cube([67, 33, 2]);

@@ -358,7 +358,7 @@ module faceplate()
 // DRAW KEYBOARD
 // KEY1 = 8x6, KEY2 = 8.5x6
 
-space = 20;
+space = 0;
 
 color([0.1,0.1,0.1])
 translate([0, 0, 2.6+space*2])

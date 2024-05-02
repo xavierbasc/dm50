@@ -32,7 +32,7 @@ junction_hover = 1.0;
 
 key_bottom_margin = 0.2;
 
-push_wall = 0.2;
+push_wall = 0.6;
 push_size = 4;
 push_height = 0.0;
 push_hole = 2;
@@ -72,7 +72,7 @@ module insert()
     }
 }
 
-module key( length=8, width=6, height=4 )  // [0] length, [1] width, [2] x space, [3] y space
+module key( length=8, width=6, height=4 )
 {   
     translate([-length/2, -width/2, -r])
     difference()
@@ -148,17 +148,6 @@ module diff( length=8, width=6, height=4 )
         
     }
 }
-/*
-length=8; width=6; height=4;
-translate([-length/2, -width/2, -r])    
-translate([r-tolerance, r-tolerance - key_bottom_margin, -1])
-minkowski()
-{
-  cube([length+tolerance*2-r*2, width+tolerance*2-r*2+key_bottom_margin, height*2]);
-  sphere(r=r);
-}
-*/
-
 
 
 module keypad( base = false)
@@ -350,15 +339,16 @@ module faceplate()
 
 space = 0;
 
-color([0.9,0.9,0.9, 0.08])
-translate([0, 0, 3+space*2]) faceplate();
-
-color([0.4,0.4,0.4])
-translate([0, 0, 0.5+2+space]) keypad( base = false); // KEYPAD
-
-color([0.4,0.4,0.4])
 //color([0.9,0.9,0.9, 0.08])
-keypad( base = true); // BASE
+//translate([0, 0, 3+space*2])
+//faceplate(); // faceplate
 
-color([0.37,0.40,0.18])
-translate([2, 105, 0]) cube([67, 33, 2]);
+color([0.4,0.4,0.4])
+//translate([0, 0, 0.5+2+space]) 
+keypad( base = false); // keypad
+
+//color([0.4,0.4,0.4])
+//keypad( base = true); // base
+
+//color([0.37,0.40,0.18])
+//translate([2, 105, 0]) cube([67, 33, 2]); // LCD

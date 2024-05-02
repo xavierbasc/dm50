@@ -343,12 +343,12 @@ space = 0;
 //translate([0, 0, 3+space*2])
 //faceplate(); // faceplate
 
-color([0.4,0.4,0.4])
+//color([0.4,0.4,0.4])
 //translate([0, 0, 0.5+2+space]) 
-keypad( base = false); // keypad
+//keypad( base = false); // keypad
 
 //color([0.4,0.4,0.4])
-//keypad( base = true); // base
+keypad( base = true); // base
 
 //color([0.37,0.40,0.18])
 //translate([2, 105, 0]) cube([67, 33, 2]); // LCD

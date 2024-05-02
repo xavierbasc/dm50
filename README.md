@@ -127,7 +127,7 @@ The keyboard has been designed for FDM printing, with inserts in each key and po
 ![Keyboard](docs/img/keyboard_b.png "Keyboard back")
 Includes a separating piece.
 
-![DOWNLOAD STL FOR PRINT KEYPAD](3d/keypad.stl "keypad stl model")
+[DOWNLOAD STL FOR PRINT KEYPAD](3d/keypad.stl "keypad stl model")
 
 
 ## Keyboard Serigraphy

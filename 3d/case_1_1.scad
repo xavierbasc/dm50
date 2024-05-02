@@ -149,6 +149,27 @@ module diff( length=8, width=6, height=4 )
     }
 }
 
+module frame()
+{
+    difference()
+    {
+        translate([2, 104, 3]) 
+        minkowski()
+        {
+          translate([tolerance/2, tolerance/2, 0]) 
+          cube([PCB_WIDTH-4-tolerance, 40-tolerance, 0.5]);
+          cylinder(0.5,2,2);
+        }
+
+        translate([5.8, 105+1, -5]) 
+        minkowski()
+        {
+          cube([61-2, 33-2, 20]);
+          cylinder(2,1,1);
+        }    
+    }    
+}
+
 
 module keypad( base = false)
 {
@@ -337,18 +358,22 @@ module faceplate()
 // DRAW KEYBOARD
 // KEY1 = 8x6, KEY2 = 8.5x6
 
-space = 0;
+space = 20;
 
-//color([0.9,0.9,0.9, 0.08])
-//translate([0, 0, 3+space*2])
-//faceplate(); // faceplate
+color([0.1,0.1,0.1])
+translate([0, 0, 2.6+space*2])
+faceplate(); // faceplate
 
-//color([0.4,0.4,0.4])
-//translate([0, 0, 0.5+2+space]) 
-//keypad( base = false); // keypad
+color([0.1,0.1,0.1])
+translate([0, 0, 2+space]) 
+keypad( base = false); // keypad
 
-//color([0.4,0.4,0.4])
+color([0.2,0.2,0.2])
 keypad( base = true); // base
 
-//color([0.37,0.40,0.18])
-//translate([2, 105, 0]) cube([67, 33, 2]); // LCD
+translate([0, 0, space]) 
+color([0.1,0.1,0.1])
+frame();
+
+color([0.37,0.40,0.18])
+translate([2, 105, 0]) cube([67, 33, 2]); // LCD

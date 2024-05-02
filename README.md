@@ -125,7 +125,10 @@ Comparative performance CORDIC versus software (math.h functions), in CPU cycles
 The keyboard has been designed for FDM printing, with inserts in each key and post-processed with acetone.
 ![Keyboard](docs/img/keyboard.png "Keyboard front")
 ![Keyboard](docs/img/keyboard_b.png "Keyboard back")
-Includes a separating piece
+Includes a separating piece.
+
+![DOWNLOAD STL FOR PRINT KEYPAD](3d/keypad.stl "keypad stl model")
+
 
 ## Keyboard Serigraphy
 Printing numbers on the keyboard is done using a sublimation transfer process, ordering the sheets from local companies and ironing them onto the keyboard.

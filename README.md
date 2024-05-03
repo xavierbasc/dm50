@@ -79,14 +79,12 @@ In addition, 3D designs for the calculator case and keyboard are included.
 # SoCs Comparative
 General comparison, taking the maximum specifications between all the SOCs of each family.
 
-| Serie | OFF * | ON | RAM | Flash |
-| --- | :---: | :---: | :---: | :---: |
-| STM32L4 | 8 nA | 28 μA/MHz | 320KB | 64KB - 1MB |
-| STM32L4+ | 8 nA | 28 μA/MHz | 320KB | 512KB - 2MB |
-| STM32L5 | 17 nA | 62 µA/MHz | 256KB | 256KB - 512KB |
-| STM32U5 | 110 nA | 19 µA/MHz | 768KB | 1MB - 2MB |
-
-(*) Power Off with backup registers without real-time clock.
+| Serie | PW OFF | RAM | Flash |
+| --- | :---: | :---: | :---: |
+| STM32L4 | 8 nA | 320KB | 64KB - 1MB |
+| STM32L4+ | 8 nA | 320KB | 512KB - 2MB |
+| STM32L5 | 17 nA | 256KB | 256KB - 512KB |
+| STM32U5 | 90 nA | 768KB | 1MB - 2MB |
 
 ## Mathematical coprocessor
 The CORDIC co-processor provides hardware acceleration of certain mathematical functions, notably trigonometric, commonly used in motor control, metering, signal processing and many other applications. It speeds up the calculation of these functions compared to a software implementation, allowing a lower operating frequency, or freeing up processor cycles in order to perform other tasks.
@@ -145,14 +143,14 @@ The front plate is printed on photographic paper and cut to size, with professio
 ## Hardware
 Comparison of the hardware used in the different reference calculators:
  
-| Year | Model | Processor | Speed | Precision | RAM | Flash | Display |
-| :-: | - | - | -: | :-: | -: | -: | - |
-| 2013 | [TI-Nspire CX II](https://en.wikipedia.org/wiki/TI-Nspire_series#TI-Nspire_CX_II_and_TI-Nspire_CX_II_CAS) | ARM9-26EJ-S | 396MHz | 14 | 64MB | 128MB | 320x240 | 
-| 2016 | [NumWorks](https://www.numworks.com/resources/engineering/hardware/) | STM32F730V8T6 | 216MHz | ? | 256KB | 6MB | 320x240 |
-| 2017 | [DM42](https://www.swissmicros.com/product/dm42) | STM32L476RG | 80MHz | 34 | 128KB | 6MB | 400×240 | 
-| 2019 | [HP Prime G2](https://en.wikipedia.org/wiki/HP_Prime) | i. MX 6ULL | 528MHz | 12 | 256MB | 512MB | 320×240 | 
-| 2021 | [OpenRPNCalc](https://github.com/apoluekt/OpenRPNCalc) | STM32L476 | 8MHz | 10 | 128KB | 1MB | 400x240 |
-| 2024 | [DM50](https://github.com/xavierbasc/dm50-calculator) | STM32U535CB | 160MHz | 34 | 274KB | 6MB | 128×64 | 
+| Year | Model | Processor | RAM | Flash | Display |
+| :-: | - | - | -: | -: | - |
+| 2013 | [TI-Nspire CX II](https://en.wikipedia.org/wiki/TI-Nspire_series#TI-Nspire_CX_II_and_TI-Nspire_CX_II_CAS) | ARM9-26EJ-S | 64MB | 128MB | 320x240 | 
+| 2016 | [NumWorks](https://www.numworks.com/resources/engineering/hardware/) | STM32F730V8T6 | 256KB | 6MB | 320x240 |
+| 2017 | [DM42](https://www.swissmicros.com/product/dm42) | STM32L476RG | 128KB | 6MB | 400×240 | 
+| 2019 | [HP Prime G2](https://en.wikipedia.org/wiki/HP_Prime) | i. MX 6ULL | 256MB | 512MB | 320×240 | 
+| 2021 | [OpenRPNCalc](https://github.com/apoluekt/OpenRPNCalc) | STM32L476 | 128KB | 1MB | 400x240 |
+| 2024 | [DM50](https://github.com/xavierbasc/dm50-calculator) | STM32U535CB | 274KB | 6MB | 128×64 | 
 
 ## Software (GPL):
 | Software | Detail |

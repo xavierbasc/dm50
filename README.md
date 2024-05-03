@@ -4,12 +4,18 @@
 
 The main features of the calculator are the following:
 
- - Electronic schematics and designs of the boards are open source.
- - Ultra low power ARM Cortex-M33 MCU+FPU.
+ - Electronic schematics designs Open Source (GPLv3).
+ - 32-bit ARM Cortex-M33 MCU.
+ - Ultra low power MCU.
+ - Floating Point Unit (FPU). Floating-point arithmetic functionality.
+ - 274KB SRAM.
+ - 512KB FLASH MCU memory.
+ - 6MB FLASH storage Octo-SPI accessible via USB.
  - 128-bit floating point precision implementation (IEEE 754-2008).
  - USBC port, connects as USB mass storage device.
- - 6MB flash storage, accessible via USB.
- - Graphic LCD Display.
+ - Graphic LCD Display (128x64 dots).
+ - Possibility of creating/porting firmware for CAS or RPN calculator.
+ - Same keys as the legendary HP48.
 
 # Hardware
 Below is the list of electronic components used to manufacture the board.
@@ -27,6 +33,7 @@ Below is the list of electronic components used to manufacture the board.
 This is the brain of our calculator. Ultra-low-power Arm Cortex-M33 MCU+FPU, 240 DMIPS, core clocked at 160 MHz and 274 KB of Static RAM.
 
 [STM32U535CBT6 datasheet](docs/pdf/stm32u535cb.pdf)
+[Arm Cortex-M33 Developers Guide](https://developer.arm.com/documentation/100235/0004/the-cortex-m33-processor/)
 
 ## Flash memory
 ### AT25SF641
@@ -79,14 +86,12 @@ In addition, 3D designs for the calculator case and keyboard are included.
 # SoCs Comparative
 General comparison, taking the maximum specifications between all the SOCs of each family.
 
-| Serie | OFF * | ON | RAM | Flash |
-| --- | :---: | :---: | :---: | :---: |
-| STM32L4 | 8 nA | 28 μA/MHz | 320KB | 64KB - 1MB |
-| STM32L4+ | 8 nA | 28 μA/MHz | 320KB | 512KB - 2MB |
-| STM32L5 | 17 nA | 62 µA/MHz | 256KB | 256KB - 512KB |
-| STM32U5 | 110 nA | 19 µA/MHz | 768KB | 1MB - 2MB |
-
-(*) Power Off with backup registers without real-time clock.
+| Serie | PW OFF | RAM | Flash |
+| --- | :---: | :---: | :---: |
+| STM32L4 | 8 nA | 320KB | 64KB - 1MB |
+| STM32L4+ | 8 nA | 320KB | 512KB - 2MB |
+| STM32L5 | 17 nA | 256KB | 256KB - 512KB |
+| STM32U5 | 90 nA | 768KB | 1MB - 2MB |
 
 ## Mathematical coprocessor
 The CORDIC co-processor provides hardware acceleration of certain mathematical functions, notably trigonometric, commonly used in motor control, metering, signal processing and many other applications. It speeds up the calculation of these functions compared to a software implementation, allowing a lower operating frequency, or freeing up processor cycles in order to perform other tasks.
@@ -145,14 +150,17 @@ The front plate is printed on photographic paper and cut to size, with professio
 ## Hardware
 Comparison of the hardware used in the different reference calculators:
  
-| Year | Model | Processor | Speed | Precision | RAM | Flash | Display |
-| :-: | - | - | -: | :-: | -: | -: | - |
-| 2013 | [TI-Nspire CX II](https://en.wikipedia.org/wiki/TI-Nspire_series#TI-Nspire_CX_II_and_TI-Nspire_CX_II_CAS) | ARM9-26EJ-S | 396MHz | 14 | 64MB | 128MB | 320x240 | 
-| 2016 | [NumWorks](https://www.numworks.com/resources/engineering/hardware/) | STM32F730V8T6 | 216MHz | ? | 256KB | 6MB | 320x240 |
-| 2017 | [DM42](https://www.swissmicros.com/product/dm42) | STM32L476RG | 80MHz | 34 | 128KB | 6MB | 400×240 | 
-| 2019 | [HP Prime G2](https://en.wikipedia.org/wiki/HP_Prime) | i. MX 6ULL | 528MHz | 12 | 256MB | 512MB | 320×240 | 
-| 2021 | [OpenRPNCalc](https://github.com/apoluekt/OpenRPNCalc) | STM32L476 | 8MHz | 10 | 128KB | 1MB | 400x240 |
-| 2024 | [DM50](https://github.com/xavierbasc/dm50-calculator) | STM32U535CB | 160MHz | 34 | 274KB | 6MB | 128×64 | 
+| Year | Model | Processor | RAM | FLASH | Display |
+| :-: | - | - | -: | -: | - |
+| 1988 | [HP42S](https://en.wikipedia.org/wiki/HP-42S) | Saturn | 8KB | 64KB | 131×16 |
+| 1993 | [HP48G](https://en.wikipedia.org/wiki/HP_48_series) | Saturn | 32KB | 512KB | 131×64 |
+| 2006 | [HP50G](https://en.wikipedia.org/wiki/HP_49/50_series) | ARM920T | 512KB | 2MB | 131×80 |
+| 2013 | [TI-Nspire CX II](https://en.wikipedia.org/wiki/TI-Nspire_series#TI-Nspire_CX_II_and_TI-Nspire_CX_II_CAS) | ARM9-26EJ-S | 64MB | 128MB | 320x240 | 
+| 2016 | [NumWorks](https://www.numworks.com/resources/engineering/hardware/) | STM32F730V8T6 | 256KB | 6MB | 320x240 |
+| 2017 | [DM42](https://www.swissmicros.com/product/dm42) | STM32L476RG | 128KB | 6MB | 400×240 | 
+| 2019 | [HP Prime G2](https://en.wikipedia.org/wiki/HP_Prime) | i. MX 6ULL | 256MB | 512MB | 320×240 |
+| 2021 | [OpenRPNCalc](https://github.com/apoluekt/OpenRPNCalc) | STM32L476 | 128KB | 1MB | 400x240 |
+| 2024 | [DM50](https://github.com/xavierbasc/dm50-calculator) | STM32U535CB | 274KB | 6MB | 128×64 |
 
 ## Software (GPL):
 | Software | Detail |
@@ -161,3 +169,6 @@ Comparison of the hardware used in the different reference calculators:
 | [C47](https://47calc.com/) | C47 is a RPN Scientific Calculator (old WP43C project) |
 | [WP43](https://gitlab.com/rpncalculators/wp43) | Firmware for the WP43 pocket calculator (old WP43S project) |
 | [Free42](https://github.com/thomasokken/free42) | Free42 is a software clone of the Hewlett-Packard 42S calculator |
+| [TCalc](https://github.com/tylertian123/TCalc) | Firmware for STM32 CAS calculator |
+| [TinyExpr](https://github.com/codeplea/tinyexpr) | parser and evaluation for math expressions |
+

@@ -10,7 +10,7 @@ The main features of the calculator are the following:
  - Floating Point Unit (FPU). Floating-point arithmetic functionality.
  - 274KB SRAM.
  - 512KB FLASH MCU memory.
- - 6MB FLASH storage (Octo-SPI memory accessible via USB).
+ - 6MB FLASH storage Octo-SPI accessible via USB.
  - 128-bit floating point precision implementation (IEEE 754-2008).
  - USBC port, connects as USB mass storage device.
  - Graphic LCD Display (128x64 dots).

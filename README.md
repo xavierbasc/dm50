@@ -5,7 +5,9 @@
 The main features of the calculator are the following:
 
  - Electronic schematics designs Open Source (GPLv3).
- - Ultra low power ARM Cortex-M33 MCU+FPU.
+ - 32-bit ARM Cortex-M33 MCU.
+ - Ultra low power MCU.
+ - Floating Point Unit (FPU). Floating-point arithmetic functionality.
  - 274KB internal SRAM.
  - 512KB intenal flash memory.
  - 6MB external flash storage (Octo-SPI memory accessible via USB).
@@ -31,6 +33,7 @@ Below is the list of electronic components used to manufacture the board.
 This is the brain of our calculator. Ultra-low-power Arm Cortex-M33 MCU+FPU, 240 DMIPS, core clocked at 160 MHz and 274 KB of Static RAM.
 
 [STM32U535CBT6 datasheet](docs/pdf/stm32u535cb.pdf)
+[Arm Cortex-M33 Developers Guide](https://developer.arm.com/documentation/100235/0004/the-cortex-m33-processor/)
 
 ## Flash memory
 ### AT25SF641

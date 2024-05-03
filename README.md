@@ -166,3 +166,6 @@ Comparison of the hardware used in the different reference calculators:
 | [C47](https://47calc.com/) | C47 is a RPN Scientific Calculator (old WP43C project) |
 | [WP43](https://gitlab.com/rpncalculators/wp43) | Firmware for the WP43 pocket calculator (old WP43S project) |
 | [Free42](https://github.com/thomasokken/free42) | Free42 is a software clone of the Hewlett-Packard 42S calculator |
+| [TCalc](https://github.com/tylertian123/TCalc) | Firmware for STM32 CAS calculator |
+| [TinyExpr](https://github.com/codeplea/tinyexpr) | parser and evaluation for math expressions |
+

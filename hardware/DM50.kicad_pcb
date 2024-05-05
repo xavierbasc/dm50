@@ -33241,7 +33241,7 @@
 	(segment
 		(start 116.5375 97.8)
 		(end 119.3125 97.8)
-		(width 0.25)
+		(width 0.5)
 		(locked yes)
 		(layer "F.Cu")
 		(net 58)

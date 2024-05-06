@@ -2,9 +2,18 @@
     DM50 - Javier Báscones Velázquez - 2024
 */
 
-$fn=20;
+$fn=15;
 PCB_WIDTH = 70;
 PCB_HEIGHT = 149.9;
+
+LCD_W = 67.8;
+LCD_H = 47.96;
+LCD_VIEW_YPOS = 26.3;
+LCD_VIEW_W = 61;
+LCD_VIEW_H = 35;
+
+COLOR_CASE = [0.20, 0.20, 0.20];
+COLOR_FRAME = [0.10, 0.10, 0.10];
 
 key1_rows = 5; //5 (1 for modeling)
 key1_cols = 6; //6 (1 for modeling)
@@ -171,6 +180,8 @@ module frame()
 }
 
 
+
+
 module keypad( base = false)
 {
     difference()
@@ -210,7 +221,7 @@ module keypad( base = false)
                 }
 
                 //SCREEN
-                translate([1, 100, -5]) cube([68, 49, 20]);
+                translate([1, 100-tolerance, -5]) cube([68, LCD_H+tolerance*2, 20]);
                 //SCREEN
                 //translate([4.8, 105, -5]) cube([61, 33, 20]);
                 
@@ -321,6 +332,15 @@ module keypad( base = false)
     }
 }
 
+/*
+translate([1, 101, 0]) 
+{
+    translate([4,(LCD_H-LCD_VIEW_H)-(LCD_VIEW_YPOS-LCD_VIEW_H/2),5]) //LCD_VIEW_YPOS
+            cube([LCD_VIEW_W, LCD_VIEW_H, 8]); // LCD
+
+}
+*/
+
 module lcd()
 {
 }
@@ -360,20 +380,31 @@ module faceplate()
 
 space = 0;
 
-color([0.1,0.1,0.1])
+
+
+
+color(COLOR_CASE)
 translate([0, 0, 2.6+space*2])
 faceplate(); // faceplate
 
-color([0.1,0.1,0.1])
+color(COLOR_CASE)
 translate([0, 0, 2+space]) 
 keypad( base = false); // keypad
 
-color([0.2,0.2,0.2])
+color(COLOR_CASE)
 keypad( base = true); // base
 
+/*
 translate([0, 0, space]) 
-color([0.1,0.1,0.1])
+color(COLOR_FRAME)
 frame();
+*/
 
 color([0.37,0.40,0.18])
-translate([2, 105, 0]) cube([67, 33, 2]); // LCD
+translate([1, 101, 0]) 
+{
+    translate([0, 0, -5]) cube([LCD_W, LCD_H, 2]); // LCD
+    // translate([4,(LCD_H-LCD_VIEW_H)-(LCD_VIEW_YPOS-LCD_VIEW_H/2),5]) //LCD_VIEW_YPOS
+    //         cube([LCD_VIEW_W, LCD_VIEW_H, 8]); // LCD
+
+}

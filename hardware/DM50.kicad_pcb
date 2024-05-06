@@ -22774,6 +22774,17 @@
 		(layer "User.2")
 		(uuid "1d7f4a9b-000f-4a5a-b966-c8901266748e")
 	)
+	(gr_rect
+		(start 74.6 73)
+		(end 138.6 108)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "User.2")
+		(uuid "1f56ded0-615e-40c1-885c-a04482c554c2")
+	)
 	(gr_line
 		(start 139.35 181.35)
 		(end 129.35 187.35)

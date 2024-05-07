@@ -149,6 +149,12 @@ The design has been designed for FDM printing, with inserts in each key and post
 ## Faceplate
 The front plate is printed on photographic paper and cut to size, with professional results. A photo-quality printer is recommended, such as the Epson Ecotank.
 
+To create the faceplate, the Inkscape tool has been used to edit the SVG and the font used is Latin Modern Math, licensed by the GUST Font License, developed by the TeX user group in Poland, and can be used for academic use. , commercial or academic.
+
+[Latin Modern Math font](https://www.gust.org.pl/projects/e-foundry/latin-modern "Latin Modern Math font")
+
+
+
 
 # Reference
 ## Hardware

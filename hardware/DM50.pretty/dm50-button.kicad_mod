@@ -67,6 +67,17 @@
 		)
 	)
 	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 3.6 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Eco2.User")
+		(uuid "f259a631-44d6-43ea-b270-67938e23abe1")
+	)
 	(fp_rect
 		(start -4 -2.7)
 		(end 3.9 2.6)
@@ -121,8 +132,8 @@
 		(primitives
 			(gr_circle
 				(center 0 -3.8)
-				(end 2.9972 -3.8)
-				(width 2.4892)
+				(end 3.1 -3.8)
+				(width 2.3)
 				(fill no)
 			)
 		)

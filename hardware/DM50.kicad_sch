@@ -10805,7 +10805,7 @@
 				)
 			)
 		)
-		(property "Value" "+"
+		(property "Value" "BT_SMD"
 			(at 60.96 103.378 0)
 			(effects
 				(font
@@ -10958,7 +10958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcd-module.com/eng/pdf/grafik/dogl128-6e.pdf"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/display-visions/EA-DOGL128L-6/4896695"
 			(at 245.11 41.91 0)
 			(effects
 				(font
@@ -11347,7 +11347,7 @@
 				)
 			)
 		)
-		(property "Value" "/"
+		(property "Value" "BT_SMD"
 			(at 60.96 76.2 0)
 			(effects
 				(font
@@ -11415,7 +11415,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "BT_SMD"
 			(at 34.798 103.632 0)
 			(effects
 				(font
@@ -11702,7 +11702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/en/products/detail/soberton-inc/PT-1403-3/9924397"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/soberton-inc/PT-1303T/16354860"
 			(at 269.875 142.24 90)
 			(effects
 				(font
@@ -11952,7 +11952,7 @@
 				)
 			)
 		)
-		(property "Value" "F2"
+		(property "Value" "BT_SMD"
 			(at 34.544 30.734 0)
 			(effects
 				(font
@@ -12037,7 +12037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/stackpole-electronics-inc/RMCF0603FT1M00/1761036"
 			(at 115.57 132.08 0)
 			(effects
 				(font
@@ -12087,7 +12087,7 @@
 				)
 			)
 		)
-		(property "Value" "SQR"
+		(property "Value" "BT_SMD"
 			(at 52.578 57.404 0)
 			(effects
 				(font
@@ -12155,7 +12155,7 @@
 				)
 			)
 		)
-		(property "Value" "+/-"
+		(property "Value" "BT_SMD"
 			(at 43.434 66.04 0)
 			(effects
 				(font
@@ -12240,7 +12240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/stackpole-electronics-inc/RMCF0603FT1M00/1761036"
 			(at 115.57 120.65 0)
 			(effects
 				(font
@@ -12309,7 +12309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/renesas-electronics-corporation/AT25SF641B-SPB-T/14831956"
 			(at 262.89 104.14 0)
 			(effects
 				(font
@@ -12444,7 +12444,7 @@
 				)
 			)
 		)
-		(property "Value" "3"
+		(property "Value" "BT_SMD"
 			(at 52.324 94.996 0)
 			(effects
 				(font
@@ -12532,7 +12532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32u535cb.pdf"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/stmicroelectronics/STM32U545CET6Q/20412791"
 			(at 133.35 63.5 0)
 			(effects
 				(font
@@ -12720,7 +12720,7 @@
 				)
 			)
 		)
-		(property "Value" "BACK"
+		(property "Value" "BT_SMD"
 			(at 69.85 66.294 0)
 			(effects
 				(font
@@ -12854,7 +12854,7 @@
 				)
 			)
 		)
-		(property "Value" "6"
+		(property "Value" "BT_SMD"
 			(at 52.324 85.852 0)
 			(effects
 				(font
@@ -12941,7 +12941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 185.42 151.13 0)
 			(effects
 				(font
@@ -13013,7 +13013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/diotec-semiconductor/MMBT3904/13163698"
 			(at 261.62 153.67 0)
 			(effects
 				(font
@@ -13067,7 +13067,7 @@
 				)
 			)
 		)
-		(property "Value" "quote"
+		(property "Value" "BT_SMD"
 			(at 25.654 48.514 0)
 			(effects
 				(font
@@ -13135,7 +13135,7 @@
 				)
 			)
 		)
-		(property "Value" "SPC"
+		(property "Value" "BT_SMD"
 			(at 52.578 103.378 0)
 			(effects
 				(font
@@ -13289,7 +13289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/samsung-electro-mechanics/CL10A475KP8NNNC/3886702"
 			(at 93.98 181.61 0)
 			(effects
 				(font
@@ -13340,7 +13340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
 			(at 141.732 123.444 0)
 			(effects
 				(font
@@ -13358,7 +13358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/stackpole-electronics-inc/RMCF0603JT10K0/1758104"
 			(at 139.7 123.19 0)
 			(effects
 				(font
@@ -13408,7 +13408,7 @@
 				)
 			)
 		)
-		(property "Value" "ALPHA"
+		(property "Value" "BT_SMD"
 			(at 25.4 76.2 0)
 			(effects
 				(font
@@ -13494,7 +13494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/evvo/BAT54C/21407177"
 			(at 82.55 173.482 0)
 			(effects
 				(font
@@ -13547,7 +13547,7 @@
 				)
 			)
 		)
-		(property "Value" "F4"
+		(property "Value" "BT_SMD"
 			(at 52.324 30.734 0)
 			(effects
 				(font
@@ -13634,7 +13634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/RC0603FR-07100KL/726889"
 			(at 264.16 144.78 0)
 			(effects
 				(font
@@ -13686,7 +13686,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "SW_SPST"
 			(at 151.13 134.6199 90)
 			(effects
 				(font
@@ -13704,7 +13704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/en/products/detail/c-k/PTS526-SK15-SMTR2-LFS/10056626"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/c-k/PTS526-SK15-SMTR2-LFS/10056626"
 			(at 152.4 133.35 0)
 			(effects
 				(font
@@ -13821,7 +13821,7 @@
 				)
 			)
 		)
-		(property "Value" "y^x"
+		(property "Value" "BT_SMD"
 			(at 61.722 57.658 0)
 			(effects
 				(font
@@ -13956,7 +13956,7 @@
 				)
 			)
 		)
-		(property "Value" "9"
+		(property "Value" "BT_SMD"
 			(at 52.578 76.2 0)
 			(effects
 				(font
@@ -14091,7 +14091,7 @@
 				)
 			)
 		)
-		(property "Value" "."
+		(property "Value" "BT_SMD"
 			(at 43.688 104.14 0)
 			(effects
 				(font
@@ -14226,7 +14226,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "BT_SMD"
 			(at 52.07 48.514 0)
 			(effects
 				(font
@@ -14294,7 +14294,7 @@
 				)
 			)
 		)
-		(property "Value" "DEL"
+		(property "Value" "BT_SMD"
 			(at 61.214 66.294 0)
 			(effects
 				(font
@@ -14447,7 +14447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/taiyo-yuden/LMK107BBJ106MALT/3662195"
 			(at 134.62 180.34 0)
 			(effects
 				(font
@@ -14516,7 +14516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 139.7 134.62 0)
 			(effects
 				(font
@@ -14719,7 +14719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/murata-electronics/GRM0335C1E9R0BA01D/4358663"
 			(at 46.99 138.43 0)
 			(effects
 				(font
@@ -14790,7 +14790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/stmicroelectronics/USBLC6-2SC6/1040559"
 			(at 57.15 177.165 0)
 			(effects
 				(font
@@ -14872,7 +14872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 194.31 151.13 0)
 			(effects
 				(font
@@ -14989,7 +14989,7 @@
 				)
 			)
 		)
-		(property "Value" "F1"
+		(property "Value" "BT_SMD"
 			(at 25.654 30.734 0)
 			(effects
 				(font
@@ -15074,7 +15074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/tdk-corporation/MLZ1608A1R0WT000/2465143"
 			(at 125.73 171.45 0)
 			(effects
 				(font
@@ -15143,7 +15143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 121.92 132.08 0)
 			(effects
 				(font
@@ -15193,7 +15193,7 @@
 				)
 			)
 		)
-		(property "Value" "U"
+		(property "Value" "BT_SMD"
 			(at 60.96 39.624 0)
 			(effects
 				(font
@@ -15347,7 +15347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/analog-devices-inc/ADP2108AUJZ-3-3-R7/2042669"
 			(at 107.95 182.88 0)
 			(effects
 				(font
@@ -15423,7 +15423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/RC0603FR-075K1L/727268"
 			(at 50.8 161.29 0)
 			(effects
 				(font
@@ -15490,7 +15490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/amphenol-cs-commercial-products/12402012E212A/13683192"
 			(at 35.56 168.91 0)
 			(effects
 				(font
@@ -15596,7 +15596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/liteon/LTST-C190GKT/269230"
 			(at 212.09 114.3 0)
 			(effects
 				(font
@@ -15646,7 +15646,7 @@
 				)
 			)
 		)
-		(property "Value" "x"
+		(property "Value" "BT_SMD"
 			(at 60.706 85.852 0)
 			(effects
 				(font
@@ -15733,7 +15733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/samsung-electro-mechanics/CL10A475KP8NNNC/3886702"
 			(at 220.98 151.13 0)
 			(effects
 				(font
@@ -15917,7 +15917,7 @@
 				)
 			)
 		)
-		(property "Value" "4"
+		(property "Value" "BT_SMD"
 			(at 34.544 85.852 0)
 			(effects
 				(font
@@ -15985,7 +15985,7 @@
 				)
 			)
 		)
-		(property "Value" "TAN"
+		(property "Value" "BT_SMD"
 			(at 43.434 57.404 0)
 			(effects
 				(font
@@ -16070,7 +16070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/abracon-llc/ABS05-32-768KHZ-9-T/3508064"
 			(at 40.64 134.62 0)
 			(effects
 				(font
@@ -16120,7 +16120,7 @@
 				)
 			)
 		)
-		(property "Value" "F3"
+		(property "Value" "BT_SMD"
 			(at 43.434 30.734 0)
 			(effects
 				(font
@@ -16254,7 +16254,7 @@
 				)
 			)
 		)
-		(property "Value" "-"
+		(property "Value" "BT_SMD"
 			(at 60.706 94.996 0)
 			(effects
 				(font
@@ -16324,7 +16324,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PGM"
+		(property "Value" "SW_SPST"
 			(at 168.91 126.9999 90)
 			(effects
 				(font
@@ -16342,7 +16342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/en/products/detail/c-k/PTS526-SK15-SMTR2-LFS/10056626"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/c-k/PTS526-SK15-SMTR2-LFS/10056626"
 			(at 170.18 125.73 0)
 			(effects
 				(font
@@ -16392,7 +16392,7 @@
 				)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "BT_SMD"
 			(at 34.544 94.742 0)
 			(effects
 				(font
@@ -16546,7 +16546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/murata-electronics/GRM0335C1E9R0BA01D/4358663"
 			(at 46.99 130.81 0)
 			(effects
 				(font
@@ -16596,7 +16596,7 @@
 				)
 			)
 		)
-		(property "Value" "EVAL"
+		(property "Value" "BT_SMD"
 			(at 43.18 48.514 0)
 			(effects
 				(font
@@ -16797,7 +16797,7 @@
 				)
 			)
 		)
-		(property "Value" "8"
+		(property "Value" "BT_SMD"
 			(at 43.688 76.2 0)
 			(effects
 				(font
@@ -16865,7 +16865,7 @@
 				)
 			)
 		)
-		(property "Value" "EEX"
+		(property "Value" "BT_SMD"
 			(at 52.578 66.294 0)
 			(effects
 				(font
@@ -16933,7 +16933,7 @@
 				)
 			)
 		)
-		(property "Value" "7"
+		(property "Value" "BT_SMD"
 			(at 34.798 76.2 0)
 			(effects
 				(font
@@ -17001,7 +17001,7 @@
 				)
 			)
 		)
-		(property "Value" "F5"
+		(property "Value" "BT_SMD"
 			(at 61.214 30.734 0)
 			(effects
 				(font
@@ -17268,7 +17268,7 @@
 				)
 			)
 		)
-		(property "Value" "STO"
+		(property "Value" "BT_SMD"
 			(at 34.29 48.514 0)
 			(effects
 				(font
@@ -17336,7 +17336,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BT_SMD"
 			(at 60.96 48.514 0)
 			(effects
 				(font
@@ -17536,7 +17536,7 @@
 				)
 			)
 		)
-		(property "Value" "ENTER"
+		(property "Value" "BT_SMD"
 			(at 34.544 66.294 0)
 			(effects
 				(font
@@ -17621,7 +17621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/RC0603FR-075K1L/727268"
 			(at 204.47 114.3 0)
 			(effects
 				(font
@@ -17690,7 +17690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 212.09 151.13 0)
 			(effects
 				(font
@@ -17759,7 +17759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/keystone-electronics/54/2254090"
 			(at 82.55 182.626 90)
 			(effects
 				(font
@@ -17809,7 +17809,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "BT_SMD"
 			(at 69.85 48.514 0)
 			(effects
 				(font
@@ -17961,7 +17961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/stackpole-electronics-inc/RMCF0603JT10K0/1758104"
 			(at 252.73 153.67 0)
 			(effects
 				(font
@@ -18011,7 +18011,7 @@
 				)
 			)
 		)
-		(property "Value" "1/x"
+		(property "Value" "BT_SMD"
 			(at 70.104 57.658 0)
 			(effects
 				(font
@@ -18165,7 +18165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/keystone-electronics/54/2254090"
 			(at 82.55 190.246 90)
 			(effects
 				(font
@@ -18215,7 +18215,7 @@
 				)
 			)
 		)
-		(property "Value" "PRG"
+		(property "Value" "BT_SMD"
 			(at 34.29 39.624 0)
 			(effects
 				(font
@@ -18416,7 +18416,7 @@
 				)
 			)
 		)
-		(property "Value" "OPT2"
+		(property "Value" "BT_SMD"
 			(at 25.654 94.742 0)
 			(effects
 				(font
@@ -18501,7 +18501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/stackpole-electronics-inc/RMCF0603JT10K0/1758104"
 			(at 99.06 173.99 0)
 			(effects
 				(font
@@ -18636,7 +18636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 203.2 151.13 0)
 			(effects
 				(font
@@ -18753,7 +18753,7 @@
 				)
 			)
 		)
-		(property "Value" "2"
+		(property "Value" "BT_SMD"
 			(at 43.18 94.742 0)
 			(effects
 				(font
@@ -18821,7 +18821,7 @@
 				)
 			)
 		)
-		(property "Value" "ENTER"
+		(property "Value" "BT_SMD"
 			(at 25.908 66.294 0)
 			(effects
 				(font
@@ -18889,7 +18889,7 @@
 				)
 			)
 		)
-		(property "Value" "MTH"
+		(property "Value" "BT_SMD"
 			(at 25.654 39.624 0)
 			(effects
 				(font
@@ -18957,7 +18957,7 @@
 				)
 			)
 		)
-		(property "Value" "COS"
+		(property "Value" "BT_SMD"
 			(at 34.544 57.404 0)
 			(effects
 				(font
@@ -19025,7 +19025,7 @@
 				)
 			)
 		)
-		(property "Value" "OPT1"
+		(property "Value" "BT_SMD"
 			(at 25.654 85.852 0)
 			(effects
 				(font
@@ -19110,7 +19110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/RC0603FR-07100KL/726889"
 			(at 214.63 127 0)
 			(effects
 				(font
@@ -19160,7 +19160,7 @@
 				)
 			)
 		)
-		(property "Value" "5"
+		(property "Value" "BT_SMD"
 			(at 43.434 85.852 0)
 			(effects
 				(font
@@ -19228,7 +19228,7 @@
 				)
 			)
 		)
-		(property "Value" "VAR"
+		(property "Value" "BT_SMD"
 			(at 52.07 39.624 0)
 			(effects
 				(font
@@ -19438,7 +19438,7 @@
 				)
 			)
 		)
-		(property "Value" "SIN"
+		(property "Value" "BT_SMD"
 			(at 25.654 57.404 0)
 			(effects
 				(font
@@ -19523,7 +19523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/RC0603FR-075K1L/727268"
 			(at 50.8 158.75 0)
 			(effects
 				(font
@@ -19640,7 +19640,7 @@
 				)
 			)
 		)
-		(property "Value" "NXT"
+		(property "Value" "BT_SMD"
 			(at 69.85 39.624 0)
 			(effects
 				(font
@@ -19708,7 +19708,7 @@
 				)
 			)
 		)
-		(property "Value" "F6"
+		(property "Value" "BT_SMD"
 			(at 70.104 30.734 0)
 			(effects
 				(font
@@ -19843,7 +19843,7 @@
 				)
 			)
 		)
-		(property "Value" "CST"
+		(property "Value" "BT_SMD"
 			(at 43.18 39.624 0)
 			(effects
 				(font
@@ -19912,7 +19912,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
 			(at 167.64 136.144 0)
 			(effects
 				(font
@@ -19930,7 +19930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/stackpole-electronics-inc/RMCF0603JT10K0/1758104"
 			(at 165.1 135.89 0)
 			(effects
 				(font
@@ -19980,7 +19980,7 @@
 				)
 			)
 		)
-		(property "Value" "ON"
+		(property "Value" "BT_SMD"
 			(at 26.162 103.632 0)
 			(effects
 				(font
@@ -20134,7 +20134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/murata-electronics/GRM188C71C225KE11D/4905311"
 			(at 152.4 180.34 0)
 			(effects
 				(font

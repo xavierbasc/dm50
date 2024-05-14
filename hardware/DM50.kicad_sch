@@ -5669,55 +5669,55 @@
 		(uuid "0504cf56-9f3a-4058-ab74-e6ae662979a5")
 	)
 	(junction
-		(at 62.23 92.71)
+		(at 60.96 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06c0991c-bc8a-40b1-9284-5386b8cad379")
 	)
 	(junction
-		(at 39.37 33.02)
+		(at 38.1 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "093e8504-b8ee-441d-9e72-376bcbc9477f")
 	)
 	(junction
-		(at 71.12 38.1)
+		(at 69.85 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ce1d1af-8d2c-430a-bb73-4a57c770c55a")
 	)
 	(junction
-		(at 71.12 46.99)
+		(at 69.85 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f3656b7-c4b8-4533-8609-1161a3221924")
 	)
 	(junction
-		(at 35.56 92.71)
+		(at 34.29 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "122e113c-11e6-4438-96dd-111a4192965b")
 	)
 	(junction
-		(at 48.26 87.63)
+		(at 46.99 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "127b9af3-0c40-4ca2-9f84-2c85dc756924")
 	)
 	(junction
-		(at 53.34 64.77)
+		(at 52.07 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "141f2a20-d3fe-4607-b5c5-f678966a338f")
 	)
 	(junction
-		(at 165.1 130.81)
+		(at 162.56 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1842cea8-519c-4586-a015-28f0d40d5407")
 	)
 	(junction
-		(at 30.48 33.02)
+		(at 29.21 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bb0e915-a8fc-455a-981a-b5544647cdcf")
@@ -5729,13 +5729,13 @@
 		(uuid "1eabf72a-2476-4fdc-a33b-87965e3bd0ec")
 	)
 	(junction
-		(at 62.23 55.88)
+		(at 60.96 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1eac584a-c823-414b-b139-bfe23f76af45")
 	)
 	(junction
-		(at 39.37 87.63)
+		(at 38.1 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22191cca-17cb-4439-a9b3-2867ccbc1b59")
@@ -5747,37 +5747,37 @@
 		(uuid "26e24c99-82d6-41e7-8163-0d89e56bec03")
 	)
 	(junction
-		(at 30.48 68.58)
+		(at 29.21 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "286ebc21-a72f-49b1-b0ee-edbef423dea3")
 	)
 	(junction
-		(at 44.45 101.6)
+		(at 43.18 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "295a1734-087b-48a5-888a-eac71144e3f4")
 	)
 	(junction
-		(at 66.04 41.91)
+		(at 64.77 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a9e14d5-fe56-458c-8458-ac8b2f33aecf")
 	)
 	(junction
-		(at 21.59 41.91)
+		(at 20.32 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ae7f1ae-5b1c-4efd-afa7-9f94158de33e")
 	)
 	(junction
-		(at 44.45 83.82)
+		(at 43.18 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b52f653-1c15-410d-8e29-0a6595a61f96")
 	)
 	(junction
-		(at 57.15 68.58)
+		(at 55.88 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d700a09-5e5c-4fa7-895b-4def7bff41b1")
@@ -5801,7 +5801,7 @@
 		(uuid "3abdf276-a8b3-483d-8457-564669cf8b88")
 	)
 	(junction
-		(at 71.12 55.88)
+		(at 69.85 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d191fd7-8eb8-4d9f-8cd8-4017d5089d2f")
@@ -5813,31 +5813,31 @@
 		(uuid "406e1eab-1802-4d28-ada7-ccedd5dbb1e7")
 	)
 	(junction
-		(at 62.23 46.99)
+		(at 60.96 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4074ac8c-f739-4f47-8464-9ce7a7e18292")
 	)
 	(junction
-		(at 48.26 78.74)
+		(at 46.99 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4747f3ef-43a7-49bd-9e50-09ce974b26ae")
 	)
 	(junction
-		(at 21.59 68.58)
+		(at 20.32 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5093e7db-a802-42f9-a074-e13a2c7fb6a2")
 	)
 	(junction
-		(at 53.34 55.88)
+		(at 52.07 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54f55dbf-c86c-4087-b94b-9f8c4a794bb0")
 	)
 	(junction
-		(at 57.15 96.52)
+		(at 55.88 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "556949d6-c8f5-4f58-93a3-2e54eeee22f9")
@@ -5855,7 +5855,7 @@
 		(uuid "58b58ba3-6ca4-42da-b8f4-68e082ba699c")
 	)
 	(junction
-		(at 71.12 73.66)
+		(at 69.85 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a64a4a4-019c-4471-97d9-f4c75d7111b3")
@@ -5867,43 +5867,43 @@
 		(uuid "5a6785d4-1871-431e-8d3d-67eeea82d013")
 	)
 	(junction
-		(at 48.26 33.02)
+		(at 46.99 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fa235b3-b824-46a5-97d8-351f18d47946")
 	)
 	(junction
-		(at 35.56 101.6)
+		(at 34.29 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64414f71-01c5-4424-be78-10830380a9d6")
 	)
 	(junction
-		(at 48.26 68.58)
+		(at 46.99 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66e97c72-458b-4d41-98b4-2c891db768fe")
 	)
 	(junction
-		(at 30.48 41.91)
+		(at 29.21 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67069540-b810-43a4-838f-573d047acf23")
 	)
 	(junction
-		(at 39.37 50.8)
+		(at 38.1 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a6a70c2-6a35-44ff-abcd-816f6a48c0da")
 	)
 	(junction
-		(at 30.48 59.69)
+		(at 29.21 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6af04bc0-bf09-4f7c-9be4-9f590391917d")
 	)
 	(junction
-		(at 48.26 41.91)
+		(at 46.99 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c65a3e4-921e-49c3-9e79-f1d856d32264")
@@ -5915,19 +5915,19 @@
 		(uuid "6c922f53-061b-4640-a3fc-7c1df23f26f7")
 	)
 	(junction
-		(at 57.15 78.74)
+		(at 55.88 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d90768f-08e5-475b-bc61-f353dab97ffe")
 	)
 	(junction
-		(at 62.23 101.6)
+		(at 60.96 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "705fd0f6-2ca8-48be-a153-e62b1bf47a1f")
 	)
 	(junction
-		(at 39.37 68.58)
+		(at 38.1 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71977a9f-f6af-4204-83a9-ec5663ff847a")
@@ -5951,13 +5951,13 @@
 		(uuid "76aa596a-a1b8-4536-887f-14e44e4b31b9")
 	)
 	(junction
-		(at 35.56 73.66)
+		(at 34.29 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "772fedd4-e6e5-45f9-81cd-1c4667133642")
 	)
 	(junction
-		(at 48.26 96.52)
+		(at 46.99 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79327286-9365-47e5-a141-35b1e7b0d860")
@@ -5969,25 +5969,25 @@
 		(uuid "7b5e3add-e998-4cbb-9a4b-967244da6480")
 	)
 	(junction
-		(at 66.04 59.69)
+		(at 64.77 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "814dc220-4e56-4df3-8d36-5dd23e61ffff")
 	)
 	(junction
-		(at 53.34 83.82)
+		(at 52.07 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82737023-734c-4b1b-8236-627a37051e19")
 	)
 	(junction
-		(at 57.15 33.02)
+		(at 55.88 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82fe50f9-02aa-4847-b766-93c13d7940df")
 	)
 	(junction
-		(at 62.23 110.49)
+		(at 60.96 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "841eb97b-0f00-445b-97f5-f002b7cb04a2")
@@ -6005,7 +6005,7 @@
 		(uuid "89fd6b20-262d-41da-83d1-0ed2d8548ad2")
 	)
 	(junction
-		(at 39.37 59.69)
+		(at 38.1 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a965691-8dcc-48b6-8f6f-932efcfe9dd0")
@@ -6023,37 +6023,37 @@
 		(uuid "8e006a24-2259-4f32-87bb-7c9324b21a14")
 	)
 	(junction
-		(at 39.37 96.52)
+		(at 38.1 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "939f91f5-f729-47a3-b23b-409fd101a964")
 	)
 	(junction
-		(at 35.56 55.88)
+		(at 34.29 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9660759e-a91b-4f29-983e-3934d2bd47b7")
 	)
 	(junction
-		(at 35.56 46.99)
+		(at 34.29 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9840311e-c9e4-4beb-8114-ed83332decf3")
 	)
 	(junction
-		(at 53.34 92.71)
+		(at 52.07 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b8e1d70-5cc7-48f3-a927-536fb67ee342")
 	)
 	(junction
-		(at 35.56 110.49)
+		(at 34.29 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cc33888-2b04-4098-bcaa-9b18d161597b")
 	)
 	(junction
-		(at 62.23 73.66)
+		(at 60.96 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d4149d7-ebc3-4a58-b855-0ffe9ed846a6")
@@ -6077,13 +6077,13 @@
 		(uuid "9f071cfe-5aba-4d59-b0f1-fe56d79f0b5a")
 	)
 	(junction
-		(at 30.48 50.8)
+		(at 29.21 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f098e9e-25dd-4203-8cd1-b2bdc4aadc95")
 	)
 	(junction
-		(at 53.34 46.99)
+		(at 52.07 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f586626-55b8-464e-9327-1a351abadc6c")
@@ -6095,13 +6095,13 @@
 		(uuid "a1c75aea-2677-471b-a366-439f058e6d98")
 	)
 	(junction
-		(at 21.59 78.74)
+		(at 20.32 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6da601f-44ca-4438-bfd0-d23f737d8446")
 	)
 	(junction
-		(at 44.45 55.88)
+		(at 43.18 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a707d554-14fb-4327-b00c-8a45bf64fe7f")
@@ -6119,43 +6119,43 @@
 		(uuid "a8e51273-9be8-419a-a6f8-7515e4bc7ddb")
 	)
 	(junction
-		(at 30.48 78.74)
+		(at 29.21 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a96883e8-cf0a-43b4-987d-8551cd76d3cd")
 	)
 	(junction
-		(at 21.59 87.63)
+		(at 20.32 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa9ea88b-027e-4d9b-903f-a8ab4e51d705")
 	)
 	(junction
-		(at 21.59 33.02)
+		(at 20.32 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1e1404b-0341-4496-9962-6cf15c9fcea2")
 	)
 	(junction
-		(at 62.23 64.77)
+		(at 60.96 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b45b41a6-1c1b-4612-9c60-2ba60c336280")
 	)
 	(junction
-		(at 57.15 50.8)
+		(at 55.88 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b498727e-892e-4bce-ad67-69e622e3eab7")
 	)
 	(junction
-		(at 62.23 38.1)
+		(at 60.96 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b56a423d-95eb-47a2-8cf4-d0b4a2752216")
 	)
 	(junction
-		(at 53.34 101.6)
+		(at 52.07 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b731eda3-1612-48dc-a40f-a5c745977e3b")
@@ -6179,19 +6179,19 @@
 		(uuid "b8f09306-c344-4b12-9b23-5d20db03680a")
 	)
 	(junction
-		(at 44.45 73.66)
+		(at 43.18 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4537fef-454b-4be3-8034-d1c85a5b93f3")
 	)
 	(junction
-		(at 57.15 59.69)
+		(at 55.88 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c67eba4c-1bc5-486a-be65-b3d3abb171ad")
 	)
 	(junction
-		(at 57.15 41.91)
+		(at 55.88 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7a7bac7-be72-401d-bc2a-a026855670a4")
@@ -6209,103 +6209,103 @@
 		(uuid "c8eda99f-dad2-4bcd-941d-bd852a3ed75e")
 	)
 	(junction
-		(at 44.45 38.1)
+		(at 43.18 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca53cb17-29fe-4b7a-a1f7-a254afa672ad")
 	)
 	(junction
-		(at 35.56 83.82)
+		(at 34.29 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc6a197a-90b0-408d-b565-c3cc3c6a26bb")
 	)
 	(junction
-		(at 35.56 38.1)
+		(at 34.29 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cce3bf0c-a0b5-40ea-80b1-77391c67b191")
 	)
 	(junction
-		(at 21.59 50.8)
+		(at 20.32 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce8940b8-0001-45cd-bb2c-7fad748cd3bc")
 	)
 	(junction
-		(at 48.26 50.8)
+		(at 46.99 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce8e3b26-9750-47b1-9f50-5edd7914e298")
 	)
 	(junction
-		(at 39.37 78.74)
+		(at 38.1 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d12f6e63-bf1e-438e-9bb8-ded245c811db")
 	)
 	(junction
-		(at 53.34 110.49)
+		(at 52.07 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2818e42-56ef-4496-afa0-568154788999")
 	)
 	(junction
-		(at 44.45 64.77)
+		(at 43.18 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d52966d6-e2ef-44b8-a845-4be9d9417200")
 	)
 	(junction
-		(at 53.34 73.66)
+		(at 52.07 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d53932af-4b57-4dc4-b81a-79b950cce1dc")
 	)
 	(junction
-		(at 44.45 92.71)
+		(at 43.18 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d66a490a-e9da-45d5-a7fa-04a04453616b")
 	)
 	(junction
-		(at 48.26 59.69)
+		(at 46.99 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd6b8e84-76f0-4b20-a017-411845ba3e62")
 	)
 	(junction
-		(at 66.04 33.02)
+		(at 64.77 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2276cd8-815e-4e2b-b609-6bd38468ac2c")
 	)
 	(junction
-		(at 66.04 50.8)
+		(at 64.77 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4a9640f-0d58-4217-81ec-ccf81ce30aac")
 	)
 	(junction
-		(at 39.37 41.91)
+		(at 38.1 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4ae1a65-83fd-435e-8a75-e15a3651cbe1")
 	)
 	(junction
-		(at 62.23 83.82)
+		(at 60.96 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e60781cc-2dfc-449d-99d7-34dc0683b4c1")
 	)
 	(junction
-		(at 35.56 64.77)
+		(at 34.29 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8559859-b742-4102-be12-be7a7c68293f")
 	)
 	(junction
-		(at 44.45 110.49)
+		(at 43.18 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8a22a85-cb69-4144-9198-696235931eb7")
@@ -6317,13 +6317,13 @@
 		(uuid "ec0d030c-4442-4bd4-b2f7-5d40d63cd818")
 	)
 	(junction
-		(at 21.59 96.52)
+		(at 20.32 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec51ac98-7530-43e9-91e6-9b666161f399")
 	)
 	(junction
-		(at 57.15 87.63)
+		(at 55.88 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecc2ba22-dadd-474c-8950-984f7b3d48ba")
@@ -6335,25 +6335,25 @@
 		(uuid "ed6034dd-915d-4eb9-8670-58fbf5d119eb")
 	)
 	(junction
-		(at 30.48 87.63)
+		(at 29.21 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eeb4693f-5f2c-43c8-a8ed-c2843dd3ba52")
 	)
 	(junction
-		(at 71.12 64.77)
+		(at 69.85 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef8a8418-94c9-4db2-84af-20e2fe0535d5")
 	)
 	(junction
-		(at 44.45 46.99)
+		(at 43.18 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1a8dc1e-febf-48af-a2e8-85532e6a451a")
 	)
 	(junction
-		(at 53.34 38.1)
+		(at 52.07 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4ac7ff1-56a4-4884-aee8-446a7a2093ab")
@@ -6365,13 +6365,13 @@
 		(uuid "f7df7157-ef16-4079-86f1-b5a889ca7874")
 	)
 	(junction
-		(at 30.48 96.52)
+		(at 29.21 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8244f4c-c196-4ddb-91f5-b30c3120b88f")
 	)
 	(junction
-		(at 21.59 59.69)
+		(at 20.32 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fba75f6e-55e9-4b4e-bc2b-f177711c4f61")
@@ -6402,7 +6402,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 110.49) (xy 53.34 110.49)
+			(xy 43.18 107.95) (xy 52.07 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6422,7 +6422,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 64.77) (xy 44.45 64.77)
+			(xy 34.29 62.23) (xy 43.18 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6432,7 +6432,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 38.1) (xy 71.12 38.1)
+			(xy 60.96 35.56) (xy 69.85 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6442,7 +6442,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 59.69) (xy 39.37 68.58)
+			(xy 38.1 57.15) (xy 38.1 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6452,7 +6452,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 73.66) (xy 44.45 73.66)
+			(xy 34.29 71.12) (xy 43.18 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6472,7 +6472,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 50.8) (xy 21.59 59.69)
+			(xy 20.32 48.26) (xy 20.32 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6492,7 +6492,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 38.1) (xy 62.23 38.1)
+			(xy 52.07 35.56) (xy 60.96 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6502,7 +6502,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 64.77) (xy 53.34 64.77)
+			(xy 43.18 62.23) (xy 52.07 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6512,7 +6512,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 31.75) (xy 57.15 33.02)
+			(xy 55.88 29.21) (xy 55.88 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6522,7 +6522,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 33.02) (xy 48.26 41.91)
+			(xy 46.99 30.48) (xy 46.99 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6552,7 +6552,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 46.99) (xy 53.34 46.99)
+			(xy 43.18 44.45) (xy 52.07 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6572,7 +6572,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 87.63) (xy 21.59 96.52)
+			(xy 20.32 85.09) (xy 20.32 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6582,7 +6582,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 33.02) (xy 39.37 41.91)
+			(xy 38.1 30.48) (xy 38.1 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6612,7 +6612,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 64.77) (xy 71.12 64.77)
+			(xy 60.96 62.23) (xy 69.85 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6632,7 +6632,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 55.88) (xy 62.23 55.88)
+			(xy 52.07 53.34) (xy 60.96 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6662,7 +6662,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 64.77) (xy 62.23 64.77)
+			(xy 52.07 62.23) (xy 60.96 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6682,7 +6682,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 130.81) (xy 166.37 130.81)
+			(xy 162.56 130.81) (xy 163.83 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6722,7 +6722,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 31.75) (xy 21.59 33.02)
+			(xy 20.32 29.21) (xy 20.32 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6742,7 +6742,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 41.91) (xy 39.37 50.8)
+			(xy 38.1 39.37) (xy 38.1 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6762,7 +6762,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 130.81) (xy 165.1 132.08)
+			(xy 162.56 130.81) (xy 162.56 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6782,7 +6782,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 92.71) (xy 63.5 92.71)
+			(xy 60.96 90.17) (xy 62.23 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6842,7 +6842,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 78.74) (xy 48.26 87.63)
+			(xy 46.99 76.2) (xy 46.99 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6852,7 +6852,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 68.58) (xy 30.48 78.74)
+			(xy 29.21 66.04) (xy 29.21 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6872,7 +6872,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 59.69) (xy 57.15 68.58)
+			(xy 55.88 57.15) (xy 55.88 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6882,7 +6882,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 50.8) (xy 66.04 59.69)
+			(xy 64.77 48.26) (xy 64.77 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6892,7 +6892,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 31.75) (xy 30.48 33.02)
+			(xy 29.21 29.21) (xy 29.21 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6902,7 +6902,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 96.52) (xy 39.37 105.41)
+			(xy 38.1 93.98) (xy 38.1 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6922,7 +6922,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 83.82) (xy 44.45 83.82)
+			(xy 34.29 81.28) (xy 43.18 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6942,7 +6942,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 78.74) (xy 39.37 87.63)
+			(xy 38.1 76.2) (xy 38.1 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6972,7 +6972,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 38.1) (xy 44.45 38.1)
+			(xy 34.29 35.56) (xy 43.18 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7022,7 +7022,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 64.77) (xy 35.56 64.77)
+			(xy 25.4 62.23) (xy 34.29 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7042,7 +7042,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 31.75) (xy 66.04 33.02)
+			(xy 64.77 29.21) (xy 64.77 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7052,7 +7052,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 31.75) (xy 39.37 33.02)
+			(xy 38.1 29.21) (xy 38.1 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7062,7 +7062,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 41.91) (xy 30.48 50.8)
+			(xy 29.21 39.37) (xy 29.21 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7100,16 +7100,6 @@
 		)
 		(uuid "46124689-31a1-4cb7-b237-14e4c106ab2e")
 	)
-	(polyline
-		(pts
-			(xy 177.038 118.618) (xy 231.902 118.618)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "46544f0f-d59c-4ebc-9ff6-12131f14889a")
-	)
 	(wire
 		(pts
 			(xy 130.81 171.45) (xy 134.62 171.45)
@@ -7122,7 +7112,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 33.02) (xy 66.04 41.91)
+			(xy 64.77 30.48) (xy 64.77 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7152,7 +7142,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 78.74) (xy 21.59 87.63)
+			(xy 20.32 76.2) (xy 20.32 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7172,7 +7162,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 114.3) (xy 200.66 114.3)
+			(xy 200.66 76.2) (xy 201.93 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7182,7 +7172,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 83.82) (xy 63.5 83.82)
+			(xy 60.96 81.28) (xy 62.23 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7222,7 +7212,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 59.69) (xy 21.59 68.58)
+			(xy 20.32 57.15) (xy 20.32 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7272,7 +7262,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 83.82) (xy 35.56 83.82)
+			(xy 25.4 81.28) (xy 34.29 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7302,7 +7292,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 41.91) (xy 66.04 50.8)
+			(xy 64.77 39.37) (xy 64.77 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7352,7 +7342,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 46.99) (xy 72.39 46.99)
+			(xy 69.85 44.45) (xy 71.12 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7362,7 +7352,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 87.63) (xy 57.15 96.52)
+			(xy 55.88 85.09) (xy 55.88 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7372,7 +7362,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 41.91) (xy 21.59 50.8)
+			(xy 20.32 39.37) (xy 20.32 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7382,7 +7372,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 31.75) (xy 48.26 33.02)
+			(xy 46.99 29.21) (xy 46.99 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7402,7 +7392,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 46.99) (xy 35.56 46.99)
+			(xy 25.4 44.45) (xy 34.29 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7422,7 +7412,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 55.88) (xy 44.45 55.88)
+			(xy 34.29 53.34) (xy 43.18 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7442,7 +7432,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 55.88) (xy 71.12 55.88)
+			(xy 60.96 53.34) (xy 69.85 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7452,7 +7442,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 33.02) (xy 57.15 41.91)
+			(xy 55.88 30.48) (xy 55.88 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7462,7 +7452,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 96.52) (xy 57.15 105.41)
+			(xy 55.88 93.98) (xy 55.88 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7502,7 +7492,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 64.77) (xy 72.39 64.77)
+			(xy 69.85 62.23) (xy 71.12 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7532,7 +7522,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 46.99) (xy 44.45 46.99)
+			(xy 34.29 44.45) (xy 43.18 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7542,7 +7532,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 73.66) (xy 62.23 73.66)
+			(xy 52.07 71.12) (xy 60.96 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7562,7 +7552,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 110.49) (xy 44.45 110.49)
+			(xy 34.29 107.95) (xy 43.18 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7572,7 +7562,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 73.66) (xy 72.39 73.66)
+			(xy 69.85 71.12) (xy 71.12 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7582,7 +7572,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 92.71) (xy 35.56 92.71)
+			(xy 25.4 90.17) (xy 34.29 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7612,7 +7602,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 101.6) (xy 35.56 101.6)
+			(xy 25.4 99.06) (xy 34.29 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7642,7 +7632,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 96.52) (xy 48.26 105.41)
+			(xy 46.99 93.98) (xy 46.99 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7652,7 +7642,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 101.6) (xy 63.5 101.6)
+			(xy 60.96 99.06) (xy 62.23 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7672,7 +7662,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 87.63) (xy 39.37 96.52)
+			(xy 38.1 85.09) (xy 38.1 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7702,7 +7692,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 101.6) (xy 44.45 101.6)
+			(xy 34.29 99.06) (xy 43.18 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7732,7 +7722,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 55.88) (xy 72.39 55.88)
+			(xy 69.85 53.34) (xy 71.12 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7752,7 +7742,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 38.1) (xy 72.39 38.1)
+			(xy 69.85 35.56) (xy 71.12 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7772,7 +7762,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 110.49) (xy 62.23 110.49)
+			(xy 52.07 107.95) (xy 60.96 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7792,7 +7782,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 46.99) (xy 62.23 46.99)
+			(xy 52.07 44.45) (xy 60.96 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7802,7 +7792,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 50.8) (xy 48.26 59.69)
+			(xy 46.99 48.26) (xy 46.99 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7812,7 +7802,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 101.6) (xy 62.23 101.6)
+			(xy 52.07 99.06) (xy 60.96 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7862,7 +7852,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 50.8) (xy 30.48 59.69)
+			(xy 29.21 48.26) (xy 29.21 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7892,7 +7882,17 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 92.71) (xy 44.45 92.71)
+			(xy 60.96 107.95) (xy 60.96 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c5fb32-ab2b-40a4-8225-2033e736839e")
+	)
+	(wire
+		(pts
+			(xy 34.29 90.17) (xy 43.18 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7912,7 +7912,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 78.74) (xy 57.15 87.63)
+			(xy 55.88 76.2) (xy 55.88 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7932,7 +7932,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 33.02) (xy 21.59 41.91)
+			(xy 20.32 30.48) (xy 20.32 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7952,7 +7952,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 110.49) (xy 63.5 110.49)
+			(xy 60.96 107.95) (xy 62.23 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8012,7 +8012,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 87.63) (xy 30.48 96.52)
+			(xy 29.21 85.09) (xy 29.21 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8022,7 +8022,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 38.1) (xy 35.56 38.1)
+			(xy 25.4 35.56) (xy 34.29 35.56)
 		)
 		(stroke
 			(width 0)
@@ -8052,7 +8052,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 68.58) (xy 21.59 78.74)
+			(xy 20.32 66.04) (xy 20.32 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8072,7 +8072,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 59.69) (xy 30.48 68.58)
+			(xy 29.21 57.15) (xy 29.21 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8082,7 +8082,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 33.02) (xy 30.48 41.91)
+			(xy 29.21 30.48) (xy 29.21 39.37)
 		)
 		(stroke
 			(width 0)
@@ -8132,7 +8132,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 50.8) (xy 57.15 59.69)
+			(xy 55.88 48.26) (xy 55.88 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8162,7 +8162,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 96.52) (xy 30.48 105.41)
+			(xy 29.21 93.98) (xy 29.21 102.87)
 		)
 		(stroke
 			(width 0)
@@ -8202,7 +8202,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 41.91) (xy 57.15 50.8)
+			(xy 55.88 39.37) (xy 55.88 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8252,7 +8252,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 73.66) (xy 71.12 73.66)
+			(xy 60.96 71.12) (xy 69.85 71.12)
 		)
 		(stroke
 			(width 0)
@@ -8262,7 +8262,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 41.91) (xy 48.26 50.8)
+			(xy 46.99 39.37) (xy 46.99 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8282,7 +8282,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 110.49) (xy 35.56 110.49)
+			(xy 25.4 107.95) (xy 34.29 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8332,7 +8332,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 50.8) (xy 39.37 59.69)
+			(xy 38.1 48.26) (xy 38.1 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8382,7 +8382,7 @@
 	)
 	(polyline
 		(pts
-			(xy 177.038 104.14) (xy 231.902 104.14)
+			(xy 177.038 85.09) (xy 231.902 85.09)
 		)
 		(stroke
 			(width 0.254)
@@ -8412,7 +8412,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 83.82) (xy 62.23 83.82)
+			(xy 52.07 81.28) (xy 60.96 81.28)
 		)
 		(stroke
 			(width 0)
@@ -8432,7 +8432,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 68.58) (xy 57.15 78.74)
+			(xy 55.88 66.04) (xy 55.88 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8449,16 +8449,6 @@
 			(type default)
 		)
 		(uuid "d2d8795a-d7d5-45a4-96a2-4500a0bb950b")
-	)
-	(wire
-		(pts
-			(xy 209.55 127) (xy 210.82 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d32bdcb6-cb3f-4c11-acd9-be06ba27fbd0")
 	)
 	(wire
 		(pts
@@ -8482,7 +8472,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 96.52) (xy 21.59 105.41)
+			(xy 20.32 93.98) (xy 20.32 102.87)
 		)
 		(stroke
 			(width 0)
@@ -8492,7 +8482,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 73.66) (xy 35.56 73.66)
+			(xy 25.4 71.12) (xy 34.29 71.12)
 		)
 		(stroke
 			(width 0)
@@ -8522,7 +8512,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 78.74) (xy 30.48 87.63)
+			(xy 29.21 76.2) (xy 29.21 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8552,7 +8542,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 59.69) (xy 66.04 68.58)
+			(xy 64.77 57.15) (xy 64.77 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8562,7 +8552,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 38.1) (xy 53.34 38.1)
+			(xy 60.96 114.3) (xy 63.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24e9928-5563-447e-b2e1-7a0315f2897d")
+	)
+	(wire
+		(pts
+			(xy 43.18 35.56) (xy 52.07 35.56)
 		)
 		(stroke
 			(width 0)
@@ -8582,7 +8582,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 55.88) (xy 53.34 55.88)
+			(xy 43.18 53.34) (xy 52.07 53.34)
 		)
 		(stroke
 			(width 0)
@@ -8592,7 +8592,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 55.88) (xy 35.56 55.88)
+			(xy 25.4 53.34) (xy 34.29 53.34)
 		)
 		(stroke
 			(width 0)
@@ -8602,7 +8602,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 73.66) (xy 53.34 73.66)
+			(xy 43.18 71.12) (xy 52.07 71.12)
 		)
 		(stroke
 			(width 0)
@@ -8642,7 +8642,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 87.63) (xy 48.26 96.52)
+			(xy 46.99 85.09) (xy 46.99 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8662,7 +8662,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 114.3) (xy 217.17 114.3)
+			(xy 217.17 76.2) (xy 218.44 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8672,7 +8672,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 68.58) (xy 48.26 78.74)
+			(xy 46.99 66.04) (xy 46.99 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8682,7 +8682,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 92.71) (xy 53.34 92.71)
+			(xy 43.18 90.17) (xy 52.07 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8692,7 +8692,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 101.6) (xy 53.34 101.6)
+			(xy 43.18 99.06) (xy 52.07 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8712,7 +8712,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 68.58) (xy 39.37 78.74)
+			(xy 38.1 66.04) (xy 38.1 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8772,7 +8772,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 83.82) (xy 53.34 83.82)
+			(xy 43.18 81.28) (xy 52.07 81.28)
 		)
 		(stroke
 			(width 0)
@@ -8782,7 +8782,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 59.69) (xy 48.26 68.58)
+			(xy 46.99 57.15) (xy 46.99 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8812,7 +8812,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 46.99) (xy 71.12 46.99)
+			(xy 60.96 44.45) (xy 69.85 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8822,7 +8822,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 92.71) (xy 62.23 92.71)
+			(xy 52.07 90.17) (xy 60.96 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8858,7 +8858,7 @@
 	)
 	(text "LED"
 		(exclude_from_sim no)
-		(at 186.182 108.458 0)
+		(at 187.452 70.358 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -8934,6 +8934,16 @@
 		)
 		(uuid "7e392001-8940-4f6d-9469-c8368dd27e79")
 	)
+	(text "GPIO_PULLUP"
+		(exclude_from_sim no)
+		(at 17.526 24.638 90)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "a7e88c77-7c30-407a-ab98-2a1efc2b4f35")
+	)
 	(text "Flash memory (6MB)"
 		(exclude_from_sim no)
 		(at 234.95 73.406 0)
@@ -8970,18 +8980,6 @@
 			(justify left)
 		)
 		(uuid "cd428d6b-4836-4967-be41-65a445087396")
-	)
-	(text "Power button"
-		(exclude_from_sim no)
-		(at 192.278 122.174 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "e052426c-2178-4c40-b979-9cdece4a2aeb")
 	)
 	(text "RESET & PGM"
 		(exclude_from_sim no)
@@ -9020,7 +9018,7 @@
 	)
 	(text "BOOT"
 		(exclude_from_sim no)
-		(at 37.084 91.186 0)
+		(at 26.67 104.394 0)
 		(effects
 			(font
 				(size 0.508 0.508)
@@ -9162,7 +9160,7 @@
 	)
 	(global_label "COL02"
 		(shape input)
-		(at 30.48 31.75 90)
+		(at 29.21 29.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9172,7 +9170,7 @@
 		)
 		(uuid "1db0ae6d-91cf-47e6-b183-6d75da183ab2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.48 22.7172 90)
+			(at 29.21 20.1772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9206,7 +9204,7 @@
 	)
 	(global_label "COL06"
 		(shape input)
-		(at 66.04 31.75 90)
+		(at 64.77 29.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9216,7 +9214,7 @@
 		)
 		(uuid "24d6ee82-82cf-4a5a-adfe-bd1ec7adc26a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.04 22.7172 90)
+			(at 64.77 20.1772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9272,7 +9270,7 @@
 	)
 	(global_label "BOOT0"
 		(shape input)
-		(at 166.37 130.81 0)
+		(at 163.83 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9282,7 +9280,7 @@
 		)
 		(uuid "2b6d6670-c4b4-4494-ac43-77db447c128b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.4633 130.81 0)
+			(at 172.9233 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9294,7 +9292,7 @@
 	)
 	(global_label "ROW07"
 		(shape input)
-		(at 63.5 92.71 0)
+		(at 62.23 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9304,7 +9302,7 @@
 		)
 		(uuid "2d486f6e-045e-4e5b-bbf4-c20e4f7c9c19")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.9561 92.71 0)
+			(at 71.6861 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9382,7 +9380,7 @@
 	)
 	(global_label "ROW02"
 		(shape input)
-		(at 72.39 46.99 0)
+		(at 71.12 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9392,7 +9390,7 @@
 		)
 		(uuid "3963d6d7-873d-456e-8d0a-e9213e789e5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.8461 46.99 0)
+			(at 80.5761 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9415,28 +9413,6 @@
 		(uuid "3b5b496b-1b5b-4fa9-a808-9d4ab54d101d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 109.0772 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW09{slash}WAKEUP"
-		(shape input)
-		(at 209.55 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3c7317a4-a414-48b6-84f9-6a6edc64d8ce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.2039 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9866,7 +9842,7 @@
 	)
 	(global_label "COL04"
 		(shape input)
-		(at 48.26 31.75 90)
+		(at 46.99 29.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9876,7 +9852,7 @@
 		)
 		(uuid "72e61118-205a-42c6-93dd-b0373206e15b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.26 22.7172 90)
+			(at 46.99 20.1772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9998,7 +9974,7 @@
 	)
 	(global_label "COL05"
 		(shape input)
-		(at 57.15 31.75 90)
+		(at 55.88 29.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10008,7 +9984,7 @@
 		)
 		(uuid "84d47aa2-3477-4895-b107-e411d026c37a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.15 22.7172 90)
+			(at 55.88 20.1772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10130,7 +10106,7 @@
 	)
 	(global_label "ROW09{slash}WAKEUP"
 		(shape input)
-		(at 63.5 110.49 0)
+		(at 62.23 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10140,7 +10116,7 @@
 		)
 		(uuid "a177db28-2efe-47a4-adad-2c81d1bcae5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.8461 110.49 0)
+			(at 80.5761 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10152,7 +10128,7 @@
 	)
 	(global_label "ROW06"
 		(shape input)
-		(at 63.5 83.82 0)
+		(at 62.23 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10162,7 +10138,7 @@
 		)
 		(uuid "abafb4ed-1361-4565-a86a-94cf334684f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.9561 83.82 0)
+			(at 71.6861 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10196,7 +10172,7 @@
 	)
 	(global_label "LED01"
 		(shape input)
-		(at 199.39 114.3 180)
+		(at 200.66 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10206,7 +10182,7 @@
 		)
 		(uuid "b15d9d1a-8fd9-49c8-9c4c-74e0e76c554b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5387 114.3 0)
+			(at 191.8087 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10328,7 +10304,7 @@
 	)
 	(global_label "ROW08"
 		(shape input)
-		(at 63.5 101.6 0)
+		(at 62.23 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10338,7 +10314,7 @@
 		)
 		(uuid "be113572-e919-4034-8ffe-9329eecc3c25")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.9561 101.6 0)
+			(at 71.6861 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10350,7 +10326,7 @@
 	)
 	(global_label "COL03"
 		(shape input)
-		(at 39.37 31.75 90)
+		(at 38.1 29.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10360,7 +10336,7 @@
 		)
 		(uuid "be743e80-8e23-441d-9520-02b7644ae6ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.37 22.7172 90)
+			(at 38.1 20.1772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10460,7 +10436,7 @@
 	)
 	(global_label "ROW05"
 		(shape input)
-		(at 72.39 73.66 0)
+		(at 71.12 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10470,7 +10446,7 @@
 		)
 		(uuid "d4b8a493-7451-40e7-8afb-292cc5b025f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.8461 73.66 0)
+			(at 80.5761 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10504,7 +10480,7 @@
 	)
 	(global_label "ROW03"
 		(shape input)
-		(at 72.39 55.88 0)
+		(at 71.12 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10514,7 +10490,7 @@
 		)
 		(uuid "d53b175a-4edc-479b-96a7-e3ef6b850d28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.8461 55.88 0)
+			(at 80.5761 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10570,7 +10546,7 @@
 	)
 	(global_label "ROW04"
 		(shape input)
-		(at 72.39 64.77 0)
+		(at 71.12 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10580,7 +10556,7 @@
 		)
 		(uuid "dd806ce6-4375-4126-93fd-1f00861ca6b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.8461 64.77 0)
+			(at 80.5761 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10592,7 +10568,7 @@
 	)
 	(global_label "ROW01"
 		(shape input)
-		(at 72.39 38.1 0)
+		(at 71.12 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10602,7 +10578,7 @@
 		)
 		(uuid "e3ae12b9-d660-4c42-83f3-e645d8808ddd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.8461 38.1 0)
+			(at 80.5761 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10614,7 +10590,7 @@
 	)
 	(global_label "COL01"
 		(shape input)
-		(at 21.59 31.75 90)
+		(at 20.32 29.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10624,7 +10600,7 @@
 		)
 		(uuid "e7aad802-14e4-449e-ab2a-9d93008d7ed9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 22.7172 90)
+			(at 20.32 20.1772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10790,7 +10766,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 59.69 107.95 0)
+		(at 58.42 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10798,7 +10774,7 @@
 		(dnp no)
 		(uuid "00f7bc2f-c974-4b6a-8135-9601698bd6a9")
 		(property "Reference" "SW52"
-			(at 58.674 108.712 0)
+			(at 57.404 106.172 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -10806,16 +10782,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 60.96 103.378 0)
+			(at 59.69 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 59.69 107.95 0)
+			(at 58.42 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10824,7 +10801,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 107.95 0)
+			(at 58.42 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10833,7 +10810,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 107.95 0)
+			(at 58.42 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11332,7 +11309,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 59.69 81.28 0)
+		(at 58.42 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11340,7 +11317,7 @@
 		(dnp no)
 		(uuid "09c6b3a3-383f-4bc7-81d1-c25362b77cca")
 		(property "Reference" "SW36"
-			(at 58.674 82.042 0)
+			(at 57.404 79.502 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -11348,16 +11325,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 60.96 76.2 0)
+			(at 59.69 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 59.69 81.28 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11366,7 +11344,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 81.28 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11375,7 +11353,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 81.28 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11400,7 +11378,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 33.02 107.95 0)
+		(at 31.75 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11408,7 +11386,7 @@
 		(dnp no)
 		(uuid "09f8df16-5b5c-425d-b2df-5c19d77a9049")
 		(property "Reference" "SW49"
-			(at 32.004 108.712 0)
+			(at 30.734 106.172 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -11416,16 +11394,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 34.798 103.632 0)
+			(at 33.528 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 33.02 107.95 0)
+			(at 31.75 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11434,7 +11413,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 107.95 0)
+			(at 31.75 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11443,7 +11422,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 107.95 0)
+			(at 31.75 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11468,7 +11447,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 127 90)
+		(at 71.12 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11477,7 +11456,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ad5c020-204c-477a-90cd-438ae3529017")
 		(property "Reference" "#PWR017"
-			(at 224.79 127 0)
+			(at 77.47 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11486,7 +11465,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 127 0)
+			(at 76.2 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11495,7 +11474,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 127 0)
+			(at 71.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11504,7 +11483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 127 0)
+			(at 71.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11513,7 +11492,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 127 0)
+			(at 71.12 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11937,7 +11916,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 33.02 35.56 0)
+		(at 31.75 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11945,7 +11924,7 @@
 		(dnp no)
 		(uuid "165b8ee3-e5ff-4961-82c4-53c0e56a27f0")
 		(property "Reference" "SW3"
-			(at 31.75 36.322 0)
+			(at 30.48 33.782 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -11953,16 +11932,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 34.544 30.734 0)
+			(at 33.274 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 33.02 35.56 0)
+			(at 31.75 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11971,7 +11951,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 35.56 0)
+			(at 31.75 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11980,7 +11960,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 35.56 0)
+			(at 31.75 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12072,7 +12052,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 50.8 62.23 0)
+		(at 49.53 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12080,7 +12060,7 @@
 		(dnp no)
 		(uuid "17e506d2-420c-4468-b1f8-c582251865f5")
 		(property "Reference" "SW23"
-			(at 49.784 62.992 0)
+			(at 48.514 60.452 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -12088,16 +12068,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 52.578 57.404 0)
+			(at 51.308 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 50.8 62.23 0)
+			(at 49.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12106,7 +12087,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 62.23 0)
+			(at 49.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12115,7 +12096,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 62.23 0)
+			(at 49.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12140,7 +12121,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 41.91 71.12 0)
+		(at 40.64 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12148,7 +12129,7 @@
 		(dnp no)
 		(uuid "17e76159-360d-447a-9b3a-1c3152cfaafb")
 		(property "Reference" "SW28"
-			(at 40.894 71.882 0)
+			(at 39.624 69.342 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -12156,16 +12137,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 43.434 66.04 0)
+			(at 42.164 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 41.91 71.12 0)
+			(at 40.64 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12174,7 +12156,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 71.12 0)
+			(at 40.64 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12183,7 +12165,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 71.12 0)
+			(at 40.64 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12429,7 +12411,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 50.8 99.06 0)
+		(at 49.53 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12437,7 +12419,7 @@
 		(dnp no)
 		(uuid "22707d0f-a5d2-4e26-aca8-1b17b527ca29")
 		(property "Reference" "SW46"
-			(at 49.784 99.822 0)
+			(at 48.514 97.282 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -12445,16 +12427,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 52.324 94.996 0)
+			(at 51.054 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 50.8 99.06 0)
+			(at 49.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12463,7 +12446,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 99.06 0)
+			(at 49.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12472,7 +12455,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 99.06 0)
+			(at 49.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12705,7 +12688,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 68.58 71.12 0)
+		(at 67.31 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12713,7 +12696,7 @@
 		(dnp no)
 		(uuid "2585b400-0a52-4fea-adae-e65a8510425b")
 		(property "Reference" "SW31"
-			(at 67.564 71.882 0)
+			(at 66.294 69.342 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -12721,16 +12704,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 69.85 66.294 0)
+			(at 68.58 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 68.58 71.12 0)
+			(at 67.31 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12739,7 +12723,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 71.12 0)
+			(at 67.31 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12748,7 +12732,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 71.12 0)
+			(at 67.31 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12839,7 +12823,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 50.8 90.17 0)
+		(at 49.53 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12847,7 +12831,7 @@
 		(dnp no)
 		(uuid "2a1d0ab5-96cc-4da7-9ad6-7cfaba896a81")
 		(property "Reference" "SW40"
-			(at 49.784 90.932 0)
+			(at 48.514 88.392 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -12855,16 +12839,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 52.324 85.852 0)
+			(at 51.054 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 50.8 90.17 0)
+			(at 49.53 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12873,7 +12858,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 90.17 0)
+			(at 49.53 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12882,7 +12867,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 90.17 0)
+			(at 49.53 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13052,7 +13037,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 24.13 53.34 0)
+		(at 22.86 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13060,7 +13045,7 @@
 		(dnp no)
 		(uuid "2d2381b9-3a2a-45f7-8b34-4200fc31ab20")
 		(property "Reference" "SW14"
-			(at 22.86 54.102 0)
+			(at 21.59 51.562 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -13068,16 +13053,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 25.654 48.514 0)
+			(at 24.384 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 24.13 53.34 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13086,7 +13072,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 53.34 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13095,7 +13081,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 53.34 0)
+			(at 22.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13120,7 +13106,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 50.8 107.95 0)
+		(at 49.53 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13128,7 +13114,7 @@
 		(dnp no)
 		(uuid "2db1af11-cda5-4b0d-a33b-bde754e32c3b")
 		(property "Reference" "SW51"
-			(at 49.784 108.712 0)
+			(at 48.514 106.172 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -13136,16 +13122,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 52.578 103.378 0)
+			(at 51.308 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 50.8 107.95 0)
+			(at 49.53 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13154,7 +13141,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 107.95 0)
+			(at 49.53 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13163,7 +13150,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 107.95 0)
+			(at 49.53 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13188,7 +13175,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 139.7 0)
+		(at 162.56 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13197,7 +13184,7 @@
 		(fields_autoplaced yes)
 		(uuid "2dd2dd2b-f212-4f53-b3a8-230e1237dcff")
 		(property "Reference" "#PWR05"
-			(at 165.1 146.05 0)
+			(at 162.56 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13206,7 +13193,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 144.78 0)
+			(at 162.56 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13215,7 +13202,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 139.7 0)
+			(at 162.56 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13224,7 +13211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 139.7 0)
+			(at 162.56 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13233,7 +13220,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 139.7 0)
+			(at 162.56 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13393,7 +13380,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 24.13 81.28 0)
+		(at 22.86 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13401,7 +13388,7 @@
 		(dnp no)
 		(uuid "2fe4a17c-c1dc-4085-bd2d-309bd3130880")
 		(property "Reference" "SW32"
-			(at 23.114 82.042 0)
+			(at 21.844 79.502 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -13409,16 +13396,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 25.4 76.2 0)
+			(at 24.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 24.13 81.28 0)
+			(at 22.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13427,7 +13415,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 81.28 0)
+			(at 22.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13436,7 +13424,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 81.28 0)
+			(at 22.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13532,7 +13520,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 50.8 35.56 0)
+		(at 49.53 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13540,7 +13528,7 @@
 		(dnp no)
 		(uuid "3fa9a36a-1f5a-4cb9-92e5-a1a6f514d95d")
 		(property "Reference" "SW5"
-			(at 49.53 36.322 0)
+			(at 48.26 33.782 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -13548,16 +13536,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 52.324 30.734 0)
+			(at 51.054 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 50.8 35.56 0)
+			(at 49.53 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13566,7 +13555,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 35.56 0)
+			(at 49.53 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13575,7 +13564,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 35.56 0)
+			(at 49.53 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13806,7 +13795,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 59.69 62.23 0)
+		(at 58.42 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13814,7 +13803,7 @@
 		(dnp no)
 		(uuid "434b65df-5335-4e9c-9ecb-881e3e7291ca")
 		(property "Reference" "SW24"
-			(at 58.928 62.992 0)
+			(at 57.658 60.452 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -13822,16 +13811,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 61.722 57.658 0)
+			(at 60.452 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 59.69 62.23 0)
+			(at 58.42 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13840,7 +13830,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 62.23 0)
+			(at 58.42 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13849,7 +13839,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 62.23 0)
+			(at 58.42 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13941,7 +13931,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 50.8 81.28 0)
+		(at 49.53 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13949,7 +13939,7 @@
 		(dnp no)
 		(uuid "458aa878-99c9-452a-b2ca-429aebcd56e6")
 		(property "Reference" "SW35"
-			(at 49.784 82.042 0)
+			(at 48.514 79.502 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -13957,16 +13947,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 52.578 76.2 0)
+			(at 51.308 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 50.8 81.28 0)
+			(at 49.53 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13975,7 +13966,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 81.28 0)
+			(at 49.53 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13984,7 +13975,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 81.28 0)
+			(at 49.53 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14076,7 +14067,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 41.91 107.95 0)
+		(at 40.64 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14084,7 +14075,7 @@
 		(dnp no)
 		(uuid "49f64251-f8ad-4614-a8be-24b05542d315")
 		(property "Reference" "SW50"
-			(at 40.894 108.712 0)
+			(at 39.624 106.172 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -14092,16 +14083,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 43.688 104.14 0)
+			(at 42.418 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 41.91 107.95 0)
+			(at 40.64 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14110,7 +14102,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 107.95 0)
+			(at 40.64 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14119,7 +14111,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 107.95 0)
+			(at 40.64 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14144,7 +14136,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.17 114.3 90)
+		(at 218.44 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14153,7 +14145,7 @@
 		(fields_autoplaced yes)
 		(uuid "4daf37b7-ed1b-4b2b-b00d-5e4513221f50")
 		(property "Reference" "#PWR014"
-			(at 223.52 114.3 0)
+			(at 224.79 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14162,7 +14154,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 114.3 0)
+			(at 223.52 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14171,7 +14163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 114.3 0)
+			(at 218.44 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14180,7 +14172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 114.3 0)
+			(at 218.44 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14189,7 +14181,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 114.3 0)
+			(at 218.44 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14211,7 +14203,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 50.8 53.34 0)
+		(at 49.53 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14219,7 +14211,7 @@
 		(dnp no)
 		(uuid "4e034db7-93a0-44b3-b25c-16676e757b82")
 		(property "Reference" "SW17"
-			(at 49.784 54.102 0)
+			(at 48.514 51.562 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -14227,16 +14219,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 52.07 48.514 0)
+			(at 50.8 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 50.8 53.34 0)
+			(at 49.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14245,7 +14238,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 53.34 0)
+			(at 49.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14254,7 +14247,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 53.34 0)
+			(at 49.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14279,7 +14272,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 59.69 71.12 0)
+		(at 58.42 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14287,7 +14280,7 @@
 		(dnp no)
 		(uuid "526ed034-5a7e-4e2a-90bc-8b4e6b2d7d1a")
 		(property "Reference" "SW30"
-			(at 58.674 71.882 0)
+			(at 57.404 69.342 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -14295,16 +14288,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 61.214 66.294 0)
+			(at 59.944 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 59.69 71.12 0)
+			(at 58.42 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14313,7 +14307,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 71.12 0)
+			(at 58.42 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14322,7 +14316,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 71.12 0)
+			(at 58.42 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14974,7 +14968,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 24.13 35.56 0)
+		(at 22.86 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14982,7 +14976,7 @@
 		(dnp no)
 		(uuid "713636f9-6383-4b21-9d47-d93ce8bd977d")
 		(property "Reference" "SW2"
-			(at 22.86 36.322 0)
+			(at 21.59 33.782 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -14990,16 +14984,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 25.654 30.734 0)
+			(at 24.384 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 24.13 35.56 0)
+			(at 22.86 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15008,7 +15003,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 35.56 0)
+			(at 22.86 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15017,7 +15012,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 35.56 0)
+			(at 22.86 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15178,7 +15173,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 59.69 44.45 0)
+		(at 58.42 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15186,7 +15181,7 @@
 		(dnp no)
 		(uuid "79f93803-489a-46d3-98a1-135e8da5cfca")
 		(property "Reference" "SW12"
-			(at 58.674 45.212 0)
+			(at 57.404 42.672 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -15194,16 +15189,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 60.96 39.624 0)
+			(at 59.69 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 59.69 44.45 0)
+			(at 58.42 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15212,7 +15208,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 44.45 0)
+			(at 58.42 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15221,7 +15217,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 44.45 0)
+			(at 58.42 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15564,7 +15560,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 212.09 114.3 180)
+		(at 213.36 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15572,7 +15568,7 @@
 		(dnp no)
 		(uuid "80b5e742-05b8-489a-b2ec-a28673c77915")
 		(property "Reference" "D1"
-			(at 211.836 117.348 0)
+			(at 213.106 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15580,7 +15576,7 @@
 			)
 		)
 		(property "Value" "LED (RED)"
-			(at 213.36 110.236 0)
+			(at 214.63 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15588,7 +15584,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 212.09 114.3 0)
+			(at 213.36 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15597,7 +15593,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.es/es/products/detail/liteon/LTST-C190GKT/269230"
-			(at 212.09 114.3 0)
+			(at 213.36 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15606,7 +15602,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 212.09 114.3 0)
+			(at 213.36 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15631,7 +15627,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 59.69 90.17 0)
+		(at 58.42 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15639,7 +15635,7 @@
 		(dnp no)
 		(uuid "83153354-73c5-410c-a356-bed998da1919")
 		(property "Reference" "SW41"
-			(at 58.674 90.932 0)
+			(at 57.404 88.392 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -15647,16 +15643,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 60.706 85.852 0)
+			(at 59.436 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 59.69 90.17 0)
+			(at 58.42 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15665,7 +15662,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 90.17 0)
+			(at 58.42 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15674,7 +15671,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 90.17 0)
+			(at 58.42 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15902,7 +15899,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 33.02 90.17 0)
+		(at 31.75 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15910,7 +15907,7 @@
 		(dnp no)
 		(uuid "8a95bcd2-5883-4e76-a41c-2f7ca98b4f8f")
 		(property "Reference" "SW38"
-			(at 32.004 90.932 0)
+			(at 30.734 88.392 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -15918,16 +15915,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 34.544 85.852 0)
+			(at 33.274 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 33.02 90.17 0)
+			(at 31.75 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15936,7 +15934,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 90.17 0)
+			(at 31.75 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15945,7 +15943,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 90.17 0)
+			(at 31.75 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15970,7 +15968,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 41.91 62.23 0)
+		(at 40.64 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15978,7 +15976,7 @@
 		(dnp no)
 		(uuid "901b946d-372d-45f6-b3b0-4bf321145ce2")
 		(property "Reference" "SW22"
-			(at 40.894 62.992 0)
+			(at 39.624 60.452 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -15986,16 +15984,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 43.434 57.404 0)
+			(at 42.164 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 41.91 62.23 0)
+			(at 40.64 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16004,7 +16003,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 62.23 0)
+			(at 40.64 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16013,7 +16012,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 62.23 0)
+			(at 40.64 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16105,7 +16104,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 41.91 35.56 0)
+		(at 40.64 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16113,7 +16112,7 @@
 		(dnp no)
 		(uuid "9262e223-69af-449d-b7bf-653696aa04a8")
 		(property "Reference" "SW4"
-			(at 40.64 36.322 0)
+			(at 39.37 33.782 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -16121,16 +16120,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 43.434 30.734 0)
+			(at 42.164 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 41.91 35.56 0)
+			(at 40.64 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16139,7 +16139,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 35.56 0)
+			(at 40.64 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16148,7 +16148,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 35.56 0)
+			(at 40.64 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16239,7 +16239,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 59.69 99.06 0)
+		(at 58.42 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16247,7 +16247,7 @@
 		(dnp no)
 		(uuid "92e5b271-d695-44e9-ba0c-42fb1199e3f0")
 		(property "Reference" "SW47"
-			(at 58.674 99.822 0)
+			(at 57.404 97.282 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -16255,16 +16255,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 60.706 94.996 0)
+			(at 59.436 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 59.69 99.06 0)
+			(at 58.42 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16273,7 +16274,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 99.06 0)
+			(at 58.42 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16282,7 +16283,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 99.06 0)
+			(at 58.42 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16307,7 +16308,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 165.1 125.73 270)
+		(at 162.56 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16316,7 +16317,7 @@
 		(fields_autoplaced yes)
 		(uuid "93bb4f36-44d3-4139-9b1b-109b8bfe25c1")
 		(property "Reference" "SW1"
-			(at 168.91 124.4599 90)
+			(at 166.37 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16325,7 +16326,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 168.91 126.9999 90)
+			(at 166.37 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16334,7 +16335,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
-			(at 170.18 125.73 0)
+			(at 167.64 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16343,7 +16344,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.es/es/products/detail/c-k/PTS526-SK15-SMTR2-LFS/10056626"
-			(at 170.18 125.73 0)
+			(at 167.64 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16352,7 +16353,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 165.1 125.73 0)
+			(at 162.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16377,7 +16378,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 33.02 99.06 0)
+		(at 31.75 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16385,7 +16386,7 @@
 		(dnp no)
 		(uuid "94ee8636-1a0a-4a0f-b989-c1638e8d5643")
 		(property "Reference" "SW44"
-			(at 32.004 99.822 0)
+			(at 30.734 97.282 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -16393,16 +16394,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 34.544 94.742 0)
+			(at 33.274 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 33.02 99.06 0)
+			(at 31.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16411,7 +16413,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 99.06 0)
+			(at 31.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16420,7 +16422,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 99.06 0)
+			(at 31.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16581,7 +16583,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 41.91 53.34 0)
+		(at 40.64 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16589,7 +16591,7 @@
 		(dnp no)
 		(uuid "a271581f-ce72-4788-9ced-a4efea2f32fa")
 		(property "Reference" "SW16"
-			(at 40.64 54.102 0)
+			(at 39.37 51.562 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -16597,16 +16599,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 43.18 48.514 0)
+			(at 41.91 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 41.91 53.34 0)
+			(at 40.64 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16615,7 +16618,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 53.34 0)
+			(at 40.64 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16624,7 +16627,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 53.34 0)
+			(at 40.64 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16782,7 +16785,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 41.91 81.28 0)
+		(at 40.64 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16790,7 +16793,7 @@
 		(dnp no)
 		(uuid "aa9d1e26-28af-4024-8306-91c86966cad5")
 		(property "Reference" "SW34"
-			(at 40.894 82.042 0)
+			(at 39.624 79.502 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -16798,16 +16801,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 43.688 76.2 0)
+			(at 42.418 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 41.91 81.28 0)
+			(at 40.64 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16816,7 +16820,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 81.28 0)
+			(at 40.64 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16825,7 +16829,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 81.28 0)
+			(at 40.64 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16850,7 +16854,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 50.8 71.12 0)
+		(at 49.53 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16858,7 +16862,7 @@
 		(dnp no)
 		(uuid "ab1b9b77-fd15-4493-b848-91e3e9f4509c")
 		(property "Reference" "SW29"
-			(at 49.784 71.882 0)
+			(at 48.514 69.342 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -16866,16 +16870,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 52.578 66.294 0)
+			(at 51.308 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 50.8 71.12 0)
+			(at 49.53 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16884,7 +16889,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 71.12 0)
+			(at 49.53 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16893,7 +16898,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 71.12 0)
+			(at 49.53 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16918,7 +16923,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 33.02 81.28 0)
+		(at 31.75 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16926,7 +16931,7 @@
 		(dnp no)
 		(uuid "aebc0451-a186-4a1c-af9e-1c1c5cd99549")
 		(property "Reference" "SW33"
-			(at 32.004 82.042 0)
+			(at 30.734 79.502 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -16934,16 +16939,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 34.798 76.2 0)
+			(at 33.528 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 33.02 81.28 0)
+			(at 31.75 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16952,7 +16958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 81.28 0)
+			(at 31.75 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16961,7 +16967,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 81.28 0)
+			(at 31.75 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16986,7 +16992,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 59.69 35.56 0)
+		(at 58.42 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16994,7 +17000,7 @@
 		(dnp no)
 		(uuid "b123baaf-0efc-4534-86a2-136250f91bef")
 		(property "Reference" "SW6"
-			(at 58.42 36.322 0)
+			(at 57.15 33.782 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -17002,16 +17008,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 61.214 30.734 0)
+			(at 59.944 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 59.69 35.56 0)
+			(at 58.42 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17020,7 +17027,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 35.56 0)
+			(at 58.42 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17029,7 +17036,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 35.56 0)
+			(at 58.42 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17054,7 +17061,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 165.1 120.65 0)
+		(at 162.56 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17062,7 +17069,7 @@
 		(dnp no)
 		(uuid "b2c9aed7-fd32-415e-9ed7-0e47307c6aa5")
 		(property "Reference" "#PWR036"
-			(at 165.1 124.46 0)
+			(at 162.56 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17071,7 +17078,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 163.576 116.332 0)
+			(at 161.036 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17080,7 +17087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 120.65 0)
+			(at 162.56 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17089,7 +17096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 120.65 0)
+			(at 162.56 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17098,7 +17105,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 120.65 0)
+			(at 162.56 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17253,7 +17260,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 33.02 53.34 0)
+		(at 31.75 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17261,7 +17268,7 @@
 		(dnp no)
 		(uuid "b7529487-0d78-4ec9-ad77-b52cdc4c3e65")
 		(property "Reference" "SW15"
-			(at 31.75 54.102 0)
+			(at 30.48 51.562 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -17269,16 +17276,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 34.29 48.514 0)
+			(at 33.02 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 33.02 53.34 0)
+			(at 31.75 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17287,7 +17295,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 53.34 0)
+			(at 31.75 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17296,7 +17304,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 53.34 0)
+			(at 31.75 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17321,7 +17329,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 59.69 53.34 0)
+		(at 58.42 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17329,7 +17337,7 @@
 		(dnp no)
 		(uuid "c2541012-7c5c-4e22-9068-9aabf24cf0bd")
 		(property "Reference" "SW18"
-			(at 58.674 54.102 0)
+			(at 57.404 51.562 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -17337,16 +17345,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 60.96 48.514 0)
+			(at 59.69 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 59.69 53.34 0)
+			(at 58.42 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17355,7 +17364,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 53.34 0)
+			(at 58.42 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17364,7 +17373,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 53.34 0)
+			(at 58.42 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17521,7 +17530,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 33.02 71.12 0)
+		(at 31.75 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17529,7 +17538,7 @@
 		(dnp no)
 		(uuid "c4750d04-0ab8-4771-a8b0-5aa0e3e14421")
 		(property "Reference" "SW27"
-			(at 32.004 71.882 0)
+			(at 30.734 69.342 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -17537,16 +17546,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 34.544 66.294 0)
+			(at 33.274 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 33.02 71.12 0)
+			(at 31.75 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17555,7 +17565,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 71.12 0)
+			(at 31.75 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17564,7 +17574,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 71.12 0)
+			(at 31.75 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17589,7 +17599,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 204.47 114.3 90)
+		(at 205.74 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17597,7 +17607,7 @@
 		(dnp no)
 		(uuid "c5a129bb-90cd-429c-8c16-958589f23628")
 		(property "Reference" "R3"
-			(at 204.47 114.3 90)
+			(at 205.74 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17605,7 +17615,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 204.47 112.014 90)
+			(at 205.74 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17613,7 +17623,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 204.47 116.078 90)
+			(at 205.74 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17622,7 +17632,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/RC0603FR-075K1L/727268"
-			(at 204.47 114.3 0)
+			(at 205.74 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17631,7 +17641,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 204.47 114.3 0)
+			(at 205.74 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17794,7 +17804,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 68.58 53.34 0)
+		(at 67.31 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17802,7 +17812,7 @@
 		(dnp no)
 		(uuid "c722cfae-22db-458d-bc5e-8f41f9ef870a")
 		(property "Reference" "SW19"
-			(at 67.564 54.102 0)
+			(at 66.294 51.562 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -17810,16 +17820,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 69.85 48.514 0)
+			(at 68.58 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 68.58 53.34 0)
+			(at 67.31 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17828,7 +17839,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 53.34 0)
+			(at 67.31 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17837,7 +17848,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 53.34 0)
+			(at 67.31 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17996,7 +18007,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 68.58 62.23 0)
+		(at 67.31 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18004,7 +18015,7 @@
 		(dnp no)
 		(uuid "cca46876-df77-4c5d-8dea-cf5247f58c38")
 		(property "Reference" "SW25"
-			(at 67.564 62.992 0)
+			(at 66.294 60.452 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -18012,16 +18023,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 70.104 57.658 0)
+			(at 68.834 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 68.58 62.23 0)
+			(at 67.31 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18030,7 +18042,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 62.23 0)
+			(at 67.31 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18039,7 +18051,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 62.23 0)
+			(at 67.31 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18200,7 +18212,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 33.02 44.45 0)
+		(at 31.75 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18208,7 +18220,7 @@
 		(dnp no)
 		(uuid "d0f43cd0-ebc8-4d6f-8c68-d963c689ed3e")
 		(property "Reference" "SW9"
-			(at 31.75 45.212 0)
+			(at 30.48 42.672 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -18216,16 +18228,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 34.29 39.624 0)
+			(at 33.02 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 33.02 44.45 0)
+			(at 31.75 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18234,7 +18247,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 44.45 0)
+			(at 31.75 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18243,7 +18256,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 44.45 0)
+			(at 31.75 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18401,7 +18414,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 24.13 99.06 0)
+		(at 22.86 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18409,7 +18422,7 @@
 		(dnp no)
 		(uuid "d7946a9c-e5a1-49af-80ab-0f2556e6d9d9")
 		(property "Reference" "SW43"
-			(at 23.114 99.822 0)
+			(at 21.844 97.282 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -18417,16 +18430,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 25.654 94.742 0)
+			(at 24.384 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 24.13 99.06 0)
+			(at 22.86 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18435,7 +18449,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 99.06 0)
+			(at 22.86 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18444,7 +18458,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 99.06 0)
+			(at 22.86 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18738,7 +18752,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 41.91 99.06 0)
+		(at 40.64 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18746,7 +18760,7 @@
 		(dnp no)
 		(uuid "e14f95f3-e06f-4d50-9d30-e042347f955d")
 		(property "Reference" "SW45"
-			(at 40.894 99.822 0)
+			(at 39.624 97.282 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -18754,16 +18768,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 43.18 94.742 0)
+			(at 41.91 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 41.91 99.06 0)
+			(at 40.64 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18772,7 +18787,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 99.06 0)
+			(at 40.64 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18781,7 +18796,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 99.06 0)
+			(at 40.64 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18806,7 +18821,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 24.13 71.12 0)
+		(at 22.86 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18814,7 +18829,7 @@
 		(dnp no)
 		(uuid "e19c6dd4-8759-42ec-b8d0-fb2273a840c5")
 		(property "Reference" "SW26"
-			(at 23.114 71.882 0)
+			(at 21.844 69.342 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -18822,16 +18837,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 25.908 66.294 0)
+			(at 24.638 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 24.13 71.12 0)
+			(at 22.86 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18840,7 +18856,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 71.12 0)
+			(at 22.86 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18849,7 +18865,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 71.12 0)
+			(at 22.86 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18874,7 +18890,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 24.13 44.45 0)
+		(at 22.86 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18882,7 +18898,7 @@
 		(dnp no)
 		(uuid "e1a3c29e-69a0-4760-b259-6f2d009de2ea")
 		(property "Reference" "SW8"
-			(at 22.86 45.212 0)
+			(at 21.59 42.672 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -18890,16 +18906,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 25.654 39.624 0)
+			(at 24.384 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 24.13 44.45 0)
+			(at 22.86 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18908,7 +18925,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 44.45 0)
+			(at 22.86 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18917,7 +18934,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 44.45 0)
+			(at 22.86 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18942,7 +18959,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 33.02 62.23 0)
+		(at 31.75 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18950,7 +18967,7 @@
 		(dnp no)
 		(uuid "e47758a2-e6ff-4c7a-8876-7485034cf13c")
 		(property "Reference" "SW21"
-			(at 32.004 62.992 0)
+			(at 30.734 60.452 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -18958,16 +18975,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 34.544 57.404 0)
+			(at 33.274 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 33.02 62.23 0)
+			(at 31.75 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18976,7 +18994,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 62.23 0)
+			(at 31.75 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18985,7 +19003,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 62.23 0)
+			(at 31.75 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19010,7 +19028,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 24.13 90.17 0)
+		(at 22.86 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19018,7 +19036,7 @@
 		(dnp no)
 		(uuid "e580c942-87b7-4fe3-8f11-e0ab32bf840c")
 		(property "Reference" "SW37"
-			(at 23.114 90.932 0)
+			(at 21.844 88.392 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -19026,16 +19044,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 25.654 85.852 0)
+			(at 24.384 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 24.13 90.17 0)
+			(at 22.86 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19044,7 +19063,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 90.17 0)
+			(at 22.86 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19053,7 +19072,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 90.17 0)
+			(at 22.86 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19078,7 +19097,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 127 90)
+		(at 67.31 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19086,7 +19105,7 @@
 		(dnp no)
 		(uuid "ea53afdc-9c35-4061-919d-8ac10f6c77c9")
 		(property "Reference" "R5"
-			(at 214.376 127 90)
+			(at 67.056 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19094,7 +19113,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 214.63 124.46 90)
+			(at 67.31 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19102,7 +19121,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 214.63 128.778 90)
+			(at 67.31 116.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19111,7 +19130,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/RC0603FR-07100KL/726889"
-			(at 214.63 127 0)
+			(at 67.31 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19120,7 +19139,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 127 0)
+			(at 67.31 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19145,7 +19164,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 41.91 90.17 0)
+		(at 40.64 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19153,7 +19172,7 @@
 		(dnp no)
 		(uuid "ecca9bec-4793-4c0f-b7a5-4a980414987f")
 		(property "Reference" "SW39"
-			(at 40.894 90.932 0)
+			(at 39.624 88.392 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -19161,16 +19180,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 43.434 85.852 0)
+			(at 42.164 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 41.91 90.17 0)
+			(at 40.64 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19179,7 +19199,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 90.17 0)
+			(at 40.64 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19188,7 +19208,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 90.17 0)
+			(at 40.64 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19213,7 +19233,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 50.8 44.45 0)
+		(at 49.53 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19221,7 +19241,7 @@
 		(dnp no)
 		(uuid "ecf2f288-3f5d-47d6-9133-75dce1375c12")
 		(property "Reference" "SW11"
-			(at 49.784 45.212 0)
+			(at 48.514 42.672 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -19229,16 +19249,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 52.07 39.624 0)
+			(at 50.8 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 50.8 44.45 0)
+			(at 49.53 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19247,7 +19268,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 44.45 0)
+			(at 49.53 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19256,7 +19277,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 44.45 0)
+			(at 49.53 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19423,7 +19444,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 24.13 62.23 0)
+		(at 22.86 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19431,7 +19452,7 @@
 		(dnp no)
 		(uuid "f16b46f0-b2f0-4beb-a2c9-306e33be7fc9")
 		(property "Reference" "SW20"
-			(at 23.114 62.992 0)
+			(at 21.844 60.452 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -19439,16 +19460,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 25.654 57.404 0)
+			(at 24.384 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 24.13 62.23 0)
+			(at 22.86 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19457,7 +19479,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 62.23 0)
+			(at 22.86 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19466,7 +19488,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 62.23 0)
+			(at 22.86 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19625,7 +19647,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 68.58 44.45 0)
+		(at 67.31 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19633,7 +19655,7 @@
 		(dnp no)
 		(uuid "f646d8f0-900e-4483-ae7c-62b735bda8c0")
 		(property "Reference" "SW13"
-			(at 67.564 45.212 0)
+			(at 66.294 42.672 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -19641,16 +19663,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 69.85 39.624 0)
+			(at 68.58 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 68.58 44.45 0)
+			(at 67.31 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19659,7 +19682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 44.45 0)
+			(at 67.31 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19668,7 +19691,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 44.45 0)
+			(at 67.31 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19693,7 +19716,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 68.58 35.56 0)
+		(at 67.31 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19701,7 +19724,7 @@
 		(dnp no)
 		(uuid "f66e22c8-bad0-46b7-b1a9-a222bda0a26b")
 		(property "Reference" "SW7"
-			(at 67.31 36.322 0)
+			(at 66.04 33.782 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -19709,16 +19732,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 70.104 30.734 0)
+			(at 68.834 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 68.58 35.56 0)
+			(at 67.31 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19727,7 +19751,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 35.56 0)
+			(at 67.31 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19736,7 +19760,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 35.56 0)
+			(at 67.31 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19828,7 +19852,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 41.91 44.45 0)
+		(at 40.64 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19836,7 +19860,7 @@
 		(dnp no)
 		(uuid "f869cb1d-76ca-45fc-9243-f505d05bc32a")
 		(property "Reference" "SW10"
-			(at 40.64 45.212 0)
+			(at 39.37 42.672 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -19844,16 +19868,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 43.18 39.624 0)
+			(at 41.91 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 41.91 44.45 0)
+			(at 40.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19862,7 +19887,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 44.45 0)
+			(at 40.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19871,7 +19896,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 44.45 0)
+			(at 40.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19896,7 +19921,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 165.1 135.89 0)
+		(at 162.56 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19904,7 +19929,7 @@
 		(dnp no)
 		(uuid "f9a21f9c-0a70-4c4f-8b2b-d0488dfd8a9e")
 		(property "Reference" "R1"
-			(at 165.1 137.668 90)
+			(at 162.56 137.668 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19913,7 +19938,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 167.64 136.144 0)
+			(at 165.1 136.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19922,7 +19947,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 163.322 135.89 90)
+			(at 160.782 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19931,7 +19956,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.es/es/products/detail/stackpole-electronics-inc/RMCF0603JT10K0/1758104"
-			(at 165.1 135.89 0)
+			(at 162.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19940,7 +19965,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 135.89 0)
+			(at 162.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19965,7 +19990,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 24.13 107.95 0)
+		(at 22.86 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19973,7 +19998,7 @@
 		(dnp no)
 		(uuid "f9fc20d9-69ec-40ea-95d1-657686973469")
 		(property "Reference" "SW48"
-			(at 23.114 108.712 0)
+			(at 21.844 106.172 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -19981,16 +20006,17 @@
 			)
 		)
 		(property "Value" "BT_SMD"
-			(at 26.162 103.632 0)
+			(at 24.892 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DM50:dm50-button"
-			(at 24.13 107.95 0)
+			(at 22.86 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19999,7 +20025,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 107.95 0)
+			(at 22.86 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20008,7 +20034,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 107.95 0)
+			(at 22.86 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)

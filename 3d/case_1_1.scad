@@ -2,9 +2,12 @@
     DM50 - Javier Báscones Velázquez - 2024
 */
 
-$fn=15;
+$fn=30;
 PCB_WIDTH = 70;
 PCB_HEIGHT = 149.9;
+
+WALL = 1.5;
+WALL_PUSH = 0.5;
 
 LCD_W = 67.8;
 LCD_H = 47.96;
@@ -21,22 +24,23 @@ key2_rows = 4; //4 (1 for modeling)
 key2_cols = 4; //4 (1 for modeling)
 
 tolerance = 0.4; // tolerance margin (mm) 
+tolerance2 = 0.3; // tolerance margin (mm) 
 keys_hspace = 4;
 keys_vspace = 5;
 r = 0.5; // chamfers
 
 key_wall = 1;
 key_height = 2+1;
-key1_xspace = 11.5;
-key1_yspace = 11;
-key2_xspace = 14;
-key2_yspace = 11;
+key1_xspace = 11.0;
+key1_yspace = 10;
+key2_xspace = 13;
+key2_yspace = 10;
 
 junction_w = 0.8;
 junction_h = 0.5;
-junction_l = 2.0;
-junction_r = 0.8;
-junction_space = 1;
+junction_l = 1.8;
+junction_r = 0.6;
+junction_space = 0.3; // 0.2
 junction_hover = 1.0;
 
 key_bottom_margin = 0.2;
@@ -50,7 +54,7 @@ push_r2   = 0.6;
 push_r_h = 1;
 
 border_width = 2;
-border_height = 4;
+border_height = 2;
 
 holestop = 88.9;
 holesbottom = 11.6;
@@ -107,6 +111,24 @@ module key( length=8, width=6, height=4 )
             translate([ length/5 * 4 - junction_w / 2, -junction_l, r])
                 cube([junction_w, junction_l+key_wall, junction_h]);
             
+            translate([junction_r, width + junction_space, r])
+            union()
+            {
+                cylinder(junction_h, junction_r, junction_r);
+                translate([-junction_r, -junction_space - junction_r/2 - key_wall/2 - tolerance/2, 0])
+                    cube([junction_r * 2, key_wall+junction_space , junction_h]);
+            }
+            
+            translate([length-junction_r, width + junction_space, r])
+            union()
+            {
+                cylinder(junction_h, junction_r, junction_r);
+                translate([-junction_r, -junction_space - junction_r/2 - key_wall/2 - tolerance/2, 0])
+                    cube([junction_r * 2, key_wall+junction_space , junction_h]);
+            }
+            
+            
+            /*
             translate([length/2, width + junction_space, r])
             union()
             {
@@ -114,10 +136,11 @@ module key( length=8, width=6, height=4 )
                 translate([-junction_r, -junction_space - junction_r/2 - key_wall/2 - tolerance/2, 0])
                     cube([junction_r * 2, key_wall+junction_space , junction_h]);
             }
+            */
         }
         
         translate([-length/2, -width/2, -r]) cube([length*2, width*2, r*2]);
-        translate([length/2, width/2, -r]) insert_hole();
+        //translate([length/2, width/2, -r]) insert_hole();
     }
 }
 
@@ -126,21 +149,31 @@ module diff( length=8, width=6, height=4 )
     translate([-length/2, -width/2, -r])    
     union()
     {
-        translate([r-tolerance, r-tolerance - key_bottom_margin, -1])
+        translate([r-tolerance2, r-tolerance2 - key_bottom_margin/2 - 1, -1])
         minkowski()
         {
-          cube([length+tolerance*2-r*2, width+tolerance*2-r*2+key_bottom_margin, height*2]);
+          cube([length+tolerance2*2-r*2, width+tolerance2*2-r*2+key_bottom_margin/2+2, height*2]);
           sphere(r=r);
         }
         
+        /*
         translate([length/2, width + junction_space, -0.5])
         union()
         {
-            cylinder(height*2, junction_r+tolerance, junction_r+tolerance);
-            translate([-junction_r-tolerance, -junction_space - junction_r/2, junction_h-0.5])
-                cube([junction_r*2+tolerance*2, junction_space + junction_r/2, height*2]);
+            cylinder(height*2, junction_r+tolerance2, junction_r+tolerance2);
+            translate([-junction_r-tolerance2, -junction_space - junction_r/2, junction_h-0.5])
+                cube([junction_r*2+tolerance2*2, junction_space + junction_r/2, height*2]);
         }
         
+        translate([length/5, 0, -0.5])
+        union()
+        {
+            translate([-junction_w / 2 - tolerance, -junction_l, junction_h-0.5])
+                cube([junction_w*7+tolerance*2, junction_l+key_wall, height*2]);
+        }
+        */
+        
+        /*
         translate([length/5, 0, -0.5])
         union()
         {
@@ -154,6 +187,7 @@ module diff( length=8, width=6, height=4 )
             translate([ - junction_w / 2 - tolerance, -junction_l, junction_h-0.5])
                 cube([junction_w+tolerance*2, junction_l+key_wall, height*2]);
         }
+        */
         
     }
 }
@@ -191,33 +225,34 @@ module keypad( base = false)
             difference()
             { 
                 if (base == true)
-                    cube([PCB_WIDTH, PCB_HEIGHT, 2]); // BASE
-                else 
-                    cube([PCB_WIDTH, 99.5, wall01]); // KEYPAD
+                    cube([PCB_WIDTH, PCB_HEIGHT, WALL_PUSH]); // BASE
+                else
+                    translate([WALL+tolerance,1.5+tolerance,0])
+                    cube([PCB_WIDTH-WALL*2-tolerance*2, 97.5-tolerance, wall01]); // KEYPAD
                 
                 // KEYS TOP
-                translate([6.2,50,0])
+                translate([7.2,50,0])
                 for ( y = [0 : key1_rows-1] ){
                     for ( x = [0 : key1_cols-1] ){
                         translate([key1_xspace*x, key1_yspace*y, 0]) diff(length = 8, width = 6, height = 3); // HOLE
-                        if (base == true) translate([key1_xspace*x, key1_yspace*y, -1]) cylinder(5, 4.5, 4.5); // DOME
+                        //if (base == true) translate([key1_xspace*x, key1_yspace*y, -1]) cylinder(5, 4.5, 4.5); // DOME
                     }
                 }
                 
                 // KEYS BOTTOM
-                translate([20.8,6,0])
+                translate([22.2,7,0])
                 for ( y = [0 : key2_rows-1] ){
                     for ( x = [0 : key2_cols-1] ){
                         translate([key2_xspace*x, key2_yspace*y, 0]) diff(length = 10, width = 6, height = 3); // HOLE
-                        if (base == true) translate([key2_xspace*x, key2_yspace*y, -1]) cylinder(5, 4.5, 4.5); // DOME
+                        //if (base == true) translate([key2_xspace*x, key2_yspace*y, -1]) cylinder(5, 4.5, 4.5); // DOME
                     }
                 }
                 
                 // KEYS LEFT
-                translate([6.2,6,0])
+                translate([7.2,7,0])
                 for ( y = [0 : key2_rows-1] ){
                     translate([0, key2_yspace*y, 0]) diff(length = 8, width = 6, height = 3); // HOLE
-                    if (base == true) translate([0, key2_yspace*y, -1]) cylinder(5, 4.5, 4.5); // DOME
+                    //if (base == true) translate([0, key2_yspace*y, -1]) cylinder(5, 4.3, 4.3); // DOME
                 }
 
                 //SCREEN
@@ -235,7 +270,7 @@ module keypad( base = false)
             if (base != true)
             {
                 // KEYS TOP
-                translate([6.2,50,0])
+                translate([7.2,50,0])
                 for ( y = [0 : key1_rows-1] ){
                     for ( x = [0 : key1_cols-1] ){
                         translate([key1_xspace*x, key1_yspace*y, wall01-junction_h]) 
@@ -244,7 +279,7 @@ module keypad( base = false)
                 }
                 
                 // KEYS BOTTOM
-                translate([20.8,6,0])
+                translate([22.2,7,0])
                 for ( y = [0 : key2_rows-1] ){
                     for ( x = [0 : key2_cols-1] ){
                         translate([key2_xspace*x, key2_yspace*y, 0]) key(length = 10, width = 6, height = 3); // HOLE
@@ -252,7 +287,7 @@ module keypad( base = false)
                 }
 
                 // KEYS LEFT
-                translate([6.2,6,0])
+                translate([7.2,7,0])
                 for ( y = [0 : key2_rows-1] ){
                     translate([0, key2_yspace*y, 0]) key(length = 8, width = 6, height = 3); // HOLE
                 }
@@ -282,14 +317,16 @@ module keypad( base = false)
                     }
                 }
                 // FRAME
-                    translate([-border_width,-border_width,0]) cube([PCB_WIDTH+border_width*2, border_width, border_height-1]);
-                    translate([-border_width,PCB_HEIGHT,0]) cube([PCB_WIDTH+border_width*2, border_width, border_height]);
-                    translate([PCB_WIDTH,-border_width,0]) cube([border_width, PCB_HEIGHT+border_width*2, border_height]);
-                    translate([-border_width,-border_width,0]) cube([border_width, PCB_HEIGHT+border_width*2, border_height]);
+                    translate([0,0,0]) cube([PCB_WIDTH, WALL, border_height]);
+                    translate([0,PCB_HEIGHT-WALL,0]) cube([PCB_WIDTH, WALL, border_height]);
+                    translate([PCB_WIDTH-WALL,0,0]) cube([WALL, PCB_HEIGHT, border_height]);
+                    translate([0,0,0]) cube([WALL, PCB_HEIGHT, border_height]);
             }
         }
 
         // rounded corners
+                
+        translate([2, 2, 0]) 
         rotate([0, 0, 180]) 
         difference()
         {
@@ -297,14 +334,14 @@ module keypad( base = false)
             translate([0, 0, -2]) cylinder(14, 2, 2);
         }
 
-        translate([PCB_WIDTH, PCB_HEIGHT, 0]) 
+        translate([PCB_WIDTH-2, PCB_HEIGHT-2, 0]) 
         difference()
         {
             translate([0, 0, -1]) cube([6, 6, 10]);
             translate([0, 0, -2]) cylinder(14, 2, 2);
         }
 
-        translate([0, PCB_HEIGHT, 0])
+        translate([2, PCB_HEIGHT-2, 0])
         rotate([0, 0, 90]) 
         difference()
         {
@@ -312,7 +349,7 @@ module keypad( base = false)
             translate([0, 0, -2]) cylinder(14, 2, 2);
         }
         
-        translate([PCB_WIDTH, 0, 0])
+        translate([PCB_WIDTH-2, 2, 0])
         rotate([0, 0, 270]) 
         difference()
         {
@@ -329,6 +366,7 @@ module keypad( base = false)
             translate([holesmargin, holesbottom, -1]) cylinder(1+holesheight, holesradio, holesradio);
             translate([PCB_WIDTH-holesmargin, holesbottom, -1]) cylinder(1+holesheight, holesradio, holesradio);
         }        
+        
     }
 }
 
@@ -350,8 +388,8 @@ module faceplate()
     difference()
     {
         // KEYS TOP
-        cube([PCB_WIDTH, 99.5, 0.1]);
-        translate([6.2,50,0])
+        cube([PCB_WIDTH-WALL*2, 98, 0.1]);
+        translate([5.7,48.5,0])
         for ( y = [0 : key1_rows-1] ){
             for ( x = [0 : key1_cols-1] ){
                 translate([key1_xspace*x, key1_yspace*y, 0]) cube([8 + tolerance, 6 + tolerance, 10], center = true);
@@ -359,7 +397,7 @@ module faceplate()
         }
         
         // KEYS BOTTOM
-        translate([20.8,6,0])
+        translate([20.7,5.5,0])
         for ( y = [0 : key2_rows-1] ){
             for ( x = [0 : key2_cols-1] ){
                 translate([key2_xspace*x, key2_yspace*y, 0]) cube([10 + tolerance, 6 + tolerance, 10], center = true);
@@ -367,7 +405,7 @@ module faceplate()
         }
         
         // KEYS LEFT
-        translate([6.2,6,0])
+        translate([5.7,5.5,0])
         for ( y = [0 : key2_rows-1] ){
             translate([0, key2_yspace*y, 0]) cube([8 + tolerance, 6 + tolerance, 10], center = true);
         }
@@ -380,18 +418,15 @@ module faceplate()
 
 space = 0;
 
+//color([0.9,0.9,0.9])
+//translate([WALL, WALL, WALL_PUSH+0.6+space*3])
+//faceplate(); // faceplate
 
+//color(COLOR_CASE)
+//translate([0, 0, WALL_PUSH+space]) 
+//keypad( base = false); // keypad
 
-
-color(COLOR_CASE)
-translate([0, 0, 2.6+space*2])
-faceplate(); // faceplate
-
-color(COLOR_CASE)
-translate([0, 0, 2+space]) 
-keypad( base = false); // keypad
-
-color(COLOR_CASE)
+//color([0.6,0.6,0.6])
 keypad( base = true); // base
 
 /*
@@ -400,11 +435,52 @@ color(COLOR_FRAME)
 frame();
 */
 
+//cube([70, 10, 20]);
+
+// DOMES
+
+/*
+translate([7.2, 7, 0.5/2])
+for ( y = [0 : key2_rows-1] ){
+    translate([0, key2_yspace*y, 0]) cylinder(0.5, 3.5, 3.5, center=true);
+    for ( x = [0 : key2_cols-1] ){
+        translate([15+key2_xspace*x, key2_yspace*y, 0]) cylinder(0.5, 3.5, 3.5, center=true);
+    }
+}
+
+translate([7.2, 50, 0.5/2])
+for ( y = [0 : key1_rows-1] ){
+    for ( x = [0 : key1_cols-1] ){
+        translate([key1_xspace*x, key1_yspace*y, 0]) cylinder(0.5, 3.5, 3.5, center=true);
+    }
+}
+
+color([0.6,0.6,0.6]) translate([7.2, 7, 0]) cylinder(5, 3, 3, center=true);
+color([0.6,0.6,0.6]) translate([22.2, 7, 0]) cylinder(5, 3, 3, center=true);
+color([0.6,0.6,0.6]) translate([35.2, 7, 0]) cylinder(5, 3, 3, center=true);
+color([0.6,0.6,0.6]) translate([48.2, 7, 0]) cylinder(5, 3, 3, center=true);
+color([0.6,0.6,0.6]) translate([61.2, 7, 0]) cylinder(5, 3, 3, center=true);
+
+color([0.6,0.6,0.6]) translate([7.2, 17, 0]) cylinder(5, 3, 3, center=true);
+color([0.6,0.6,0.6]) translate([7.2, 27, 0]) cylinder(5, 3, 3, center=true);
+color([0.6,0.6,0.6]) translate([7.2, 37, 0]) cylinder(5, 3, 3, center=true);
+
+color([0.6,0.6,0.6]) translate([7.2, 50, 0]) cylinder(5, 3, 3, center=true);
+color([0.6,0.6,0.6]) translate([18.2, 50, 0]) cylinder(5, 3, 3, center=true);
+color([0.6,0.6,0.6]) translate([29.2, 50, 0]) cylinder(5, 3, 3, center=true);
+color([0.6,0.6,0.6]) translate([40.2, 50, 0]) cylinder(5, 3, 3, center=true);
+color([0.6,0.6,0.6]) translate([51.2, 50, 0]) cylinder(5, 3, 3, center=true);
+color([0.6,0.6,0.6]) translate([62.2, 50, 0]) cylinder(5, 3, 3, center=true);
+color([0.6,0.6,0.6]) translate([7.2, 60, 0]) cylinder(5, 3, 3, center=true);
+color([0.6,0.6,0.6]) translate([7.2, 70, 0]) cylinder(5, 3, 3, center=true);
+color([0.6,0.6,0.6]) translate([7.2, 80, 0]) cylinder(5, 3, 3, center=true);
+color([0.6,0.6,0.6]) translate([7.2, 90, 0]) cylinder(5, 3, 3, center=true);
+*/
+
+/*
 color([0.37,0.40,0.18])
 translate([1, 101, 0]) 
 {
     translate([0, 0, -5]) cube([LCD_W, LCD_H, 2]); // LCD
-    // translate([4,(LCD_H-LCD_VIEW_H)-(LCD_VIEW_YPOS-LCD_VIEW_H/2),5]) //LCD_VIEW_YPOS
-    //         cube([LCD_VIEW_W, LCD_VIEW_H, 8]); // LCD
-
 }
+*/

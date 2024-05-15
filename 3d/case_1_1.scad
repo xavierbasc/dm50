@@ -7,7 +7,7 @@ PCB_WIDTH = 70;
 PCB_HEIGHT = 149.9;
 
 WALL = 1.5;
-WALL_PUSH = 0.5;
+WALL_PUSH = 3.8;
 
 LCD_W = 67.8;
 LCD_H = 47.96;
@@ -54,7 +54,7 @@ push_r2   = 0.6;
 push_r_h = 1;
 
 border_width = 2;
-border_height = 2;
+border_height = 5.5;
 
 holestop = 88.9;
 holesbottom = 11.6;
@@ -360,11 +360,15 @@ module keypad( base = false)
         // HOLES
         if (base == true)
         {        
-            translate([holesmargin, holestop, -1]) cylinder(1+holesheight, holesradio, holesradio);
-            translate([PCB_WIDTH-holesmargin, holestop, -1]) cylinder(1+holesheight, holesradio, holesradio);
+            //translate([holesmargin, holestop, -1]) cylinder(1+holesheight, holesradio, holesradio);
+            //translate([PCB_WIDTH-holesmargin, holestop, -1]) cylinder(1+holesheight, holesradio, holesradio);
 
-            translate([holesmargin, holesbottom, -1]) cylinder(1+holesheight, holesradio, holesradio);
-            translate([PCB_WIDTH-holesmargin, holesbottom, -1]) cylinder(1+holesheight, holesradio, holesradio);
+            //translate([holesmargin, holesbottom, -1]) cylinder(1+holesheight, holesradio, holesradio);
+            //translate([PCB_WIDTH-holesmargin, holesbottom, -1]) cylinder(1+holesheight, holesradio, holesradio);
+
+            translate([12.7, 12, 2.5/2-0.1]) cylinder(2.5, 1.6, 1.6, center=true);
+            translate([54.7, 12, 2.5/2-0.1]) cylinder(2.5, 1.6, 1.6, center=true);
+            
         }        
         
     }
@@ -426,7 +430,7 @@ space = 0;
 //translate([0, 0, WALL_PUSH+space]) 
 //keypad( base = false); // keypad
 
-//color([0.6,0.6,0.6])
+color([0.6,0.6,0.6])
 keypad( base = true); // base
 
 /*
@@ -484,3 +488,14 @@ translate([1, 101, 0])
     translate([0, 0, -5]) cube([LCD_W, LCD_H, 2]); // LCD
 }
 */
+
+/*
+color([181/256,166/256,66/256]) // LATON
+translate([7.2, 7, 2.5/2]) 
+difference()
+{
+    cylinder(2.5, 1.6, 1.6, center=true);
+    cylinder(5, 1.0, 1.0, center=true);
+}
+*/
+

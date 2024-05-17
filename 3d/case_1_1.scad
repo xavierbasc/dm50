@@ -274,7 +274,7 @@ module keypad( base = false)
                 for ( y = [0 : key1_rows-1] ){
                     for ( x = [0 : key1_cols-1] ){
                         translate([key1_xspace*x, key1_yspace*y, wall01-junction_h]) 
-                            key( length = 8, width = 6, height = 3);
+                            key( length = 8, width = 6, height = 3+4);
                     }
                 }
                 
@@ -282,14 +282,14 @@ module keypad( base = false)
                 translate([22.2,7,0])
                 for ( y = [0 : key2_rows-1] ){
                     for ( x = [0 : key2_cols-1] ){
-                        translate([key2_xspace*x, key2_yspace*y, 0]) key(length = 10, width = 6, height = 3); // HOLE
+                        translate([key2_xspace*x, key2_yspace*y, 0]) key(length = 10, width = 6, height = 3+4); // HOLE
                     }
                 }
 
                 // KEYS LEFT
                 translate([7.2,7,0])
                 for ( y = [0 : key2_rows-1] ){
-                    translate([0, key2_yspace*y, 0]) key(length = 8, width = 6, height = 3); // HOLE
+                    translate([0, key2_yspace*y, 0]) key(length = 8, width = 6, height = 3+4); // HOLE
                 }
             }
             else
@@ -427,10 +427,12 @@ space = 0;
 //faceplate(); // faceplate
 
 //color(COLOR_CASE)
+color([0.5,0.5,0.5])
 //translate([0, 0, WALL_PUSH+space]) 
-//keypad( base = false); // keypad
+keypad( base = false); // keypad
 
-color([0.6,0.6,0.6])
+color([0.4,0.4,0.4])
+//color(COLOR_CASE)
 keypad( base = true); // base
 
 /*

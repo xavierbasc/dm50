@@ -128,10 +128,10 @@ Comparative performance CORDIC versus software (math.h functions), in CPU cycles
 ![New PCB](docs/img/PCB.png "New PCB")
 
 # Case parts
-![Case 3D](docs/img/case3d.png "Case 3D")
+Freecad software has been used to design the casing.
+The spaces have been optimized to reduce the size, continuously giving shape to the calculator and improving the user experience.
 
-[DOWNLOAD STL FOR PRINT CASE](3d/base.stl "case stl model")
-[DOWNLOAD STL FOR PRINT KEYPAD](3d/keypad.stl "keypad stl model")
+![USBC](docs/img/usbc.png "USBC")
 
 ## Keyboard
 The keyboard has been designed for FDM printing, with inserts in each key and post-processed with acetone.

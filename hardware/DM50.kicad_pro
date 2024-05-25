@@ -633,7 +633,7 @@
       "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "autorouting/DM50.dsn",
-      "step": "",
+      "step": "DM50.step",
       "svg": "",
       "vrml": ""
     },

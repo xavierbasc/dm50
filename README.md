@@ -133,20 +133,17 @@ The spaces have been optimized to reduce the size, continuously giving shape to 
 
 ![USBC](docs/img/usbc.png "USBC")
 
-## Keyboard
-The keyboard has been designed for FDM printing, with inserts in each key and post-processed with acetone.
-![Keyboard](docs/img/keyboard.png "Keyboard front")
-![Keyboard](docs/img/keyboard_b.png "Keyboard back")
-Includes a separating piece.
+## Molds (case & keys)
+The design of the box has been optimized for a professional finish, developing the molds for serial plastic extrusion.
+The 3D model finishes undergo a post-processing process to create the mold master, including the smooth textured finish.!
 
 ## Keyboard Serigraphy
 Printing numbers on the keyboard is done using a sublimation transfer process, ordering the sheets from local companies and ironing them onto the keyboard.
 
-## Case
-The design has been designed for FDM printing, with inserts in each key and post-processed with acetone.
-![Case 3D](docs/img/case.png "Case")
 
 ## Faceplate
+A master faceplate has been designed although it can be exchanged by the user through a simple manual process.
+
 The front plate is printed on photographic paper and cut to size, with professional results. A photo-quality printer is recommended, such as the Epson Ecotank.
 
 To create the faceplate, the Inkscape tool has been used to edit the SVG and the font used is Latin Modern Math, licensed by the GUST Font License, developed by the TeX user group in Poland, and can be used for academic use. , commercial or academic.

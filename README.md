@@ -130,8 +130,7 @@ Comparative performance CORDIC versus software (math.h functions), in CPU cycles
 # Case parts
 Freecad software has been used to design the casing.
 The spaces have been optimized to reduce the size, continuously giving shape to the calculator and improving the user experience.
-
-![USBC](docs/img/usbc.png "USBC")
+![CASE](docs/img/case.png "CASE")
 
 ## Molds (case & keys)
 The design of the box has been optimized for a professional finish, developing the molds for serial plastic extrusion.

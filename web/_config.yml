@@ -1,0 +1,91 @@
+# Site settings
+title: DM50 calculator # site title
+description: >- # site description
+  DM50 is a cheap, powerful, easy to build, open source hardware, and high precision calculator. <a href="https://github.com/xavierbasc/dm50-calculator" target="_blank" rel="noopener">@github</a>.
+lang: en-US # default lang
+timezone: Europe/Madrid # set your timezone
+image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+repo: https://github.com/xavierbasc/50calc # site repo [optional]
+mode: dark # default theme "dark" | "light"
+
+# Profile settings
+author:
+  name: Javier Báscones # author name
+  bio: >- # tell to the world
+    The minimalist Jekyll theme, light and dark mode support, for running a personal site and blog, 
+    meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
+  username: username # general username
+  github: xavierbasc # github username
+  twitter: twitter_username # twitter username
+  facebook: facebook_username # facebook username
+  email: javier.bascones@gmail.com # email adress
+  avatar: /assets/img/avatar.jpg # change with your own avatar
+
+# URL settings
+url: "https://50calc.com/" #
+baseurl:
+permalink: /:title/
+google_analytics: # leave it blank if not wish
+fb_appid:
+
+# Collection setting
+collections:
+  posts:
+    output: true
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: false
+
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+# Homepage limit posts
+number_of_posts: 5
+
+# Build settings
+# theme: klise
+sass:
+  style: compressed
+
+include:
+  - _redirects
+  - .htaccess
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CHANGELOG.md
+  - README.md
+  - node_modules
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - lighthouse.png
+  - klise-*.gem
+  - klise.gemspec
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-postfiles

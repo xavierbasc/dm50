@@ -40,7 +40,7 @@ hard/\#auto_saved_files\#
 
 *.gem
 *.rbc
-/.config
+.config
 /coverage/
 /InstalledFiles
 /pkg/
@@ -73,15 +73,13 @@ build-iPhoneSimulator/
 # vendor/Pods/
 
 ## Documentation cache and generated files:
-/.yardoc/
-/_yardoc/
-/doc/
-/rdoc/
+.yardoc/
+_yardoc/
 
 ## Environment normalization:
-/.bundle/
-/vendor/bundle
-/lib/bundler/man/
+.bundle/
+vendor/bundle
+lib/bundler/man/
 
 # for a library or gem, you might want to ignore these files since the code is
 # intended to run in multiple environments; otherwise, check them in:

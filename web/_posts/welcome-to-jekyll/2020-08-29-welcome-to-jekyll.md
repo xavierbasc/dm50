@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Welcome to DM50!"
-date:   2024-006-05 20:25:00 +0100
+title: "Welcome to DM50!"
+date: 2024-006-05 20:25:00 +01:00
 categories: dm50 init
 ---
 

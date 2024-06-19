@@ -16,6 +16,7 @@ The main features of the calculator are the following:
  - Graphic LCD Display (128x64 dots).
  - Possibility of creating/porting firmware for CAS or RPN calculator.
  - Same keys as the legendary HP48.
+ - ESD protection of USBC.
 
 # Hardware
 Below is the list of electronic components used to manufacture the board.
@@ -24,9 +25,9 @@ Below is the list of electronic components used to manufacture the board.
 | SoC Processor | STM32U535CB | ARM Cortex-M33 ultra low power with FPU |
 | Display | EA_DOGL128L-6 | STN reflective display 128x64 |
 | Flash 6MB | AT25SF641 | 6MB Flash |
-| Voltage Regulator | ADP2108AUJ-3.3 | Vin 2.3 - 5.5, Vout 3.3 |
-| Power by USB (5V) | LD3985 | Micropower Low-Dropout Voltage Regulator |
+| Voltage Regulator | ADP2108 | Vin 2.3 - 5.5, Vout 3.3 |
 | Transistor | MMBT3904L | 200 mA, 40 V NPN Bipolar Junction Transistor |
+| USB protection | USBLC6-2 | ESD protection of VBUS |
 
 ## MCU
 ### STM32U535CB

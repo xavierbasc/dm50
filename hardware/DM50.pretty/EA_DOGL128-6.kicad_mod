@@ -404,4 +404,15 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "${KIPRJMOD}/step/EA DOGM128.STEP"
+		(offset
+			(xyz 1 -7 -42)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )

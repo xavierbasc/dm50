@@ -211,4 +211,26 @@
 		(roundrect_rratio 0.0625)
 		(uuid "08daeedd-0c14-437e-8988-9622cdd22482")
 	)
+	(model "${KIPRJMOD}/step/BK-82.step"
+		(offset
+			(xyz 0 -5 -4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/step/BK-82.step"
+		(offset
+			(xyz 0 -41.9 -4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
 )

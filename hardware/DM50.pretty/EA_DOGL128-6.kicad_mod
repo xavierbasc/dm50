@@ -393,20 +393,9 @@
 		(remove_unused_layers no)
 		(uuid "7d5a6a06-e093-4da6-aa0d-2775fadc97e2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Display.3dshapes/EA_DOGL128-6.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 	(model "${KIPRJMOD}/step/EA DOGL128.STEP"
 		(offset
-			(xyz 1 -7 -42)
+			(xyz 1 -7 -41)
 		)
 		(scale
 			(xyz 1 1 1)

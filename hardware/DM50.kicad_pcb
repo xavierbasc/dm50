@@ -6058,7 +6058,7 @@
 			)
 		)
 		(property "Value" "4.7 uF"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f0990e66-2162-4ef0-8221-0be620b0316c")
 			(effects
@@ -6207,7 +6207,7 @@
 			(uuid "343378a4-b712-4ad4-8bcc-0a370dbf6189")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2dcdc7ab-e282-46f9-a1fd-962f8e301a58")
 			(effects
@@ -17137,7 +17137,7 @@
 			)
 		)
 		(property "Value" "LiPO"
-			(at 0 1.9 360)
+			(at 0 1.9 0)
 			(layer "F.Fab")
 			(uuid "612b9ddc-2f08-4d54-b8c3-1736534f9014")
 			(effects
@@ -26614,38 +26614,6 @@
 			)
 			(justify left bottom)
 		)
-	)
-	(dimension
-		(type aligned)
-		(layer "Edge.Cuts")
-		(uuid "0350d11a-d5c1-4e04-944f-f9a080823532")
-		(pts
-			(xy 72.85 212.75) (xy 72.85 61.75)
-		)
-		(height -7.25)
-		(gr_text "151"
-			(at 64.45 137.25 90)
-			(layer "Edge.Cuts")
-			(uuid "0350d11a-d5c1-4e04-944f-f9a080823532")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4) suppress_zeroes)
-		(style
-			(thickness 0.1)
-			(arrow_length 1)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
 	)
 	(dimension
 		(type aligned)

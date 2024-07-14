@@ -13331,7 +13331,7 @@
 			)
 		)
 		(property "Value" "AT25SF641"
-			(at 272.542 109.22 90)
+			(at 268.478 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)

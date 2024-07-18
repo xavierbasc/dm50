@@ -79,6 +79,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "ignore",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -184,6 +185,7 @@
         0.3,
         0.5,
         1.0,
+        1.5,
         2.0
       ],
       "tuning_pattern_settings": {

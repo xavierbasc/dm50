@@ -10,7 +10,7 @@ The main features of the calculator are the following:
  - Floating Point Unit (FPU). Floating-point arithmetic functionality.
  - 274KB SRAM.
  - 512KB FLASH MCU memory.
- - 6MB FLASH storage Octo-SPI accessible via USB.
+ - 16MB FLASH storage Octo-SPI accessible via USB.
  - 128-bit floating point precision implementation (IEEE 754-2008).
  - USBC port, connects as USB mass storage device.
  - Graphic LCD Display (128x64 dots).
@@ -24,7 +24,7 @@ Below is the list of electronic components used to manufacture the board.
 | - | - | - |
 | SoC Processor | STM32U535CB | ARM Cortex-M33 ultra low power with FPU |
 | Display | EA_DOGL128L-6 | STN reflective display 128x64 |
-| Flash 6MB | AT25SF641 | 6MB Flash |
+| Flash 16MB | W25Q128JVSIQ | 16MB Flash |
 | Voltage Regulator | ADP2108 | Vin 2.3 - 5.5, Vout 3.3 |
 | Transistor | MMBT3904L | 200 mA, 40 V NPN Bipolar Junction Transistor |
 | USB protection | USBLC6-2 | ESD protection of VBUS |
@@ -37,8 +37,8 @@ This is the brain of our calculator. Ultra-low-power Arm Cortex-M33 MCU+FPU, 240
 [Arm Cortex-M33 Developers Guide](https://developer.arm.com/documentation/100235/0004/the-cortex-m33-processor/)
 
 ## Flash memory
-### AT25SF641
-This is the persistant memory of our calculator. This chip stores 64 Mbit of data, and serves it over a 104 MHz Quad-SPI bus.
+### W25Q128JVSIQ
+This is the persistant memory of our calculator. This chip stores 16 MB (megabytes) of data, and serves it over a 133 MHz Quad-SPI bus.
 
 [AT25SF641 datasheet](docs/pdf/AT25SF641.pdf)
 
@@ -167,7 +167,7 @@ Comparison of the hardware used in the different reference calculators:
 | 2017 | [DM42](https://www.swissmicros.com/product/dm42) | STM32L476RG | 128KB | 6MB | 400×240 | 
 | 2019 | [HP Prime G2](https://en.wikipedia.org/wiki/HP_Prime) | i. MX 6ULL | 256MB | 512MB | 320×240 |
 | 2021 | [OpenRPNCalc](https://github.com/apoluekt/OpenRPNCalc) | STM32L476 | 128KB | 1MB | 400x240 |
-| 2024 | [DM50](https://github.com/xavierbasc/dm50-calculator) | STM32U535CB | 274KB | 6MB | 128×64 |
+| 2024 | [DM50](https://github.com/xavierbasc/dm50-calculator) | STM32U535CB | 274KB | 16MB | 128×64 |
 
 ## Software (GPL):
 | Software | Detail |

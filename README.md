@@ -66,7 +66,7 @@ TBD
 # Reference
 Comparison of the ***hardware*** used in the different reference calculators:
  
-| Year | Model | Processor | RAM | FLASH | Display | MIPS (max) |
+| Year | Model | Processor | RAM | FLASH | Display | MIPS |
 | :-: | - | - | -: | -: | - | -: |
 | 1988 | [HP42S](https://en.wikipedia.org/wiki/HP-42S) | Saturn | 8KB | 64KB | 131×16 | - |
 | 1993 | [HP48G](https://en.wikipedia.org/wiki/HP_48_series) | Saturn | 32KB | 512KB | 131×64 | - |

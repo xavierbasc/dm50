@@ -67,7 +67,6 @@ The L model is reflective and does not have LED backlighting.
 [EA_DOGL128X-6 datasheet](docs/pdf/EA_DOGL128X-6.pdf)
 
 ## Batteries
-### AAA x 2
 Supports the following batteries:
 
 | Batteries | Capacity (mha) |

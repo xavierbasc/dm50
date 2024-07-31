@@ -12,7 +12,6 @@ The main features of the calculator are the following:
  - 16MB FLASH storage Octo-SPI (accessible via USB).
  - USBC port, connects as USB mass storage device.
  - Graphic LCD Display (128x64 dots).
- - Same keys as the legendary HP48.
  - ESD protection of USBC.
  - LiPO 3.7V rechargeable battery, with JST PH2.0 connector.
  - Possibility of using AAA batteries.
@@ -21,6 +20,7 @@ The main features of the calculator are the following:
  - JTAG debug port.
  - Sound via 4 KHz buzzer.
  - Temperature sensor.
+ - Same number of keys as the legendary HP48.
 
 # Hardware
 Below is the list of electronic components used to manufacture the board.
@@ -32,6 +32,7 @@ Below is the list of electronic components used to manufacture the board.
 | Voltage Regulator | ADP2108 | Vin 2.3 - 5.5, Vout 3.3 |
 | Transistor | MMBT3904L | 200 mA, 40 V NPN Bipolar Junction Transistor |
 | USB protection | USBLC6-2 | ESD protection of VBUS |
+| LiPO Charger | MCP73831 | Lithium-Ion/Lithium-Polymer Battery Charger |
 
 ## MCU
 ### STM32U535CB

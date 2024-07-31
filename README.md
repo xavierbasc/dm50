@@ -4,19 +4,23 @@
 
 The main features of the calculator are the following:
 
- - Electronic schematics designs Open Source (GPLv3).
- - 32-bit ARM Cortex-M33 MCU.
- - Ultra low power MCU.
- - Floating Point Unit (FPU). Floating-point arithmetic functionality.
+ - 32bit ARM Cortex-M33 MCU ultra low power.
+ - Mathematical coprocessor acceleration.
+ - Floating Point Unit (FPU).
  - 274KB SRAM.
  - 512KB FLASH MCU memory.
- - 16MB FLASH storage Octo-SPI accessible via USB.
- - 128-bit floating point precision implementation (IEEE 754-2008).
+ - 16MB FLASH storage Octo-SPI (accessible via USB).
  - USBC port, connects as USB mass storage device.
  - Graphic LCD Display (128x64 dots).
- - Possibility of creating/porting firmware for CAS or RPN calculator.
  - Same keys as the legendary HP48.
  - ESD protection of USBC.
+ - LiPO 3.7V rechargeable battery, with JST PH2.0 connector.
+ - Possibility of using AAA batteries.
+ - Battery charge level sensor.
+ - USB power and battery charging status LED indicators.
+ - JTAG debug port.
+ - Sound via 4 KHz buzzer.
+ - Temperature sensor.
 
 # Hardware
 Below is the list of electronic components used to manufacture the board.
@@ -57,7 +61,8 @@ The USB port can receive electrostatic discharges. Those very high voltage surge
 
 ## Display
 ### EA_DOGL128L-6
-The EA DOGL128L-6 is a 128x64-pixel graphics display. The L model does not have LED backlighting
+The EA DOGL128L-6 is a 128x64-pixel graphics display. 
+The L model is reflective and does not have LED backlighting.
 
 [EA_DOGL128X-6 datasheet](docs/pdf/EA_DOGL128X-6.pdf)
 
@@ -69,9 +74,8 @@ Supports the following batteries:
 | --- | :---: |
 | AAA Alkaline | 900 - 1155 |
 | AAA Ni-MH | 800 - 1000 |
-
-### Battery holder
-The support for AAA batteries on the PCB is XXXXXXX
+| LiPO 402025 (4.0x20x25) | 150 |
+| LiPO LP272247 (2.7x22x47) | 260 |
 
 # EDA Software
 For the development of the hardware, the KiCad tool has been used.
@@ -140,7 +144,6 @@ The 3D model finishes undergo a post-processing process to create the mold maste
 ## Keyboard Serigraphy
 Printing numbers on the keyboard is done using a sublimation transfer process, ordering the sheets from local companies and ironing them onto the keyboard.
 
-
 ## Faceplate
 A master faceplate has been designed although it can be exchanged by the user through a simple manual process.
 
@@ -149,9 +152,6 @@ The front plate is printed on photographic paper and cut to size, with professio
 To create the faceplate, the Inkscape tool has been used to edit the SVG and the font used is Latin Modern Math, licensed by the GUST Font License, developed by the TeX user group in Poland, and can be used for academic use. , commercial or academic.
 
 [Latin Modern Math font](https://www.gust.org.pl/projects/e-foundry/latin-modern "Latin Modern Math font")
-
-
-
 
 # Reference
 ## Hardware
@@ -178,4 +178,3 @@ Comparison of the hardware used in the different reference calculators:
 | [Free42](https://github.com/thomasokken/free42) | Free42 is a software clone of the Hewlett-Packard 42S calculator |
 | [TCalc](https://github.com/tylertian123/TCalc) | Firmware for STM32 CAS calculator |
 | [TinyExpr](https://github.com/codeplea/tinyexpr) | parser and evaluation for math expressions |
-

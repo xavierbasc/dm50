@@ -32,7 +32,6 @@ Below is a list of the most relevant electronic components:
 5. USB protection: USBLC6-2 ESD protection of VBUS.
 6. Battery charger: MCP73831 Lithium-Ion/Lithium-Polymer Battery Charger.
 
-## Batteries
 Some of the supported batteries are as follows:
 
 | Batteries | Capacity (mha) |
@@ -42,10 +41,9 @@ Some of the supported batteries are as follows:
 | LiPO 402025 (4.0x20x25) | 150 |
 | LiPO LP272247 (2.7x22x47) | 260 |
 
-## Schematic
+***Electronic design***:
 ![New Sch](docs/img/SCH.png "New Schema")
 
-## PCB:
 ![PCB front](docs/img/PCB_3D.png "PCB front")
 
 ## Case

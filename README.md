@@ -44,23 +44,13 @@ Supports the following batteries:
 | LiPO 402025 (4.0x20x25) | 150 |
 | LiPO LP272247 (2.7x22x47) | 260 |
 
-## SoCs Comparative
-General comparison, taking the maximum specifications between all the SOCs of each family.
-
-| Serie | PW OFF | RAM | Flash |
-| --- | :---: | :---: | :---: |
-| STM32L4 | 8 nA | 320KB | 64KB - 1MB |
-| STM32L4+ | 8 nA | 320KB | 512KB - 2MB |
-| STM32L5 | 17 nA | 256KB | 256KB - 512KB |
-| STM32U5 | 90 nA | 768KB | 1MB - 2MB |
-
 ## Schematic
 ![New Sch](docs/img/SCH.png "New Schema")
 
 ## PCB:
 ![PCB front](docs/img/PCB_3D.png "PCB front")
 
-## Case parts
+## Case
 Freecad software has been used to design the casing.
 The spaces have been optimized to reduce the size, continuously giving shape to the calculator and improving the user experience.
 ![CASE](docs/img/case.png "CASE")

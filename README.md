@@ -64,8 +64,7 @@ To create the faceplate, the Inkscape tool has been used to edit the SVG and the
 TBD
 
 # Reference
-## Hardware
-Comparison of the hardware used in the different reference calculators:
+Comparison of the ***hardware*** used in the different reference calculators:
  
 | Year | Model | Processor | RAM | FLASH | Display | MIPS (max) |
 | :-: | - | - | -: | -: | - | -: |
@@ -79,7 +78,7 @@ Comparison of the hardware used in the different reference calculators:
 | 2021 | [OpenRPNCalc](https://github.com/apoluekt/OpenRPNCalc) | STM32L476 | 128KB | 1MB | 400x240 | 100 |
 | `2024` | [`DM50`](https://github.com/xavierbasc/dm50-calculator) | `STM32U535CB` | `274KB` | `16MB` | `128×64` | 240 |
 
-## Software (GPL):
+List of ***software*** used as firmware in some calculators:
 | Software | Detail |
 | - | - |
 | [DB48X](https://47calc.com/) | DB48X is a modern implementation of RPL |

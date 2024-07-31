@@ -23,19 +23,17 @@ The main features of the calculator are the following:
  - Same number of keys as the legendary HP48.
 
 # Hardware
-Below is the list of electronic components used to manufacture the board.
-| Component | Ref | Description |
-| - | - | - |
-| SoC Processor | STM32U535CB | ARM Cortex-M33 ultra low power with FPU |
-| Display | EA_DOGL128L-6 | STN reflective display 128x64 |
-| Flash 16MB | W25Q128JVSIQ | 16MB Flash |
-| Voltage Regulator | ADP2108 | Vin 2.3 - 5.5, Vout 3.3 |
-| Transistor | MMBT3904L | 200 mA, 40 V NPN Bipolar Junction Transistor |
-| USB protection | USBLC6-2 | ESD protection of VBUS |
-| LiPO Charger | MCP73831 | Lithium-Ion/Lithium-Polymer Battery Charger |
+Below is a list of the most relevant electronic components:
+
+1. Processor: STM32U535 ARM Cortex-M33 ultra low power with FPU.
+2. Display: EA_DOGL128L-6 STN reflective display 128x64.
+3. Flash memory: W25Q128JVSIQ 16MB Flash.
+4. Voltage regulator: ADP2108 Vin 2.3 - 5.5, Vout 3.3.
+5. USB protection: USBLC6-2 ESD protection of VBUS.
+6. Battery charger: MCP73831 Lithium-Ion/Lithium-Polymer Battery Charger.
 
 ## Batteries
-Supports the following batteries:
+Some of the supported batteries are as follows:
 
 | Batteries | Capacity (mha) |
 | --- | :---: |

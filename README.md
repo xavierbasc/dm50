@@ -81,7 +81,7 @@ Comparison of the hardware used in the different reference calculators:
 | 2017 | [DM42](https://www.swissmicros.com/product/dm42) | STM32L476RG | 128KB | 6MB | 400×240 | 
 | 2019 | [HP Prime G2](https://en.wikipedia.org/wiki/HP_Prime) | i. MX 6ULL | 256MB | 512MB | 320×240 |
 | 2021 | [OpenRPNCalc](https://github.com/apoluekt/OpenRPNCalc) | STM32L476 | 128KB | 1MB | 400x240 |
-| `**2024**` | [`**DM50**`](https://github.com/xavierbasc/dm50-calculator) | `**STM32U535CB**` | `**274KB**` | `**16MB**` | `**128×64**` |
+| `2024` | [`DM50`](https://github.com/xavierbasc/dm50-calculator) | `STM32U535CB` | `274KB` | `16MB` | `128×64` |
 
 ## Software (GPL):
 | Software | Detail |

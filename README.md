@@ -70,7 +70,7 @@ Comparison of the ***hardware*** used in the different reference calculators:
 | :-: | - | - | -: | -: | :-: | -: |
 | 1988 | [HP42S](https://en.wikipedia.org/wiki/HP-42S) | HP Saturn (1LF5) | 8KB | 64KB | 131×16 | 0.5 |
 | 1993 | [HP48G](https://en.wikipedia.org/wiki/HP_48_series) | HP Saturn (1LF2) | 32KB | 512KB | 131×64 | 0.5 |
-| 2006 | [HP50G](https://en.wikipedia.org/wiki/HP_49/50_series) | ARM9 Samsung S3C2410 | 512KB | 2MB | 131×80 | 75 |
+| 2006 | [HP50G](https://en.wikipedia.org/wiki/HP_49/50_series) | ARM9 S3C2410 | 512KB | 2MB | 131×80 | 75 |
 | 2013 | [TI-Nspire CX II](https://en.wikipedia.org/wiki/TI-Nspire_series#TI-Nspire_CX_II_and_TI-Nspire_CX_II_CAS) | TI OMAP 3530 | 64MB | 128MB | 320x240 | 792 |
 | 2016 | [NumWorks](https://www.numworks.com/resources/engineering/hardware/) | STM32F730V8T6 | 256KB | 6MB | 320x240 | 432 |
 | 2017 | [DM42](https://www.swissmicros.com/product/dm42) | STM32L476RG | 128KB | 6MB | 400×240 |  100 |

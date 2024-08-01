@@ -79,11 +79,10 @@ Comparison of the ***hardware*** used in the different reference calculators:
 | 2024 | [`DM50`](https://github.com/xavierbasc/dm50-calculator) | STM32U535 | 274KB | 16MB | 128×64 | 240 |
 
 List of ***software*** used as firmware in some calculators:
-| Software | Detail |
-| - | - |
-| [DB48X](https://47calc.com/) | DB48X is a modern implementation of RPL |
-| [C47](https://47calc.com/) | C47 is a RPN Scientific Calculator (old WP43C project) |
-| [WP43](https://gitlab.com/rpncalculators/wp43) | Firmware for the WP43 pocket calculator (old WP43S project) |
-| [Free42](https://github.com/thomasokken/free42) | Free42 is a software clone of the Hewlett-Packard 42S calculator |
-| [TCalc](https://github.com/tylertian123/TCalc) | Firmware for STM32 CAS calculator |
-| [TinyExpr](https://github.com/codeplea/tinyexpr) | parser and evaluation for math expressions |
+
+1. [DB48X](https://47calc.com/): DB48X is a modern implementation of RPL.
+2. [C47](https://47calc.com/): C47 is a RPN Scientific Calculator (old WP43C project).
+3. [WP43](https://gitlab.com/rpncalculators/wp43): Firmware for the WP43 pocket calculator (old WP43S project).
+4. [Free42](https://github.com/thomasokken/free42): Free42 is a software clone of the Hewlett-Packard 42S calculator.
+5. [TCalc](https://github.com/tylertian123/TCalc): Firmware for STM32 CAS calculator.
+6. [TinyExpr](https://github.com/codeplea/tinyexpr): parser and evaluation for math expressions.

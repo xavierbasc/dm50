@@ -44,6 +44,8 @@ Some of the supported batteries are as follows:
 ***Electronic design***:
 ![New Sch](docs/img/SCH.png "New Schema")
 
+![PCB](docs/img/PCB.png "PCB EDA")
+
 ![PCB front](docs/img/PCB_3D.png "PCB front")
 
 ## Case

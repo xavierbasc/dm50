@@ -1,7 +1,5 @@
 # DM50 calculator
 
-![DM50 PCB](docs/img/DM50_PCB.png "DM50 PCB")
-
 The main features of the calculator are the following:
 
  - 32bit ARM Cortex-M33 MCU ultra low power.

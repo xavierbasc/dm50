@@ -46,6 +46,8 @@ Some of the supported batteries are as follows:
 
 ![PCB](docs/img/PCB.png "PCB EDA")
 
+![PCB render](docs/img/PCB2.png "PCB render")
+
 ![PCB front](docs/img/PCB_3D.png "PCB front")
 
 ## Case

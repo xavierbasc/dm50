@@ -81,7 +81,7 @@ Comparison of the ***hardware*** used in the different reference calculators:
 | 2023 | [DM32](https://www.swissmicros.com/product/dm42) | STM32U575 | 160MHz | 786KB | 1MB | 400×240 |  240 |
 | 2024 | [`DM50`](https://github.com/xavierbasc/dm50-calculator) | STM32U575 | 160MHz | 786KB | 2MB * | 128×64 | 240 |
 
-(*) DM50 has 2MB of Flash for code execution and 16MB of extra Flash.
+(*) DM50 has 2MB Flash for code execution and 16MB extra Flash (USB mass storage access)
 
 List of ***software*** used as firmware in some calculators:
 

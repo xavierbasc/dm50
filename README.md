@@ -5,8 +5,8 @@ The main features of the calculator are the following:
  - 32bit ARM Cortex-M33 MCU ultra low power.
  - Mathematical coprocessor acceleration.
  - Floating Point Unit (FPU).
- - 274KB SRAM.
- - 512KB FLASH MCU memory.
+ - 786KB SRAM.
+ - 2MB FLASH MCU memory.
  - 16MB FLASH storage Octo-SPI (accessible via USB).
  - USBC port, connects as USB mass storage device.
  - Graphic LCD Display (128x64 dots).

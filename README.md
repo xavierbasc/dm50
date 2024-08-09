@@ -69,7 +69,7 @@ TBD
 Comparison of the ***hardware*** used in the different reference calculators:
  
 | Year | Model | Processor | FREQ | RAM | FLASH | Display | MIPS |
-| :-: | - | - | -: | -: | :-: | -: |
+| :-: | - | - | -: | -: | -: | :-: | -: |
 | 1988 | [HP42S](https://en.wikipedia.org/wiki/HP-42S) | HP Saturn (1LF5) | - | 8KB | 64KB | 131×16 | 0.5 |
 | 1993 | [HP48G](https://en.wikipedia.org/wiki/HP_48_series) | HP Saturn (1LF2) | - | 32KB | 512KB | 131×64 | 0.5 |
 | 2006 | [HP50G](https://en.wikipedia.org/wiki/HP_49/50_series) | ARM9 S3C2410 | - | 512KB | 2MB | 131×80 | 75 |

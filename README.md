@@ -23,7 +23,7 @@ The main features of the calculator are the following:
 # Hardware
 Below is a list of the most relevant electronic components:
 
-1. Processor: STM32U535 ARM Cortex-M33 ultra low power with FPU.
+1. Processor: STM32U5 ARM Cortex-M33 ultra low power with FPU.
 2. Display: EA_DOGL128L-6 STN reflective display 128x64.
 3. Flash memory: W25Q128JVSIQ 16MB Flash.
 4. Voltage regulator: ADP2108 Vin 2.3 - 5.5, Vout 3.3.
@@ -68,17 +68,20 @@ TBD
 # Reference
 Comparison of the ***hardware*** used in the different reference calculators:
  
-| Year | Model | Processor | RAM | FLASH | Display | MIPS |
+| Year | Model | Processor | FREQ | RAM | FLASH | Display | MIPS |
 | :-: | - | - | -: | -: | :-: | -: |
-| 1988 | [HP42S](https://en.wikipedia.org/wiki/HP-42S) | HP Saturn (1LF5) | 8KB | 64KB | 131×16 | 0.5 |
-| 1993 | [HP48G](https://en.wikipedia.org/wiki/HP_48_series) | HP Saturn (1LF2) | 32KB | 512KB | 131×64 | 0.5 |
-| 2006 | [HP50G](https://en.wikipedia.org/wiki/HP_49/50_series) | ARM9 S3C2410 | 512KB | 2MB | 131×80 | 75 |
-| 2013 | [TI-Nspire CX II](https://en.wikipedia.org/wiki/TI-Nspire_series#TI-Nspire_CX_II_and_TI-Nspire_CX_II_CAS) | TI OMAP 3530 | 64MB | 128MB | 320x240 | 792 |
-| 2016 | [NumWorks](https://www.numworks.com/resources/engineering/hardware/) | STM32F730V8T6 | 256KB | 6MB | 320x240 | 432 |
-| 2017 | [DM42](https://www.swissmicros.com/product/dm42) | STM32L476RG | 128KB | 6MB | 400×240 |  100 |
-| 2019 | [HP Prime G2](https://en.wikipedia.org/wiki/HP_Prime) | i. MX 6ULL | 256MB | 512MB | 320×240 | 1710 |
-| 2021 | [OpenRPNCalc](https://github.com/apoluekt/OpenRPNCalc) | STM32L476 | 128KB | 1MB | 400x240 | 100 |
-| 2024 | [`DM50`](https://github.com/xavierbasc/dm50-calculator) | STM32U535 | 274KB | 16MB | 128×64 | 240 |
+| 1988 | [HP42S](https://en.wikipedia.org/wiki/HP-42S) | HP Saturn (1LF5) | - | 8KB | 64KB | 131×16 | 0.5 |
+| 1993 | [HP48G](https://en.wikipedia.org/wiki/HP_48_series) | HP Saturn (1LF2) | - | 32KB | 512KB | 131×64 | 0.5 |
+| 2006 | [HP50G](https://en.wikipedia.org/wiki/HP_49/50_series) | ARM9 S3C2410 | - | 512KB | 2MB | 131×80 | 75 |
+| 2013 | [TI-Nspire CX II](https://en.wikipedia.org/wiki/TI-Nspire_series#TI-Nspire_CX_II_and_TI-Nspire_CX_II_CAS) | TI OMAP 3530 | 396MHz | 64MB | 128MB | 320x240 | 792 |
+| 2016 | [NumWorks](https://www.numworks.com/resources/engineering/hardware/) | STM32F730V8T6 | 216MHz | 256KB | 6MB | 320x240 | 432 |
+| 2017 | [DM42](https://www.swissmicros.com/product/dm42) | STM32L476RG | 80MHz | 128KB | 6MB | 400×240 |  100 |
+| 2019 | [HP Prime G2](https://en.wikipedia.org/wiki/HP_Prime) | i. MX 6ULL | 528MHz | 256MB | 512MB | 320×240 | 1710 |
+| 2021 | [OpenRPNCalc](https://github.com/apoluekt/OpenRPNCalc) | STM32L476 | 8MHz | 128KB | 1MB | 400x240 | 100 |
+| 2023 | [DM32](https://www.swissmicros.com/product/dm42) | STM32U575 | 160MHz | 786KB | 1MB+16MB | 400×240 |  240 |
+| 2024 | [`DM50`](https://github.com/xavierbasc/dm50-calculator) | STM32U575 | 160MHz | 786KB | 2MB+16MB | 128×64 | 240 |
+
+DM50 has 2MB of Flash for code execution and 16MB of extra Flash.
 
 List of ***software*** used as firmware in some calculators:
 

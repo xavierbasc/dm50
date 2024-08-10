@@ -21583,7 +21583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DM50:JST_CON_SMD"
+		(property "Footprint" "DM50:SAMTEC-SMH-105-02-X-S"
 			(at 184.15 76.2 0)
 			(effects
 				(font

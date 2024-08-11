@@ -21384,7 +21384,7 @@
 		(descr "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, https://www.ckswitches.com/media/1482/kms.pdf")
 		(tags "Switch SPST KMS2")
 		(property "Reference" "SW1"
-			(at -0.05 -3.5 360)
+			(at -0.05 -3.5 0)
 			(layer "F.SilkS")
 			(uuid "c794b4c5-effe-497b-a4fe-9fe073a87773")
 			(effects

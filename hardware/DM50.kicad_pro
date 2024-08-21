@@ -708,9 +708,9 @@
         },
         {
           "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": false
+          "label": "Digikey",
+          "name": "Digikey",
+          "show": true
         }
       ],
       "filter_string": "",

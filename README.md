@@ -5,8 +5,8 @@ The main features of the calculator are the following:
  - 32bit ARM Cortex-M33 MCU ultra low power.
  - Mathematical coprocessor acceleration.
  - Floating Point Unit (FPU).
- - 786KB SRAM.
- - 2MB FLASH MCU memory.
+ - 2MB RAM (STM32U595RJ).
+ - 4MB FLASH memory (STM32U595RJ).
  - 16MB FLASH storage Octo-SPI (accessible via USB).
  - USBC port, connects as USB mass storage device.
  - Graphic LCD Display (128x64 dots).
@@ -79,9 +79,7 @@ Comparison of the ***hardware*** used in the different reference calculators:
 | 2019 | [HP Prime G2](https://en.wikipedia.org/wiki/HP_Prime) | i. MX 6ULL | 528MHz | 256MB | 512MB | 320×240 | 1710 |
 | 2021 | [OpenRPNCalc](https://github.com/apoluekt/OpenRPNCalc) | STM32L476 | 8MHz | 128KB | 1MB | 400x240 | 100 |
 | 2023 | [DM32](https://www.swissmicros.com/product/dm42) | STM32U575 | 160MHz | 786KB | 1MB | 400×240 |  240 |
-| 2024 | [`DM50`](https://github.com/xavierbasc/dm50-calculator) | STM32U575 | 160MHz | 786KB | 2MB * | 128×64 | 240 |
-
-(*) DM50 has 2MB Flash for code execution and 16MB extra Flash (USB mass storage access)
+| 2024 | [`DM50`](https://github.com/xavierbasc/dm50-calculator) | STM32U595RJ | 160MHz | 2MB | 20MB | 128×64 | 240 |
 
 List of ***software*** used as firmware in some calculators:
 

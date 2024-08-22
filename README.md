@@ -89,3 +89,4 @@ List of ***software*** used as firmware in some calculators:
 4. [Free42](https://github.com/thomasokken/free42): Free42 is a software clone of the Hewlett-Packard 42S calculator.
 5. [TCalc](https://github.com/tylertian123/TCalc): Firmware for STM32 CAS calculator.
 6. [TinyExpr](https://github.com/codeplea/tinyexpr): parser and evaluation for math expressions.
+7. [Giac](https://www-fourier.ujf-grenoble.fr/~parisse/giac.html): CAS calculation engine used in HP Prime, Casio Graph 90, Casio 35eii, TI Nspire CX, Numworks, and software such as Geogebra and PocketCAS.

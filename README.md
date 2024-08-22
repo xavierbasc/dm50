@@ -9,6 +9,9 @@ The main features of the calculator are the following:
  - 4MB FLASH memory (STM32U595RJ).
  - 16MB FLASH storage Octo-SPI (accessible via USB).
  - USBC port, connects as USB mass storage device.
+ - Serial port for communications with external devices.
+ - MicroSD memory slot.
+ - Integrated speaker and stereo audio output (jack 3.5).
  - Graphic LCD Display (128x64 dots).
  - ESD protection of USBC.
  - LiPO 3.7V rechargeable battery, with JST PH2.0 connector.
@@ -16,7 +19,6 @@ The main features of the calculator are the following:
  - Battery charge level sensor.
  - USB power and battery charging status LED indicators.
  - JTAG debug port.
- - Sound via 4 KHz buzzer.
  - Temperature sensor.
  - Same number of keys as the legendary HP48.
 

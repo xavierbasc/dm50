@@ -14381,7 +14381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 63.5 104.14 0)
 			(effects
 				(font
@@ -14391,6 +14391,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 63.5 104.14 0)
 			(effects
 				(font
@@ -14516,7 +14525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DM50:EA_DOGL128-6"
+		(property "Footprint" "EA DOGL128L-6"
 			(at 342.9 80.01 0)
 			(effects
 				(font
@@ -14535,6 +14544,15 @@
 			)
 		)
 		(property "Description" "EA DOGL128X-6 Graphical Display 128x64 optional backlight SPI 3.0-3.3V"
+			(at 342.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "EA DOGL128L-6"
 			(at 342.9 80.01 0)
 			(effects
 				(font
@@ -14684,6 +14702,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "RMCF0603JT10K0"
+			(at 223.52 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f61a7022-2c43-4628-9889-4df0c0b61fb2")
 		)
@@ -14733,7 +14760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/tdk-corporation/C3216X5R0J686M160AB/3951907"
 			(at 254 163.83 0)
 			(effects
 				(font
@@ -14743,6 +14770,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 254 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "C3216X5R0J686M160AB"
 			(at 254 163.83 0)
 			(effects
 				(font
@@ -14859,7 +14895,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1µF"
 			(at 315.722 83.82 90)
 			(effects
 				(font
@@ -14886,6 +14922,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 318.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CC0603KRX7R7BB105"
 			(at 318.77 82.55 0)
 			(effects
 				(font
@@ -14926,7 +14971,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1µF"
 			(at 376.428 81.28 90)
 			(effects
 				(font
@@ -14953,6 +14998,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 373.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CC0603KRX7R7BB105"
 			(at 373.38 82.55 0)
 			(effects
 				(font
@@ -15078,7 +15132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/cui-devices/SJ-43516-SMT-TR/669721"
 			(at 113.03 190.5 0)
 			(effects
 				(font
@@ -15145,7 +15199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/stackpole-electronics-inc/RMCF0603FT1M00/1761036"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/stackpole-electronics-inc/RMCF0603JT10K0/1758104"
 			(at 330.2 148.59 0)
 			(effects
 				(font
@@ -15155,6 +15209,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 330.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "RMCF0603JT10K0"
 			(at 330.2 148.59 0)
 			(effects
 				(font
@@ -15214,7 +15277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 63.5 85.09 0)
 			(effects
 				(font
@@ -15224,6 +15287,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 63.5 85.09 0)
 			(effects
 				(font
@@ -15283,7 +15355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 44.45 104.14 0)
 			(effects
 				(font
@@ -15293,6 +15365,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 44.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 44.45 104.14 0)
 			(effects
 				(font
@@ -15759,7 +15840,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1µF"
 			(at 329.438 173.99 90)
 			(effects
 				(font
@@ -15786,6 +15867,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 326.39 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CC0603KRX7R7BB105"
 			(at 326.39 175.26 0)
 			(effects
 				(font
@@ -15845,7 +15935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 44.45 52.07 0)
 			(effects
 				(font
@@ -15855,6 +15945,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 44.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 44.45 52.07 0)
 			(effects
 				(font
@@ -15930,6 +16029,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "RMCF0603FT1M00"
+			(at 104.14 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8161f9ca-8ce8-49e5-81cb-f4b63ac1c6e1")
 		)
@@ -15981,7 +16089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 57.15 71.12 0)
 			(effects
 				(font
@@ -15991,6 +16099,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 57.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 57.15 71.12 0)
 			(effects
 				(font
@@ -16050,7 +16167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 50.8 77.47 0)
 			(effects
 				(font
@@ -16060,6 +16177,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 50.8 77.47 0)
 			(effects
 				(font
@@ -16135,6 +16261,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "RMCF0603FT1M00"
+			(at 104.14 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e6ba2668-338f-423c-97a9-5b4a2a61d1dd")
 		)
@@ -16194,6 +16329,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 146.05 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "RMCF0603FT1M00"
 			(at 146.05 222.25 0)
 			(effects
 				(font
@@ -16271,6 +16415,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "W25Q128JVSIQ"
+			(at 271.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "28e09136-37ba-4fc8-a3e2-e0c5429f1ddd")
 		)
@@ -16329,7 +16482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 187.6552 179.07 0)
 			(effects
 				(font
@@ -16338,7 +16491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/en/products/detail/yageo/CC0603KRX7R7BB105/2833611"
 			(at 186.69 175.26 0)
 			(effects
 				(font
@@ -16348,6 +16501,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 186.69 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CC0603KRX7R7BB105"
 			(at 186.69 175.26 0)
 			(effects
 				(font
@@ -16388,7 +16550,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1µF"
 			(at 367.538 73.66 90)
 			(effects
 				(font
@@ -16415,6 +16577,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 364.49 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CC0603KRX7R7BB105"
 			(at 364.49 74.93 0)
 			(effects
 				(font
@@ -16474,7 +16645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 57.15 97.79 0)
 			(effects
 				(font
@@ -16484,6 +16655,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 57.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 57.15 97.79 0)
 			(effects
 				(font
@@ -16543,7 +16723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 69.85 77.47 0)
 			(effects
 				(font
@@ -16553,6 +16733,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 69.85 77.47 0)
 			(effects
 				(font
@@ -16678,7 +16867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 57.15 91.44 0)
 			(effects
 				(font
@@ -16688,6 +16877,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 57.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 57.15 91.44 0)
 			(effects
 				(font
@@ -16765,6 +16963,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "CC0603KRX7R7BB104"
+			(at 215.9 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a5a6b86-1b56-487f-9966-0c69af58eaef")
 		)
@@ -16814,7 +17021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/stackpole-electronics-inc/RMCF0603FT1M00/1761036"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/stackpole-electronics-inc/RMCF0603JT10K0/1758104"
 			(at 320.04 148.59 0)
 			(effects
 				(font
@@ -16824,6 +17031,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 320.04 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "RMCF0603JT10K0"
 			(at 320.04 148.59 0)
 			(effects
 				(font
@@ -16883,7 +17099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 38.1 64.77 0)
 			(effects
 				(font
@@ -16893,6 +17109,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 38.1 64.77 0)
 			(effects
 				(font
@@ -17028,7 +17253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 57.15 104.14 0)
 			(effects
 				(font
@@ -17038,6 +17263,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 57.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 57.15 104.14 0)
 			(effects
 				(font
@@ -17191,6 +17425,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "CL10A475KP8NNNC"
+			(at 121.92 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "362a96f5-aede-4ae9-86ce-22de500444dd")
 		)
@@ -17260,6 +17503,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "RMCF0603JT10K0"
+			(at 200.66 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "729cd187-af78-4507-bfaf-21f9fa95c602")
 		)
@@ -17311,7 +17563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 38.1 85.09 0)
 			(effects
 				(font
@@ -17321,6 +17573,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 38.1 85.09 0)
 			(effects
 				(font
@@ -17454,7 +17715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/stackpole-electronics-inc/RMCF0603FT1M00/1761036"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/stackpole-electronics-inc/RMCF0603JT10K0/1758104"
 			(at 322.58 148.59 0)
 			(effects
 				(font
@@ -17464,6 +17725,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 322.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "RMCF0603JT10K0"
 			(at 322.58 148.59 0)
 			(effects
 				(font
@@ -17524,7 +17794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/cui-devices/CMS-15113-078L100/8581916"
 			(at 237.49 147.32 0)
 			(effects
 				(font
@@ -17534,6 +17804,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 237.49 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CMS-15113-078L100"
 			(at 237.49 147.32 0)
 			(effects
 				(font
@@ -17602,6 +17881,15 @@
 			)
 		)
 		(property "Description" "dual schottky barrier diode, common cathode"
+			(at 87.63 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "BAT54C"
 			(at 87.63 250.19 0)
 			(effects
 				(font
@@ -17682,6 +17970,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "RMCF0603JT10K0"
+			(at 186.69 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4da37bb-6229-4b7a-928d-6306401ca77e")
 		)
@@ -17733,7 +18030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 57.15 52.07 0)
 			(effects
 				(font
@@ -17743,6 +18040,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 57.15 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 57.15 52.07 0)
 			(effects
 				(font
@@ -17887,6 +18193,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "KMS223GPLFG"
+			(at 208.28 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e5befbd0-980c-4865-bdd5-eb48e6f581e2")
 		)
@@ -17919,7 +18234,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1µF"
 			(at 367.538 83.82 90)
 			(effects
 				(font
@@ -17946,6 +18261,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 364.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CC0603KRX7R7BB105"
 			(at 364.49 85.09 0)
 			(effects
 				(font
@@ -18005,7 +18329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 63.5 71.12 0)
 			(effects
 				(font
@@ -18015,6 +18339,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 63.5 71.12 0)
 			(effects
 				(font
@@ -18121,7 +18454,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1µF"
 			(at 315.722 93.98 90)
 			(effects
 				(font
@@ -18148,6 +18481,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 318.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CC0603KRX7R7BB105"
 			(at 318.77 92.71 0)
 			(effects
 				(font
@@ -18207,7 +18549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 57.15 85.09 0)
 			(effects
 				(font
@@ -18217,6 +18559,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 57.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 57.15 85.09 0)
 			(effects
 				(font
@@ -18350,7 +18701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/stackpole-electronics-inc/RMCF0603FT1M00/1761036"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/stackpole-electronics-inc/RMCF0603JT10K0/1758104"
 			(at 325.12 148.59 0)
 			(effects
 				(font
@@ -18360,6 +18711,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 325.12 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "RMCF0603JT10K0"
 			(at 325.12 148.59 0)
 			(effects
 				(font
@@ -18419,7 +18779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 50.8 104.14 0)
 			(effects
 				(font
@@ -18429,6 +18789,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 50.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 50.8 104.14 0)
 			(effects
 				(font
@@ -18564,7 +18933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 57.15 64.77 0)
 			(effects
 				(font
@@ -18574,6 +18943,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 57.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 57.15 64.77 0)
 			(effects
 				(font
@@ -18708,7 +19086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 63.5 77.47 0)
 			(effects
 				(font
@@ -18718,6 +19096,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 63.5 77.47 0)
 			(effects
 				(font
@@ -18795,6 +19182,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "LMK107BBJ106MALT"
+			(at 162.56 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37b6fd3d-6a21-42f5-a015-dacd6a254765")
 		)
@@ -18864,6 +19260,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "CC0603KRX7R7BB104"
+			(at 200.66 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e1eecb4-0ae5-4d30-8b39-87f1d400a83a")
 		)
@@ -18896,7 +19301,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1µF"
 			(at 361.442 91.44 90)
 			(effects
 				(font
@@ -18923,6 +19328,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 364.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CC0603KRX7R7BB105"
 			(at 364.49 90.17 0)
 			(effects
 				(font
@@ -19059,6 +19473,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 105.41 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CL10A475KP8NNNC"
 			(at 105.41 190.5 0)
 			(effects
 				(font
@@ -19212,6 +19635,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "CL10A475KP8NNNC"
+			(at 124.46 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52435eec-c3e3-482d-8cc9-0fd16c78369f")
 		)
@@ -19261,7 +19693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/stackpole-electronics-inc/RMCF0603FT1M00/1761036"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/panasonic-electronic-components/ERJ-3EKF2001V/196183"
 			(at 101.6 210.82 0)
 			(effects
 				(font
@@ -19271,6 +19703,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 101.6 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "ERJ-3EKF2001V"
 			(at 101.6 210.82 0)
 			(effects
 				(font
@@ -19330,7 +19771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/murata-electronics/GRM0335C1E9R0BA01D/4358663"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/samsung-electro-mechanics/CL10C060DB8NNNC/3887792"
 			(at 118.11 138.43 0)
 			(effects
 				(font
@@ -19340,6 +19781,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 118.11 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CL10C060DB8NNNC"
 			(at 118.11 138.43 0)
 			(effects
 				(font
@@ -19412,6 +19862,15 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 60.96 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "USBLC6-2SC6"
 			(at 60.96 247.65 0)
 			(effects
 				(font
@@ -19501,6 +19960,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "CC0603KRX7R7BB104"
+			(at 224.79 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d6a1995-7507-4c2c-9f94-30948738d6b2")
 		)
@@ -19564,6 +20032,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M33 MCU, 4096KB flash, 2514KB RAM, 51 GPIO, LQFP64"
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "STM32U595RJTx"
 			(at 147.32 83.82 0)
 			(effects
 				(font
@@ -19825,6 +20302,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "RC0603FR-075K1L"
+			(at 92.71 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9e6de145-fb67-4d73-83ad-876ae5ac5ba3")
 		)
@@ -20028,7 +20514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 38.1 52.07 0)
 			(effects
 				(font
@@ -20038,6 +20524,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 38.1 52.07 0)
 			(effects
 				(font
@@ -20113,6 +20608,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "MLZ1608A1R0WT000"
+			(at 153.67 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31f32d82-c037-443d-a53c-2092b94295a4")
 		)
@@ -20174,6 +20678,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 95.25 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CC0603KRX7R7BB104"
 			(at 95.25 266.7 0)
 			(effects
 				(font
@@ -20309,7 +20822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 63.5 58.42 0)
 			(effects
 				(font
@@ -20319,6 +20832,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 63.5 58.42 0)
 			(effects
 				(font
@@ -20359,7 +20881,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1µF"
 			(at 376.428 76.2 90)
 			(effects
 				(font
@@ -20386,6 +20908,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 373.38 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CC0603KRX7R7BB105"
 			(at 373.38 77.47 0)
 			(effects
 				(font
@@ -20455,6 +20986,15 @@
 			)
 		)
 		(property "Description" "3MHz switching bucK regulator, 600mA 3.3V output voltage,"
+			(at 142.24 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "ADP2108AUJZ-3.3-R7"
 			(at 142.24 252.73 0)
 			(effects
 				(font
@@ -20539,6 +21079,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "RC0603FR-075K1L"
+			(at 55.88 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "38b6c524-959d-4575-88c3-cd011b5162ca")
 		)
@@ -20598,6 +21147,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 36.83 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "12402012E212A"
 			(at 36.83 247.65 0)
 			(effects
 				(font
@@ -20694,7 +21252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/tdk-corporation/C3216X5R0J686M160AB/3951907"
 			(at 129.54 110.49 0)
 			(effects
 				(font
@@ -20712,7 +21270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "F921A475MPA"
+		(property "Digikey" "C3216X5R0J686M160AB"
 			(at 129.54 110.49 0)
 			(effects
 				(font
@@ -20788,6 +21346,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "LTST-C190GKT"
+			(at 101.6 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56adbacd-2650-4eb0-a825-11474c660533")
 		)
@@ -20839,7 +21406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 63.5 91.44 0)
 			(effects
 				(font
@@ -20849,6 +21416,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 63.5 91.44 0)
 			(effects
 				(font
@@ -20918,6 +21494,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 251.46 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CL10A475KP8NNNC"
 			(at 251.46 247.65 0)
 			(effects
 				(font
@@ -21111,7 +21696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 44.45 91.44 0)
 			(effects
 				(font
@@ -21121,6 +21706,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 44.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 44.45 91.44 0)
 			(effects
 				(font
@@ -21182,7 +21776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/microchip-technology/MCP73831T-2ACI-OT/964301"
 			(at 113.03 221.488 0)
 			(effects
 				(font
@@ -21192,6 +21786,15 @@
 			)
 		)
 		(property "Description" "Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package"
+			(at 113.03 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "MCP73831T-2ACI/OT"
 			(at 113.03 203.2 0)
 			(effects
 				(font
@@ -21260,7 +21863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 50.8 71.12 0)
 			(effects
 				(font
@@ -21270,6 +21873,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 50.8 71.12 0)
 			(effects
 				(font
@@ -21396,7 +22008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 50.8 52.07 0)
 			(effects
 				(font
@@ -21406,6 +22018,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 50.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 50.8 52.07 0)
 			(effects
 				(font
@@ -21538,7 +22159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/liteon/LTST-C190GKT/269230"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/liteon/LTST-S270KRKT/386895"
 			(at 128.27 199.39 0)
 			(effects
 				(font
@@ -21548,6 +22169,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 128.27 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "LTST-S270KRKT"
 			(at 128.27 199.39 0)
 			(effects
 				(font
@@ -21607,7 +22237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 63.5 97.79 0)
 			(effects
 				(font
@@ -21617,6 +22247,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 63.5 97.79 0)
 			(effects
 				(font
@@ -21695,6 +22334,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "KMS223GPLFG"
+			(at 203.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9faead0-ee83-40fc-b7f2-09a9a31fd86d")
 		)
@@ -21746,7 +22394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 44.45 97.79 0)
 			(effects
 				(font
@@ -21756,6 +22404,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 44.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 44.45 97.79 0)
 			(effects
 				(font
@@ -21891,7 +22548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/murata-electronics/GRM0335C1E9R0BA01D/4358663"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/samsung-electro-mechanics/CL10C060DB8NNNC/3887792"
 			(at 118.11 130.81 0)
 			(effects
 				(font
@@ -21901,6 +22558,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 118.11 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CL10C060DB8NNNC"
 			(at 118.11 130.81 0)
 			(effects
 				(font
@@ -22102,7 +22768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 50.8 64.77 0)
 			(effects
 				(font
@@ -22112,6 +22778,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 50.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 50.8 64.77 0)
 			(effects
 				(font
@@ -22387,7 +23062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://katalog.we-online.de/em/datasheet/693072010801.pdf"
+		(property "Datasheet" "https://www.digikey.es/en/products/detail/hirose-electric-co-ltd/DM3AT-SF-PEJM5/2533565"
 			(at 356.87 161.29 0)
 			(effects
 				(font
@@ -22562,7 +23237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 50.8 85.09 0)
 			(effects
 				(font
@@ -22572,6 +23247,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 50.8 85.09 0)
 			(effects
 				(font
@@ -22631,7 +23315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 57.15 77.47 0)
 			(effects
 				(font
@@ -22641,6 +23325,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 57.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 57.15 77.47 0)
 			(effects
 				(font
@@ -22699,7 +23392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TPA6111A2DR"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/texas-instruments/TPA6111A2DR/382220"
 			(at 202.438 159.766 0)
 			(effects
 				(font
@@ -22711,6 +23404,15 @@
 		)
 		(property "Description" ""
 			(at 189.23 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "TPA6111A2DR"
+			(at 194.31 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22805,6 +23507,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "RMCF0603JT10K0"
+			(at 176.53 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "451c04a0-c530-42a6-acd6-8ecdc952fe2c")
 		)
@@ -22856,7 +23567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 44.45 85.09 0)
 			(effects
 				(font
@@ -22866,6 +23577,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 44.45 85.09 0)
 			(effects
 				(font
@@ -22925,7 +23645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 63.5 52.07 0)
 			(effects
 				(font
@@ -22935,6 +23655,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 63.5 52.07 0)
 			(effects
 				(font
@@ -23117,7 +23846,7 @@
 				)
 			)
 		)
-		(property "Value" "SJ-43516-SMT-TR"
+		(property "Value" "AUDIO JACK 3.5"
 			(at 273.05 171.45 0)
 			(effects
 				(font
@@ -23135,7 +23864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SJ-43516-SMT-TR"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/cui-devices/SJ-43516-SMT-TR/669721"
 			(at 257.81 168.91 0)
 			(effects
 				(font
@@ -23146,6 +23875,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 257.81 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "SJ-43516-SMT-TR"
 			(at 257.81 168.91 0)
 			(effects
 				(font
@@ -23310,6 +24048,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "RMCF0603JT10K0"
+			(at 176.53 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10d8d521-8654-4c80-b286-76630992b12a")
 		)
@@ -23359,7 +24106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/stackpole-electronics-inc/RMCF0603FT1M00/1761036"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/stackpole-electronics-inc/RMCF0603JT10K0/1758104"
 			(at 327.66 148.59 0)
 			(effects
 				(font
@@ -23369,6 +24116,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 327.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "RMCF0603JT10K0"
 			(at 327.66 148.59 0)
 			(effects
 				(font
@@ -23444,6 +24200,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "RMCF0603FT1M00"
+			(at 146.05 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "de5d4193-393b-4447-b1e6-d2f4a8da7148")
 		)
@@ -23476,7 +24241,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1µF"
 			(at 367.538 78.74 90)
 			(effects
 				(font
@@ -23503,6 +24268,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 364.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CC0603KRX7R7BB105"
 			(at 364.49 80.01 0)
 			(effects
 				(font
@@ -23562,7 +24336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 44.45 64.77 0)
 			(effects
 				(font
@@ -23572,6 +24346,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 44.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 44.45 64.77 0)
 			(effects
 				(font
@@ -23725,6 +24508,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "S2B-PH-K-S"
+			(at 134.62 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "03853b5f-291b-4886-b712-59d034356299")
 		)
@@ -23794,6 +24586,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "CC0603KRX7R7BB104"
+			(at 152.4 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8fccf08-3bff-45e8-96f0-381e022f8c20")
 		)
@@ -23845,7 +24646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 63.5 64.77 0)
 			(effects
 				(font
@@ -23855,6 +24656,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 63.5 64.77 0)
 			(effects
 				(font
@@ -23980,7 +24790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 44.45 77.47 0)
 			(effects
 				(font
@@ -23990,6 +24800,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 44.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 44.45 77.47 0)
 			(effects
 				(font
@@ -24067,6 +24886,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "CC0603KRX7R7BB104"
+			(at 242.57 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3621f02f-a40c-4bf6-a02f-852e526fc84f")
 		)
@@ -24118,7 +24946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/keystone-electronics/54/2254090"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/mpd-memory-protection-devices/BK-82/2079903"
 			(at 87.63 261.366 90)
 			(effects
 				(font
@@ -24128,6 +24956,15 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
+			(at 87.63 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "BK-82 (x4)"
 			(at 87.63 262.89 0)
 			(effects
 				(font
@@ -24187,7 +25024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 69.85 64.77 0)
 			(effects
 				(font
@@ -24197,6 +25034,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 69.85 64.77 0)
 			(effects
 				(font
@@ -24331,7 +25177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/w%C3%BCrth-elektronik/610110249221/5047732"
 			(at 257.81 55.88 0)
 			(effects
 				(font
@@ -24341,6 +25187,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 257.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "610110249221"
 			(at 257.81 55.88 0)
 			(effects
 				(font
@@ -24424,7 +25279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 69.85 71.12 0)
 			(effects
 				(font
@@ -24434,6 +25289,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 69.85 71.12 0)
 			(effects
 				(font
@@ -24560,7 +25424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/keystone-electronics/54/2254090"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/mpd-memory-protection-devices/BK-82/2079903"
 			(at 87.63 268.986 90)
 			(effects
 				(font
@@ -24570,6 +25434,15 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
+			(at 87.63 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "BK-82 (x4)"
 			(at 87.63 270.51 0)
 			(effects
 				(font
@@ -24629,7 +25502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 44.45 58.42 0)
 			(effects
 				(font
@@ -24639,6 +25512,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 44.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 44.45 58.42 0)
 			(effects
 				(font
@@ -24773,7 +25655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 38.1 97.79 0)
 			(effects
 				(font
@@ -24783,6 +25665,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 38.1 97.79 0)
 			(effects
 				(font
@@ -24850,6 +25741,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 127 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "RMCF0603JT10K0"
 			(at 127 252.73 0)
 			(effects
 				(font
@@ -24982,7 +25882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/tdk-corporation/C3216X5R0J686M160AB/3951907"
 			(at 254 156.21 0)
 			(effects
 				(font
@@ -24992,6 +25892,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 254 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "C3216X5R0J686M160AB"
 			(at 254 156.21 0)
 			(effects
 				(font
@@ -25061,6 +25970,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 233.68 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CC0603KRX7R7BB104"
 			(at 233.68 247.65 0)
 			(effects
 				(font
@@ -25187,7 +26105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 50.8 97.79 0)
 			(effects
 				(font
@@ -25197,6 +26115,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 50.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 50.8 97.79 0)
 			(effects
 				(font
@@ -25256,7 +26183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 38.1 77.47 0)
 			(effects
 				(font
@@ -25266,6 +26193,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 38.1 77.47 0)
 			(effects
 				(font
@@ -25325,7 +26261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 38.1 58.42 0)
 			(effects
 				(font
@@ -25335,6 +26271,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 38.1 58.42 0)
 			(effects
 				(font
@@ -25394,7 +26339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 44.45 71.12 0)
 			(effects
 				(font
@@ -25404,6 +26349,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 44.45 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 44.45 71.12 0)
 			(effects
 				(font
@@ -25463,7 +26417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 38.1 91.44 0)
 			(effects
 				(font
@@ -25473,6 +26427,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 38.1 91.44 0)
 			(effects
 				(font
@@ -25758,6 +26721,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "RC0603FR-07100KL"
+			(at 71.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2d0f1bfe-7171-472c-aef1-f33b0e0e0293")
 		)
@@ -25809,7 +26781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 50.8 91.44 0)
 			(effects
 				(font
@@ -25819,6 +26791,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 50.8 91.44 0)
 			(effects
 				(font
@@ -25878,7 +26859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 57.15 58.42 0)
 			(effects
 				(font
@@ -25888,6 +26869,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 57.15 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 57.15 58.42 0)
 			(effects
 				(font
@@ -25955,6 +26945,15 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 116.84 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1PS76SB10,115"
 			(at 116.84 217.17 0)
 			(effects
 				(font
@@ -26071,7 +27070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 228.6 162.8648 0)
 			(effects
 				(font
@@ -26090,6 +27089,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 224.79 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CC0603KRX7R7BB104"
 			(at 224.79 163.83 0)
 			(effects
 				(font
@@ -26147,7 +27155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/RC0603FR-075K1L/727268"
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/RC0603JR-071K5L/726689"
 			(at 128.27 190.5 0)
 			(effects
 				(font
@@ -26157,6 +27165,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 128.27 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "RC0603JR-071K5L"
 			(at 128.27 190.5 0)
 			(effects
 				(font
@@ -26291,7 +27308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 38.1 71.12 0)
 			(effects
 				(font
@@ -26301,6 +27318,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 38.1 71.12 0)
 			(effects
 				(font
@@ -26368,6 +27394,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 55.88 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "RC0603FR-075K1L"
 			(at 55.88 237.49 0)
 			(effects
 				(font
@@ -26503,7 +27538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 69.85 58.42 0)
 			(effects
 				(font
@@ -26513,6 +27548,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 69.85 58.42 0)
 			(effects
 				(font
@@ -26572,7 +27616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 69.85 52.07 0)
 			(effects
 				(font
@@ -26582,6 +27626,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 69.85 52.07 0)
 			(effects
 				(font
@@ -26641,7 +27694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 50.8 58.42 0)
 			(effects
 				(font
@@ -26651,6 +27704,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 50.8 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 50.8 58.42 0)
 			(effects
 				(font
@@ -26728,6 +27790,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "RMCF0603JT10K0"
+			(at 203.2 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9b9a3ce-83f8-486d-93cb-65e21f96cad0")
 		)
@@ -26779,7 +27850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "dome 7.0mm, three dimple"
+		(property "Datasheet" "https://es.aliexpress.com/item/1005001444483167.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60761572877&aff_fcid=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&tt=MG&aff_fsk=_EjuOqEh&aff_platform=default&sk=_EjuOqEh&aff_trace_key=82ad6b024ef64329b9a3f231cbbe7ada-1724664961500-01641-_EjuOqEh&shareId=60761572877&businessType=ProductDetail&platform=AE&terminal_id=42038b6ebd534a9a890429925e048dbb&afSmartRedirect=y"
 			(at 38.1 104.14 0)
 			(effects
 				(font
@@ -26789,6 +27860,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "dome 7.0mm, three dimple"
 			(at 38.1 104.14 0)
 			(effects
 				(font
@@ -26829,7 +27909,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1µF"
 			(at 315.722 88.9 90)
 			(effects
 				(font
@@ -26856,6 +27936,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 318.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "CC0603KRX7R7BB105"
 			(at 318.77 87.63 0)
 			(effects
 				(font

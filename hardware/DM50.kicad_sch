@@ -12115,7 +12115,7 @@
 	)
 	(text "BOOT"
 		(exclude_from_sim no)
-		(at 41.91 103.124 0)
+		(at 36.83 107.442 0)
 		(effects
 			(font
 				(size 0.508 0.508)

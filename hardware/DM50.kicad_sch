@@ -8658,7 +8658,7 @@
 		(uuid "0226a19f-da78-4e8a-9c82-8dee32318c42")
 	)
 	(no_connect
-		(at 165.1 96.52)
+		(at 132.08 96.52)
 		(uuid "4861962a-68f5-4339-ab8a-1c9aa4e7d513")
 	)
 	(no_connect
@@ -8680,10 +8680,6 @@
 	(no_connect
 		(at 347.98 100.33)
 		(uuid "c0ac173e-bd2a-4e49-99a5-e49464c280a1")
-	)
-	(no_connect
-		(at 165.1 81.28)
-		(uuid "cd99d6e1-167c-41db-be61-a32b10f6cd71")
 	)
 	(no_connect
 		(at 347.98 59.69)
@@ -8888,6 +8884,16 @@
 			(type default)
 		)
 		(uuid "0cdc1b6d-2a62-4a2e-8107-4b241c28919e")
+	)
+	(wire
+		(pts
+			(xy 261.62 207.01) (xy 261.62 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ce9f56a-a585-43eb-adc1-b2cfa1528208")
 	)
 	(wire
 		(pts
@@ -9441,6 +9447,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 198.12) (xy 248.92 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36845975-23cd-4c0c-b546-eabc467c3789")
+	)
+	(wire
+		(pts
 			(xy 46.99 54.61) (xy 53.34 54.61)
 		)
 		(stroke
@@ -9871,6 +9887,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 215.9) (xy 261.62 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f28cfa9-0ffc-41ca-93a1-5ef9d07b6f14")
+	)
+	(wire
+		(pts
 			(xy 215.9 243.84) (xy 224.79 243.84)
 		)
 		(stroke
@@ -9988,6 +10014,16 @@
 			(type default)
 		)
 		(uuid "56d649a4-77ae-4f70-bf46-39567c7191f8")
+	)
+	(wire
+		(pts
+			(xy 248.92 215.9) (xy 248.92 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58712d96-414b-4a36-94b3-1008edd498f2")
 	)
 	(wire
 		(pts
@@ -11241,6 +11277,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 198.12) (xy 261.62 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31b8b48-649f-4e32-af81-d703e44a2e1b")
+	)
+	(wire
+		(pts
 			(xy 233.68 251.46) (xy 242.57 251.46)
 		)
 		(stroke
@@ -11558,6 +11604,16 @@
 			(type default)
 		)
 		(uuid "dd807ab6-4b7e-4170-ab5e-b7632b4e07e7")
+	)
+	(wire
+		(pts
+			(xy 248.92 207.01) (xy 248.92 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de227caf-410c-44ed-a61d-087ccdc76a52")
 	)
 	(wire
 		(pts
@@ -12207,6 +12263,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED02"
+		(shape input)
+		(at 261.62 198.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13faa73e-db25-48b2-b4b5-b8d0adfb33d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.62 189.2687 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -13025,6 +13103,28 @@
 			)
 		)
 	)
+	(global_label "LED01"
+		(shape input)
+		(at 248.92 198.12 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d6a4577-f6a4-47e8-a786-213a13dfdffe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.92 189.2687 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL06"
 		(shape input)
 		(at 165.1 63.5 0)
@@ -13465,6 +13565,28 @@
 			)
 		)
 	)
+	(global_label "LED01"
+		(shape input)
+		(at 165.1 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af16f53a-c8d8-4b5f-8adb-92dc4ad71a8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.9513 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL03"
 		(shape input)
 		(at 165.1 43.18 0)
@@ -13707,24 +13829,24 @@
 			)
 		)
 	)
-	(global_label "LED"
+	(global_label "LED02"
 		(shape input)
-		(at 132.08 96.52 180)
+		(at 165.1 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c2471121-3e19-4160-8a4b-34b72708e743")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.6477 96.52 0)
+			(at 173.9513 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -16286,6 +16408,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 261.62 212.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a4c22b6-6366-46ee-baf8-deef02825ddd")
+		(property "Reference" "D6"
+			(at 265.43 211.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED02"
+			(at 267.208 209.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 261.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/liteon/LTST-C190GKT/269230"
+			(at 261.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 261.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "LTST-S270KRKT"
+			(at 261.62 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5210c3a-32f7-4d8c-86d8-2e73544037da")
+		)
+		(pin "2"
+			(uuid "cd4b1c72-7375-4170-89dd-0ec921494dbe")
+		)
+		(instances
+			(project "DM50"
+				(path "/191bb639-a0ba-4e03-a281-e8ebad1939b8"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 146.05 222.25 180)
 		(unit 1)
@@ -16682,6 +16880,82 @@
 			(project "DM50"
 				(path "/191bb639-a0ba-4e03-a281-e8ebad1939b8"
 					(reference "SW46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 261.62 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2553e3cf-83c3-45eb-979e-906a1d811aa4")
+		(property "Reference" "R24"
+			(at 261.62 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 263.906 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 259.842 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/RC0603FR-075K1L/727268"
+			(at 261.62 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 261.62 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "RC0603FR-075K1L"
+			(at 261.62 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee93aa34-f695-4743-8426-8cd1c939fc1b")
+		)
+		(pin "1"
+			(uuid "88f0cf70-38d1-4971-b42f-65b161025879")
+		)
+		(instances
+			(project "DM50"
+				(path "/191bb639-a0ba-4e03-a281-e8ebad1939b8"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -17752,6 +18026,82 @@
 			(project "DM50"
 				(path "/191bb639-a0ba-4e03-a281-e8ebad1939b8"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 248.92 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3383e888-8a42-41b8-bce2-c1b8021ab5c5")
+		(property "Reference" "R23"
+			(at 248.92 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 251.206 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 247.142 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/yageo/RC0603FR-075K1L/727268"
+			(at 248.92 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 248.92 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "RC0603FR-075K1L"
+			(at 248.92 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c01769b5-b711-4cd9-89be-6ef80defde77")
+		)
+		(pin "1"
+			(uuid "a37522cb-e311-453d-9bab-413f2cd5d06e")
+		)
+		(instances
+			(project "DM50"
+				(path "/191bb639-a0ba-4e03-a281-e8ebad1939b8"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -19422,6 +19772,72 @@
 			(project "DM50"
 				(path "/191bb639-a0ba-4e03-a281-e8ebad1939b8"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c0d73d5-fddd-409b-9f6f-f92fb16e08f9")
+		(property "Reference" "#PWR034"
+			(at 248.92 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 253.238 219.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec336836-380d-43db-ac0b-681166e4ee6a")
+		)
+		(instances
+			(project "DM50"
+				(path "/191bb639-a0ba-4e03-a281-e8ebad1939b8"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -23604,6 +24020,82 @@
 			(project "DM50"
 				(path "/191bb639-a0ba-4e03-a281-e8ebad1939b8"
 					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 248.92 212.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b088bc20-aeb6-4fed-b77b-8221a19d5720")
+		(property "Reference" "D5"
+			(at 252.73 211.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED01"
+			(at 254.508 209.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 248.92 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.es/es/products/detail/liteon/LTST-C190GKT/269230"
+			(at 248.92 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 248.92 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "LTST-S270KRKT"
+			(at 248.92 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2beb8bd1-2b7e-478b-b37a-7648b413857a")
+		)
+		(pin "2"
+			(uuid "88fe9310-2e4c-4302-ba9c-df03c0e3cc6f")
+		)
+		(instances
+			(project "DM50"
+				(path "/191bb639-a0ba-4e03-a281-e8ebad1939b8"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -27963,6 +28455,72 @@
 			(project "DM50"
 				(path "/191bb639-a0ba-4e03-a281-e8ebad1939b8"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcef2c30-3475-4ca5-9a83-16bbc7b511ce")
+		(property "Reference" "#PWR051"
+			(at 261.62 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.938 219.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f232362-b811-44b6-8f3f-47dabb71dec2")
+		)
+		(instances
+			(project "DM50"
+				(path "/191bb639-a0ba-4e03-a281-e8ebad1939b8"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)

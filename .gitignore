@@ -5,6 +5,7 @@
 *.000
 *.bak
 *.FCBak
+*.blend1
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak

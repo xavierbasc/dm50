@@ -20169,7 +20169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6pF"
+		(property "Value" "14pF"
 			(at 123.444 141.986 90)
 			(effects
 				(font
@@ -22946,8 +22946,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6pF"
-			(at 123.444 128.778 90)
+		(property "Value" "14pF"
+			(at 123.444 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)

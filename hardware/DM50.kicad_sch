@@ -12015,6 +12015,17 @@
 		)
 		(uuid "fe202ca7-9082-4d41-9b80-c9c41b83d91a")
 	)
+	(text "(GPIO)"
+		(exclude_from_sim no)
+		(at 176.276 109.474 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0bc4facd-fc1f-4ed3-8343-f32db5b6197a")
+	)
 	(text "Oscillator"
 		(exclude_from_sim no)
 		(at 90.678 122.682 0)
@@ -12048,6 +12059,17 @@
 		)
 		(uuid "4809b082-a67a-425a-95ef-a15c834baef0")
 	)
+	(text "(SPI1_MOSI)"
+		(exclude_from_sim no)
+		(at 301.752 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58554cc1-6109-487b-ab4f-bde350bad834")
+	)
 	(text "PORTS"
 		(exclude_from_sim no)
 		(at 261.366 36.576 0)
@@ -12070,7 +12092,7 @@
 		)
 		(uuid "6108cd07-3b94-4e65-8212-18f23f1e9828")
 	)
-	(text "MCU"
+	(text "MCU\nSTM32"
 		(exclude_from_sim no)
 		(at 134.112 27.94 0)
 		(effects
@@ -12114,6 +12136,28 @@
 		)
 		(uuid "7e392001-8940-4f6d-9469-c8368dd27e79")
 	)
+	(text "(GPIO)"
+		(exclude_from_sim no)
+		(at 176.022 104.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8fa5c104-7e7f-4f0e-9f3c-762e9cc0fe5f")
+	)
+	(text "(GPIO)"
+		(exclude_from_sim no)
+		(at 307.086 70.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5411e1f-2b27-44b8-8224-014c6ea61957")
+	)
 	(text "GPIO_PULLUP"
 		(exclude_from_sim no)
 		(at 32.766 43.688 90)
@@ -12134,6 +12178,17 @@
 			(justify left)
 		)
 		(uuid "ab406187-334e-46f3-b0c8-8989f888e7a3")
+	)
+	(text "(GPIO)"
+		(exclude_from_sim no)
+		(at 307.086 67.564 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b13a837d-b2b7-435d-bf5b-8db3e1854bdf")
 	)
 	(text "2xAAA"
 		(exclude_from_sim no)
@@ -12156,7 +12211,7 @@
 		)
 		(uuid "b91176ab-a885-4fde-8d02-fb56a49675a6")
 	)
-	(text "Display"
+	(text "Display\nST7565R"
 		(exclude_from_sim no)
 		(at 315.214 56.134 0)
 		(effects
@@ -12166,6 +12221,28 @@
 			(justify left)
 		)
 		(uuid "bb97aaaf-f600-4dd5-b197-a7c70e617298")
+	)
+	(text "(GPIO)"
+		(exclude_from_sim no)
+		(at 177.038 106.934 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be0e77f7-343c-4f24-ab05-43a178f56220")
+	)
+	(text "(SPI1_SCK)"
+		(exclude_from_sim no)
+		(at 178.054 45.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c13515e4-4b5b-4d60-a303-7047cbde5fca")
 	)
 	(text "PGM BTN"
 		(exclude_from_sim no)
@@ -12177,6 +12254,28 @@
 		)
 		(uuid "d1ae2993-8e0e-40a1-8389-5362d0b7edc9")
 	)
+	(text "(SPI1_MOSI)"
+		(exclude_from_sim no)
+		(at 175.26 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d33fedbb-c211-4aca-92c6-16e5397700bc")
+	)
+	(text "(GPIO)"
+		(exclude_from_sim no)
+		(at 307.34 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3464eb5-fe14-46cc-9f1b-24163d0c6c49")
+	)
 	(text "SD CARD"
 		(exclude_from_sim no)
 		(at 355.854 136.652 0)
@@ -12187,6 +12286,17 @@
 			(justify left)
 		)
 		(uuid "d4b93fbb-3b17-487b-ab38-42addf1c74c5")
+	)
+	(text "(SPI1_SCK)"
+		(exclude_from_sim no)
+		(at 302.514 77.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddd949c9-588d-4af9-9c2f-41ad9f650904")
 	)
 	(text "RESET BTN"
 		(exclude_from_sim no)
@@ -13022,7 +13132,7 @@
 			)
 		)
 	)
-	(global_label "DISP_CS1B"
+	(global_label "DISP_CS"
 		(shape input)
 		(at 165.1 109.22 0)
 		(fields_autoplaced yes)
@@ -13034,7 +13144,7 @@
 		)
 		(uuid "65424bbe-1900-4d04-96d3-2eb8aa7a89cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.3661 109.22 0)
+			(at 175.8866 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13200,7 +13310,7 @@
 	)
 	(global_label "ROW05"
 		(shape input)
-		(at 165.1 45.72 0)
+		(at 165.1 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13210,7 +13320,7 @@
 		)
 		(uuid "7e720cde-c1ee-4333-80ce-53ab21e10686")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.5561 45.72 0)
+			(at 174.5561 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13352,7 +13462,7 @@
 			)
 		)
 	)
-	(global_label "DISP_SCL"
+	(global_label "DISP_CLK"
 		(shape input)
 		(at 326.39 77.47 180)
 		(fields_autoplaced yes)
@@ -13364,7 +13474,7 @@
 		)
 		(uuid "8d40efa5-f3a9-4423-9920-e04c3ae5807f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.5753 77.47 0)
+			(at 314.5148 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13968,7 +14078,7 @@
 			)
 		)
 	)
-	(global_label "DISP_CS1B"
+	(global_label "DISP_CS"
 		(shape input)
 		(at 326.39 69.85 180)
 		(fields_autoplaced yes)
@@ -13980,7 +14090,7 @@
 		)
 		(uuid "cf06f24f-80fd-407d-b7dc-31d2fc878bd7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.1239 69.85 0)
+			(at 315.6034 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14166,9 +14276,9 @@
 			)
 		)
 	)
-	(global_label "DISP_SCL"
+	(global_label "DISP_CLK"
 		(shape input)
-		(at 165.1 101.6 0)
+		(at 165.1 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14178,7 +14288,7 @@
 		)
 		(uuid "dc20ba6b-1c5b-4477-9012-f84fa6513485")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.9147 101.6 0)
+			(at 176.9752 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)

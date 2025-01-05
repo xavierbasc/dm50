@@ -69,7 +69,7 @@ TBD
 
 # Reference
 Comparison of the ***hardware*** used in the different reference calculators:
- 
+
 | Year | Model | Processor | FREQ | RAM | FLASH | Display | MIPS |
 | :-: | - | - | -: | -: | -: | :-: | -: |
 | 1988 | [HP42S](https://en.wikipedia.org/wiki/HP-42S) | HP Saturn (1LF5) | - | 8KB | 64KB | 131×16 | 0.5 |
@@ -85,7 +85,7 @@ Comparison of the ***hardware*** used in the different reference calculators:
 
 List of ***software*** used as firmware in some calculators:
 
-1. [DB48X](https://47calc.com/): DB48X is a modern implementation of RPL.
+1. [DB48X](https://48calc.org/): DB48X is a modern implementation of RPL.
 2. [C47](https://47calc.com/): C47 is a RPN Scientific Calculator (old WP43C project).
 3. [WP43](https://gitlab.com/rpncalculators/wp43): Firmware for the WP43 pocket calculator (old WP43S project).
 4. [Free42](https://github.com/thomasokken/free42): Free42 is a software clone of the Hewlett-Packard 42S calculator.
